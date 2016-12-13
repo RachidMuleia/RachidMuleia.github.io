@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Rachid Joel Guidion Muleia 
+subtitle: PhD Student in Statistics and R programming passionate  
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Currently I am a **Lecture** at [http://www.uem.mz/](Eduardo Mondlane Univerisity), [http://www.uem.mz/index.php/faculdades-e-escolas/faculdades/faculdade-de-ciencias](Faculty of Sciences), [http://dmi.uem.mz/](Deparment of Mathematics and Informatics)[], where I teach  some funny interesting statistical course, such as Introduction to Statistics and Introdution to Geo-statistics. Additionally, sometimes i dispose my time to teacher other colleagues how to use statistical packages to cope with their analysis, most of the time I help them with SPSS, but truely speacking I like R, however, some of my mates are afraid of those fancy condes in a small frame.  
 
 - I rock a great mustache
 - I'm extremely loyal to my family
