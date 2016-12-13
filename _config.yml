@@ -45,7 +45,7 @@ author:
   email: "rmuleia@gmail.com "
   facebook: Rachid Muleia  # eg. daattali
   github: RachidMuleia   # eg. daattali
-  twitter: Rachid Muleia  # eg. daattali
+  twitter: RachidMuleia  # eg. daattali
   #reddit: yourname    # eg. daattali
   #google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   #linkedin: yourname  # eg. daattali
@@ -55,7 +55,7 @@ author:
   #instagram: yourname # eg. daattali
   #youtube: yourlink   # eg. user/daattali or channel/daattali
   #spotify: yourname   # eg. daattali
-  #telephone: yourphone   # eg. +14159998888
+  telephone:(+258)825577827    # eg. +14159998888
 
 # Select which links to show in the footer
 footer-links-active:
@@ -73,8 +73,7 @@ footer-links-active:
   instagram: false
   youtube: false
   spotify: false
-  telephone: false
-
+  telephone: true
 # Select which share links to show in posts
 share-links-active:
   twitter: true
