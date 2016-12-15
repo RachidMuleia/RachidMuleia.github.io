@@ -25,7 +25,7 @@ description: PhD Student/ Lecture/ R programming addicted
 navbar-links:
   About Me: "aboutme"
   Resume/CV:
-   - English version: {{ site.baseurl }}/download/CV-English.pdf    
+   - English version: "https://rachidmuleia.github.io/download/CV_English.pdf"    
    - Portuguese verison:
 #  Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
