@@ -1,21 +1,20 @@
 ---
 layout: page  
-title: ""    
-subtitle: ""   
 comments: true
 bigimg: "/img/Nelson.png"
 ---
 
+This page is intended to my students and every one interesed in what I teach. 
 
-Esta p&aacute;gina  e&acute; destinado aos meus estudantes e todos interessados nas disciplinas que lecciono. Maior parte do material/artigos/papeis/trabalhos de casa/fichas de exerc&iacute;cios, bem como livros,
-ser&atilde;o disponiblizados em portugu&ecirc;s, visto que a l&iacute;ngua instrucional no meu pa&iacute;s &eacute; portugu&ecirc;
+Esta p&aacute;gina &eacute; destinada a todos meus estudantes e &agrave;queles interessados nas disciplinas que lecciono.
 
-
-A seguir encontre a lista das disciplinas que gerelamente lecciono:
- - Fundamentos de Geo-estat&iacute;stica  (  3&deg; ano do Curso de Estat&iacute;stica 3&deg; ano- Universidade Eduardo Mondlane)
- - Bio-estat&iacute;stica I e II (  2&deg; do Curso de Biologia Marinha, Biologia Aplicada - Universidade Eduardo Mondlane)
+Geralmente tenho leccionado as seguintes disciplinas :
+ - Fundamentos de Geo-Fundamentos de Geo-estat&iacute;stica  (3&deg; ano do Curso de Estat&iacute;stica- Universidade Eduardo Mondlane);
+ - Bio-estat&iacute;stica I e II (2&deg; do Curso de Biologia Marinha, Biologia Aplicada - Universidade Eduardo Mondlane)
  -Probabilidades e Estat&iacute;stica( 1&deg; do Curso de Engenharia Inform&aacute;tica, Mec&acirc;nica-Instituto Superior de 
  Transportes e Telecomunica&ccedil;&otilde;es
+ 
+ 
+ #Em breve irei disponibilzar todo material did&aacute;tico para as disciplinas que lecciono.
 
-Para o per&iacute;odo de Fevereioro/2017-Agosto/2017 irei leccionar as disciplinas de **Fundamentos de Geo-estat&iacute;stica** e 
- **Bio-estat&iacute;stica I** e em breve ser&atilde;o disponiblizados os materiais para as respectivas disciplinas 
+ 
