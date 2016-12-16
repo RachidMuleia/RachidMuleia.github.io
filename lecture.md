@@ -1,3 +1,13 @@
+
+---
+layout: page  
+title: Lecture notes/ Material para aulas   
+subtitle: Nesta p&aacute;gina irei disponibilizar algum material para as minhas aulas (visite sempre)  
+comments: true
+---
+
+
+
 _This page is intended to all my students and those that might be interested in the subjects I teach. Most of the material/articles/paper as wells as books will be 
 in Portuguese, as I my country the Instructional language is Porguese._
 
