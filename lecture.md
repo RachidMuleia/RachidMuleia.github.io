@@ -1,13 +1,10 @@
 ---
 layout: page  
-title:    
-subtitle:   
+title: ""    
+subtitle: ""   
 comments: true
-bigimg: "
+bigimg: "/img/Nelson.png"
 ---
-
-##Education is the most powerful weapon you can use to change the world
-
 
 
 Esta p&aacute;gina  e&acute; destinado aos meus estudantes e todos interessados nas disciplinas que lecciono. Maior parte do material/artigos/papeis/trabalhos de casa/fichas de exerc&iacute;cios, bem como livros,
