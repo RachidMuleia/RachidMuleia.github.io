@@ -11,8 +11,8 @@ Esta p&aacute;gina &eacute; destinada a todos meus estudantes e &agrave;queles i
 Geralmente tenho leccionado as seguintes disciplinas :  
 
  - Fundamentos de Geo-estat&iacute;stica ( 3&deg; ano do Curso de Estat&iacute;stica- Universidade Eduardo Mondlane)
- - Bio-estat&iacute;stica I e II( 2&deg; do Curso de Biologia Marinha, Biologia Aplicada - Universidade Eduardo Mondlane)
- - Probabilidades e Estat&iacute;stica( 1&deg; do Curso de Engenharia Inform&aacute;tica, Mec&acirc;nica-Instituto Superior de 
+ - Bio-estat&iacute;stica I e II ( 2&deg; do Curso de Biologia Marinha, Biologia Aplicada - Universidade Eduardo Mondlane)
+ - Probabilidades e Estat&iacute;stica ( 1&deg; do Curso de Engenharia Inform&aacute;tica, Mec&acirc;nica-Instituto Superior de 
  Transportes e Telecomunica&ccedil;&otilde;es )
 
 ##_Em breve irei disponibilizar todo material did&aacute;tico para as disciplinas que lecciono_.
