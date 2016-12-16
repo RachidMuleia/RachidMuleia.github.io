@@ -1,4 +1,3 @@
-
 ---
 layout: page  
 title: Lecture notes/ Material para aulas   
