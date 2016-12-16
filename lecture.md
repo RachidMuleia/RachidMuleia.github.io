@@ -14,6 +14,6 @@ Geralmente tenho leccionado as seguintes disciplinas :
  - Probabilidades e Estat&iacute;stica ( 1&deg; do Curso de Engenharia Inform&aacute;tica, Mec&acirc;nica-Instituto Superior de 
  Transportes e Telecomunica&ccedil;&otilde;es )
 
-##_Em breve irei disponibilzar todo material did&aacute;tico para as disciplinas que lecciono_.
+##_Em breve irei disponibilizar todo material did&aacute;tico para as disciplinas que lecciono_.
 
  
