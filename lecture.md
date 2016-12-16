@@ -1,6 +1,6 @@
 ---
 layout: page  
-title: Lecture notes/ Material para aulas   
+title: Material para aulas   
 subtitle: Nesta p&aacute;gina irei disponibilizar algum material para as minhas aulas (visite sempre)  
 comments: true
 ---
