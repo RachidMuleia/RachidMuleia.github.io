@@ -13,7 +13,7 @@ Geralmente tenho leccionado as seguintes disciplinas :
  - Bio-estat&iacute;stica I e II ( 2&deg; do Curso de Biologia Marinha, Biologia Aplicada - Universidade Eduardo Mondlane)
  - Probabilidades e Estat&iacute;stica ( 1&deg; do Curso de Engenharia Inform&aacute;tica, Mec&acirc;nica-Instituto Superior de 
  Transportes e Telecomunica&ccedil;&otilde;es )
- 
- ##_Em breve irei disponibilzar todo material did&aacute;tico para as disciplinas que lecciono_.
+
+##_Em breve irei disponibilzar todo material did&aacute;tico para as disciplinas que lecciono_.
 
  
