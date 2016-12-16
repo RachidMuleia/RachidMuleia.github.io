@@ -10,7 +10,7 @@ comments: true
 _This page is intended to all my students and those that might be interested in the subjects I teach. Most of the material/articles/paper as wells as books will be 
 in Portuguese, as I my country the Instructional language is Porguese._
 
-Esta p&aacute;gina  e&acute; destinado aos meus estudantes e todos interessados nas disciplinas que lecciono. Maior parte do material/artigos/papeis/trabalhos de casa/fichas de exerc&iacutecios, bem como livros
+Esta p&aacute;gina  e&acute; destinado aos meus estudantes e todos interessados nas disciplinas que lecciono. Maior parte do material/artigos/papeis/trabalhos de casa/fichas de exerc&iacute;cios, bem como livros,
 ser&atilde;o disponiblizados em portugu&ecirc;s, visto que a l&iacute;ngua instrucional no meu pa&iacute;s &eacute; portugu&ecirc;
 
 
