@@ -24,7 +24,7 @@ description: PhD Student/ Lecture/ R programming addicted
 
 # List of links in the navigation bar
 navbar-links:
-  Lecture notes: " lecture"
+  Lecture notes: "lecture"
   About Me: "aboutme"
   Resume/CV:
    - English version: "https://RachidMuleia.github.io/download/CV-English.pdf"    
