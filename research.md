@@ -1,9 +1,9 @@
 ---  
-layout:page  
+layout: page    
 title: Creating Knowledge!  
 ---
 
 Here I present all my research activities , such as puplications, presentations, talks, etc.
 
-1. **Publication**
+1. **Publications**
 2. **Presentations**
