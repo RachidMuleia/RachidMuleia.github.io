@@ -6,7 +6,7 @@ subtitle: Encotre todo material did&aacute;tico
 
 #### 2017
 
-1. [Notas de aulas](/download/CV-English.pdf)  
+1. Notas de aulas
 2. Fichas de exerc&iacute;cios  
  - Ficha de  exerc&iacute;cios n&uacute;mero 1
  - Ficha de  exerc&iacute;cios n&uacute;mero 2
