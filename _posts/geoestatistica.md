@@ -1,9 +1,10 @@
 ---
-layout: page  
+layout: post 
 title: Fundamentos de Goe-estat&iacute;stica  
 subtitle: Encotre todo material did&aacute;tico  
----
-####2017
+---  
+
+#### 2017
 
 1. [Notas de aulas]("/download/CV-English.pdf")
 2. Fichas de exerc&iacute;cios  
