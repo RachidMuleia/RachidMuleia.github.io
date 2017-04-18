@@ -10,6 +10,6 @@ subtitle: Encotre todo material did&aacute;tico
 2. Fichas de exerc&iacute;cios 
  - [Ficha de  exerc&iacute;cios n&uacute;mero 1](/download/Ficha_pratica_variograma.pdf) 
  - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
- - Ficha de  pr&aacute;tica I
+ - [Trabalho pr&aacute;tico I](/download/Trabalho pratico.pdf)
  - Ficha de  exerc&iacute;cios n&uacute;mero 4
 
