@@ -14,6 +14,6 @@ Geralmente tenho leccionado as seguintes disciplinas :
  - Bio-estat&iacute;stica I e II 
  - Probabilidades e Estat&iacute;stica 
 
-## _Em breve irei disponibilizar todo material did&aacute;tico para as disciplinas que lecciono_.
+
 
  
