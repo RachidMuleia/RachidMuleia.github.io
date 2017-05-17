@@ -11,8 +11,8 @@ subtitle: Encotre todo material did&aacute;tico
  - [Ficha de  exerc&iacute;cios n&uacute;mero 1](/download/Ficha_pratica_variograma.pdf) 
  - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
  - [Trabalho pr&aacute;tico I](/download/Trabalho_pratico.pdf)
- - Ficha de  exerc&iacute;cios n&uacute;mero 4
- - [Krigagem Ordin&aacute;ria, aplicacao do Software R](/download/Exemplo_Krigagem_Universal)
+ - [Ficha de  exerc&iacute;cios n&uacute;mero 3](/download/Krigagem_exercicios)
+ - [Krigagem Ordin&aacute;ria, aplicacao do Software R](/download/Krigagem_Ordinaria)
  - [Validacao cruzada no ambiente R](/download/Crossvalidation.pdf)
- - [Krigagem em bloco: Exemplo pratico]
+ - [Krigagem em bloco: Exemplo pratico](/download/Exemplo_Krigagem_Universal)
 
