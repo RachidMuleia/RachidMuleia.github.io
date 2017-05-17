@@ -12,7 +12,7 @@ subtitle: Encotre todo material did&aacute;tico
  - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
  - [Trabalho pr&aacute;tico I](/download/Trabalho_pratico.pdf)
  - Ficha de  exerc&iacute;cios n&uacute;mero 4
- - [Krigagem Ordin&aacute;ria, aplicacao do Software R](/download/Exemplo_Krigagem_Universal
+ - [Krigagem Ordin&aacute;ria, aplicacao do Software R](/download/Exemplo_Krigagem_Universal)
  - [Validacao cruzada no ambiente R](/download/Crossvalidation.pdf)
  - [Krigagem em bloco: Exemplo pratico]
 
