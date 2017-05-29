@@ -15,4 +15,5 @@ subtitle: Encotre todo material did&aacute;tico
  - [Krigagem Ordin&aacute;ria, aplicacao do Software R](/download/Krigagem_Ordinaria)
  - [Validacao cruzada no ambiente R](/download/Crossvalidation.pdf)
  - [Krigagem em bloco: Exemplo pratico](/download/Exemplo_Krigagem_Universal.pdf)
+ - [Krigagem Universal: Exemplo pratico](/download/Krigagem_Universal.pdf)
 
