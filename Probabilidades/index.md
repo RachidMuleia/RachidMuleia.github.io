@@ -1,6 +1,6 @@
 ---
 layout: page  
-title: Probabilidades e Estat&acute   
+title: Probabilidades e Estat&iacute;stica  
 subtitle: Encotre todo material did&aacute;tico      
 ---  
 
