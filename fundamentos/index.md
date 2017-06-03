@@ -3,6 +3,8 @@ layout: page
 title: Fundamentos de Geoestat&iacute;stica      
 subtitle: Encontre todo material did&aacute;tico  
 comments: true
+show-share: true
+show-subscribe: true
 ---  
 
 #### 2017
