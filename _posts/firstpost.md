@@ -1,9 +1,9 @@
 
-Dealing with maps.
+# Adding labels on a Map (Importance of getSpPPolygonsLabptSlots()) .
 
-Some days ago I was struggling to label my map  searched over internent in order to find something that could help, nevertheless my search was not so successful. I actually I could find something complete that could respond to my need. But after some "pain" I was able to plot a nice my and labled it as I wanted. 
+Some days ago I was struggling to label my map. I  searched over internent in order to find something that could help, nevertheless my search was not so successful. I actually I couldn't find something complete that could respond to my need. But after some "pain" I was able to plot a nice map and labled it as I wanted. 
 
-Today I want to share my code, as I think it might be helpful. The interesting part of the execircise I will show lies mainly on managing to make a map an being able to plot, for instance, number, percentage or anything else you may want on the map. Before we dive into how me plot numbers on the map, we will first make map reading a set of shapefiles, so for that we will use the command `readShapePoly` from the `maptools` package.
+Today I want to share my code, as I think it might be helpful. The interesting part of the execircise I will show lies mainly on managing to make a map an being able to plot, for instance, number, percentage or anything else you may want on the map. Before we dive into how we plot numbers on the map, we will first plota map reading a set of shapefiles, so for that we will use the command `readShapePoly()` from the `maptools` package.
 
 For now I will use the map from Mozambique, and  the HIV prevalence data. Before, it is important to set a working directory and put there all the set of shapefiles(`shx`, `shp.xml`,`shp`,`sbn`,`prj`,`dbf`, and `cpg`), after that we read the shapefile  as follows:
 
@@ -14,8 +14,6 @@ library(RColorBrewer)
 library(rgeos)
 library(shapefiles)
 library(rgdal)
-library(descr)
-library(haven)
 library(dplyr)
 library(rgeos)
 library(maptools)
@@ -60,6 +58,9 @@ text(getSpPPolygonsLabptSlots(shape.f), labels=paste(round(shape.f@data$prevalen
 legend(x=1300000, y=8800000, legend=leglabs(brks,under = "<",over=">="), fill=colors, bty="n",x.intersp = .8, y.intersp = .8) # plotting the counts in the map, I recommend to install all the packages above
 ```
 The result is  the map below 
-![Map with HIV prevalence](img/overallmap.png)
+![Map with HIV prevalence](/img/overallmap.png)
 
+The overlay of the province names and the HIV prevalence for each province was able throug `getSpPPolygonsLabptSlots()` whicetrieves the coordinates of the centroids and the restult is then passed to `text()` as the position for the labels on the plot.
+
+I hope this can help those in need.
 
