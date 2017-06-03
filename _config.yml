@@ -24,7 +24,7 @@ description: PhD Student/Lecturer/R programming addicted
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: ""
+  Blog: "_post"
   Teaching: "lecture"
   Research: "research"
   About Me: "aboutme"
