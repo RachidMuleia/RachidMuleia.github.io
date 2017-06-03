@@ -58,6 +58,7 @@ text(getSpPPolygonsLabptSlots(shape.f), labels=paste(round(shape.f@data$prevalen
 legend(x=1300000, y=8800000, legend=leglabs(brks,under = "<",over=">="), fill=colors, bty="n",x.intersp = .8, y.intersp = .8) # plotting the counts in the map, I recommend to install all the packages above
 ```
 The result is  the map below 
+
 ![Map with HIV prevalence](/img/overallmap.png)
 
 The overlay of the province names and the HIV prevalence for each province was able throug `getSpPPolygonsLabptSlots()` whicetrieves the coordinates of the centroids and the restult is then passed to `text()` as the position for the labels on the plot.
