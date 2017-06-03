@@ -7,7 +7,20 @@ Today I want to share my code, as I think it might be helpful. The interesting p
 
 For now I will use the map from Mozambique, and  the HIV prevalence data. Before, it is important to set a working directory and put there all the set of shapefiles(`shx`, `shp.xml`,`shp`,`sbn`,`prj`,`dbf`, and `cpg`), after that we read the shapefile  as follows:
 
+
 ```R
+library(classInt)
+library(RColorBrewer)
+library(rgeos)
+library(shapefiles)
+library(rgdal)
+library(descr)
+library(haven)
+library(dplyr)
+library(rgeos)
+library(maptools)
+library(RColorBrewer)
+library(ggplot2)
 # read shapefile 
 # make sure that all your shapefiles are in your working director.
 shape.f=readShapePoly("PROVINCIAS.shp")
@@ -35,9 +48,18 @@ colors<-brewer.pal(3,"Oranges") # chossing color
 ```
 Now we can plot the map
 
-windows()
+
 ```R
+windows()
 plot(shape.f, col=colors[findInterval(shape.f@data$prevalence, brks,all.inside=TRUE)], axes=FALSE)
+# after plotting the map we have to use the fucntion getSpPPolygonsLabptSlots() from the package sp. This retrieves the coordinates
+of the centroids. And this is actually what we need to overlay the province names and the prevalence of each province on the map.
+
+text(getSpPPolygonsLabptSlots(shape.f), labels=shape.f@data$Provincia, cex=0.6, font=2)
+text(getSpPPolygonsLabptSlots(shape.f), labels=paste(round(shape.f@data$prevalence,digits =2 ), "%",sep=""), cex=0.6, font=2, pos=1)
+legend(x=1300000, y=8800000, legend=leglabs(brks,under = "<",over=">="), fill=colors, bty="n",x.intersp = .8, y.intersp = .8) # plotting the counts in the map, I recommend to install all the packages above
 ```
+The result is  the map below 
+[Map with HIV prevalence](img/overallmap.png)
 
 
