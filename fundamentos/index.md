@@ -1,7 +1,8 @@
 ---
 layout: page  
 title: Fundamentos de Geoestat&iacute;stica      
-subtitle: Encontre todo material did&aacute;tico      
+subtitle: Encontre todo material did&aacute;tico  
+comments: true
 ---  
 
 #### 2017
