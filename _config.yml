@@ -24,13 +24,14 @@ description: PhD Student/Lecturer/R programming addicted
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: "posts"
   Teaching: "lecture"
   Research: "research"
   About Me: "aboutme"
   Resume/CV:
    - English version: "https://RachidMuleia.github.io/download/CV-English.pdf"    
    - Portuguese version: "https://RachidMuleia.github.io/download/HQuick_cv.pdf"
-  Home: ""
+ 
 #  Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
  #   - Learn markdown: "http://www.markdowntutorial.com/"
