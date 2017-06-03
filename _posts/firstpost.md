@@ -1,5 +1,13 @@
 
-# Adding labels on a Map (Importance of getSpPPolygonsLabptSlots()) .
+
+---
+layout: post
+title: "Adding labels on a Map (Importance of getSpPPolygonsLabptSlots()) "
+tags: [rstats, r, r-bloggers]
+date: 2017-06-02 03:40:58 -0700
+---
+
+
 
 Some days ago I was struggling to label my map. I  searched over internent in order to find something that could help, nevertheless my search was not so successful. I actually I couldn't find something complete that could respond to my need. But after some "pain" I was able to plot a nice map and labled it as I wanted. 
 
