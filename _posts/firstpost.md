@@ -3,6 +3,7 @@ layout: post
 title: "Adding labels on a Map (Importance of getSpPPolygonsLabptSlots())"
 tags: [rstats, r, r-bloggers]
 date: 2017-06-02 03:40:58 -0700
+comments: true
 ---
 
 
