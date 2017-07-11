@@ -24,4 +24,4 @@ show-subscribe: true
 
 #### Resultados: Exame normal
 1. ![Laboral](/img/Pauta_Laboral.PNG)
-2. ![Pos-Laboral(/img/Pauta_Pos.PNG)
+2. ![Pos-Laboral](/img/Pauta_Pos.PNG)
