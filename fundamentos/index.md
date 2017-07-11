@@ -21,3 +21,7 @@ show-subscribe: true
  - [Krigagem em bloco: Exemplo pratico](/download/Exemplo_Krigagem_Universal.pdf)
  - [Krigagem Universal: Exemplo pratico](/download/Krigagem_Universal.pdf)
 
+
+#### Resultados: Exame normal
+1. ![Laboral](/img/Pauta_Laboral.PNG)
+2. ![Pos-Laboral(/img/Pauta_Pos.PNG)
