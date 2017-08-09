@@ -22,6 +22,3 @@ show-subscribe: true
  - [Krigagem Universal: Exemplo pratico](/download/Krigagem_Universal.pdf)
 
 
-#### Resultados: Exame normal
- ![Laboral](/img/Pauta_Laboral.PNG)
- ![Pos-Laboral](/img/Pauta_Pos.PNG)
