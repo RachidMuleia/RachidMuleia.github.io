@@ -15,7 +15,7 @@ Para esta disciplina as actividades serao feitas em grupos, portanto encontre a 
 
 Os detalhes referentes aos trabalhos para os estudantes do diurno assim como do pos-laboral, estao disponiveis em: 
 
-- [TRABALHO I: ANALISE DE DADOS](/download/T_I_D_D.pdf)
+- [Trabalho I: Analise de Dados](/download/T_I_D_D.pdf)
 
 
 
