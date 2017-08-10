@@ -10,7 +10,7 @@ show-subscribe: true
 Para esta disciplina as actividades serao feitas em grupos, portanto encontre a lista dos grupos
 
 ### Grupos de actvidade para Diurno
-A lista de grupos de actividades para os estudantes de diurno pode ser encontrada [aqui](/download/Lista de grupos.pdf)
+A lista de grupos de actividades para os estudantes de diurno pode ser encontrada [aqui](/download/Lista_de_grupos.pdf)
 
 
 
