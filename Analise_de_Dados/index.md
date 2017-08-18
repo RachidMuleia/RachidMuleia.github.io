@@ -18,7 +18,7 @@ Os detalhes referentes aos trabalhos para os estudantes do diurno assim como do 
 - [Trabalho I: Analise de Dados](/download/T_I_A_D_D.pdf), e a respectiva [Base de Dados](/download/BasedeDados.txt)
 
 
-### Exemplos das aulas laboratorias
+### Exemplos das aulas laboratoriais
 - [Analise exploratoria de dados em R](/download/Aula_laboratorio.R)
 - [Testes de hipoteses em R](/download/Teste_hipo.R) 
 
