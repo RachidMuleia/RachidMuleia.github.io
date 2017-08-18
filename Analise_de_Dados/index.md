@@ -19,7 +19,7 @@ Os detalhes referentes aos trabalhos para os estudantes do diurno assim como do 
 
 
 ### Exemplos das aulas laboratorias
-- [Analise exploartoria de dados em R](/download/Aula_laboratorio.R)
+- [Analise exploratoria de dados em R](/download/Aula_laboratorio.R)
 - [Testes de hipoteses em R](/download/Teste_hipo.R) 
 
 
