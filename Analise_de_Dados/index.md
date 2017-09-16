@@ -34,7 +34,7 @@ A seguir encontre alguns links uteis que possam ajudar a aprender o R:
 - [Introducao ao uso do programa R](https://cran.r-project.org/doc/contrib/Landeiro-Introducao.pdf). Eeste manual  traz consigo os primeiros passos para o sucesso da programação em R. 
 - [Software Livre R: aplicação estatística](http://www2.ufersa.edu.br/portal/view/uploads/setores/137/Apostilas%20e%20Tutoriais%20-%20R%20Project/Apostila%20R%20-%20GenMelhor.pdf). Este manual traz consigo alguns exemplos sobre testes de hipoteses, ANOVA, Analise de regressao, e tambem tem outros conteudos interessantes para quem esta a comecar ou queira comecar a programar em R.
 - [Análise do regressão no Pacote R](mg.br/portal/arquivos/rts/RT-SE-2009.pdf). Este é um manual especialmente voltado para  regressão linear. Embora não seja exaustivo, tem lá tópicos e procedimentos básicos para construir um modelo de regressão linear clássico (MRLC). Também aborda aspectos sobre verificação dos pressupostos do MRLC.
--[Bioestatística usando R](https://cran.r-project.org/doc/contrib/Beasley-BioestatisticaUsandoR.pdf). Este manual aborda sobre Análise de variância (ANOVA) com um e dois factores, a sua a bordagem é bem simplistica e amigavel para quem esteja a inicia a programar em R.
+- [Bioestatística usando R](https://cran.r-project.org/doc/contrib/Beasley-BioestatisticaUsandoR.pdf). Este manual aborda sobre Análise de variância (ANOVA) com um e dois factores, a sua a bordagem é bem simplistica e amigavel para quem esteja a inicia a programar em R.
 
 
 
