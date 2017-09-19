@@ -20,7 +20,8 @@ The power of the selected test was done for some selected sample size and for a 
 Figure 1 shows the power comparison under the aforementioned distribution. Under the gamma distribution on the left panel one can see that, although the power does not increase slowly with sample size, Shapiro Wilk outperforms all test then is followed by Shapiro-Francia and Anderson-Darling. The same pattern is observed on the plot on the right-hand side. On both plots, it is also apparent the Kolmogorov-Smirnov poorly performs. Additionally, it can be observed that for small sample sizes almost all the tests show a lower power, pointing out that for small sample size the test should be used with caution.
 
 ![power plot gammma distribution ](/img/graph1.png) ![beta distribution](/img/graph2.png) 
-Figure 1: Power comparison: On the left panel power comparison under gamma distribution, and on the right panel power comparison under beta distribution.
+
+**Figure1**: Power comparison: On the left panel power comparison under gamma distribution, and on the right panel power comparison under beta distribution.
 
 
 ### Concluding remarks
