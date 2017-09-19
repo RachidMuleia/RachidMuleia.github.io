@@ -7,7 +7,7 @@ comments: true
 show-share: true
 show-subscribe: true
 ---
-### A small note for practitioner 
+### A small note for practitioner: What Normality test should I use?
 In statistics, it is quite common to assume that the data follow a normal distribution. In other words, most statistical techniques assume that the data comes from a normally distributed population. Consequently, when the data do not follow a normal distribution, every inferential apparatus becomes compromised. Being this a crucial assumption for the success of statistical inference, it is particularly "imperative" before proceeding with any kind of analysis to verify if the data follows a normal distribution or not. Nevertheless, practitioners are confronted with the difficult to choose the right procedure to assess normality.
 
 The literature has a wide range of methods to check for normality, though knowing the right one is crucial. One can either check for normality using informal or formal procedures. Informal procedures comprise of assessing normality using whether graphical assessment or numerical assessment. The graphical assessment consists of inspecting for normality using plots, like histogram, box-plot, Q-Q plot, probability plots, etc., whereas numeric procedures comprise measures such as skewness, kurtosis and other statistics moments. The quest for normality should not be solely assessed using informal methods but they should be followed by a formal test as well. Currently many are the means to formally assess normality. Thode (2002) makes a thorough  review of means to assess normality, ranging from empirical distribution function tests to moment test.
@@ -128,7 +128,7 @@ for(i in 1:6){
 legend(1600,0.9,c("AD","SW","CVM","LL","SF","KS"),col=c(1,2,3,4,5,6),lwd=c(2,2,2,2,2,2))
 ```
 
-The code presented here is a modified version of the code writtern  by [Rogerio Jeronimo Barbosa](https://www.researchgate.net/post/how_can_i_estimate_the_power_of_different_normality_tests_using_R_language)
+The code presented here is a modified version of the code written  by [Rogerio Jeronimo Barbosa](https://www.researchgate.net/post/how_can_i_estimate_the_power_of_different_normality_tests_using_R_language)
 
 
 
