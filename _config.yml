@@ -54,9 +54,9 @@ avatar: "/img/website.png"
 navbar-col: "blue"
 navbar-img: "/img/brick-wall.png"
 # footer-col: "blue"
-footer-img: "/img/cheap_diagonal_fabric.png"
+footer-img: "/img/brick-wall.png"
 # page-col: "#FF0000"
-# page-img: "/img/bgimage.png"
+page-img: "/img/brick-wall.png"
 
 # --- Footer options --- #
 
