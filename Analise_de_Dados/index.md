@@ -13,7 +13,7 @@ show-subscribe: true
 
 ### Trabalho prático 
 
-1. [Manipulação de Dados usando R]((/download/PT1.pdf) 
+1. [Manipulação de Dados usando R](/download/PT1.pdf) 
 - Data de entrega: 19/09/2018
 - O trabalho que não for entregue nesta data, não será recebido. 
 
