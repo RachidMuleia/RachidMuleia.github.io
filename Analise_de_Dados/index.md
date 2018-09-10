@@ -11,7 +11,13 @@ show-subscribe: true
 
 1. [Introdução ao R e Manipulação de Dados](http://rpubs.com/rachidmuleia/411955)
 
+### Trabalho prático 
 
+1. [Manipulação de Dados usando R]((/download/PT1.pdf) 
+- Data de entrega: 19/09/2018
+- O trabalho que não for entregue nesta data, não será recebido. 
+
+Tenham um bom trabalho meus amados/caros estudantes. 
 
 
 
