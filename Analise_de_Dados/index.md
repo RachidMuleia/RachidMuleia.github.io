@@ -19,6 +19,9 @@ show-subscribe: true
 
 Tenham um bom trabalho meus amados/caros estudantes. 
 
+### Ficha de exercícios
+
+1. [Ficha 1: Manipulação de dados](/download/Ficha1.pdf)
 
 
 
