@@ -7,18 +7,15 @@ show-share: true
 show-subscribe: true
 ---  
 
+## Material Teórico
 ## Parte I-Análise Variográfica 
 
-1. [Notas de aulas](/download/test.pdf)
-2. Fichas de exerc&iacute;cios 
- - [Ficha de  exerc&iacute;cios n&uacute;mero 1](/download/Ficha_pratica_variograma.pdf) 
- - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
- - [Trabalho pr&aacute;tico I](/download/Trabalho_pratico.pdf)
- - [Ficha de  exerc&iacute;cios n&uacute;mero 3](/download/Krigagem_exercicios.pdf)
- - [Krigagem Ordin&aacute;ria, aplicacao do Software R](/download/Krigagem_Ordinaria.pdf)
- - [Validacao cruzada no ambiente R](/download/Crossvalidation.pdf)
- - [Validacao cruzada: ficheiro com codigos em R](/download/ValidacaoCruzada.txt)
- - [Krigagem em bloco: Exemplo pratico](/download/Exemplo_Krigagem_Universal.pdf)
- - [Krigagem Universal: Exemplo pratico](/download/Krigagem_Universal.pdf)
+1. [Material teórico-Slides](/download/FG2019.pdf)
+2. [Materila auxialiar- Introdução ao uso do programa R](https://cran.r-project.org/doc/contrib/Landeiro-Introducao.pdf)
 
+## Material Práticoa-Aulas práticas e laboratoriais
+3. Fichas de exercícios 
+ - [Ficha de  exerc&iacute;cios n&uacute;mero 1](/download/Ficha1.pdf) 
+ - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
+ 
 
