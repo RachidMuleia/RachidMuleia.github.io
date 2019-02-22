@@ -7,7 +7,7 @@ show-share: true
 show-subscribe: true
 ---  
 
-#### 2017
+## Parte I-Análise Variográfica 
 
 1. [Notas de aulas](/download/test.pdf)
 2. Fichas de exerc&iacute;cios 
