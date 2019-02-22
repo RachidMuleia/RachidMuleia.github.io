@@ -11,7 +11,7 @@ show-subscribe: true
 ## Parte I-Análise Variográfica 
 
 1. [Material teórico-Slides](/download/FG2019.pdf)
-2. [Materila auxiliar- Introdução ao uso do programa R](https://cran.r-project.org/doc/contrib/Landeiro-Introducao.pdf)
+2. [Material auxiliar- Introdução ao uso do programa R](https://cran.r-project.org/doc/contrib/Landeiro-Introducao.pdf)
 3. [Material auxiliar-Análise Estatística e Geoestatistica dos Dados
 Os ](/download/Analise_geoestatistica.pdf)
 4. [Material auxiliar- Geoestatística: Funadamentos e Aplicações ](/download/Geoestatistica_Fundamentos.pdf)
