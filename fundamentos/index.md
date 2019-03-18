@@ -16,9 +16,10 @@ show-subscribe: true
 Os ](/download/Analise_geoestatistica.pdf)
 4. [Material auxiliar- Geoestatística: Funadamentos e Aplicações ](/download/Geoestatistica_Fundamentos.pdf)
 
-## Material Práticoa-Aulas práticas e laboratoriais
+## Material Prático-Aulas práticas e laboratoriais
 3. Fichas de exercícios 
  - [Ficha de  exerc&iacute;cios n&uacute;mero 1](/download/Ficha1.pdf) 
  - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
+ -[Trabalho prático em grupo](/download/Trabalho_pratico_I.pdf)
  
 
