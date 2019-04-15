@@ -22,6 +22,6 @@ Os ](/download/Analise_geoestatistica.pdf)
  - [Ficha de  exerc&iacute;cios n&uacute;mero 2](/download/Exercicios_FG.pdf)
  - [Trabalho prático I em grupo](/download/Trabalho_pratico_I.pdf)
  - [Ficha de exercícios número 3- Krigagem](/download/Krigagem_exercicios.pdf)
- -[Teste para preparação do I Teste](/download/Teste1_2018.pdf)
+ - [Teste para preparação do I Teste](/download/Teste1_2018.pdf)
  
 
