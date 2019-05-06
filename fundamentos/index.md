@@ -15,6 +15,9 @@ show-subscribe: true
 3. [Material auxiliar-Análise Estatística e Geoestatistica dos Dados
 Os ](/download/Analise_geoestatistica.pdf)
 4. [Material auxiliar- Geoestatística: Fundamentos e Aplicações ](/download/Geoestatistica_Fundamentos.pdf)
+5. [Krigagem Ordinária- Exemplo prático](/download/Krigagem_Ordinaria.pdf)
+6. [Krigagem Universal- Exemoplo prático](/download/Krigagem_Universal.pdf)
+7. [Validação Cruzada- Exemplo prático](/download/Crossvalidation.pdf)
 
 ## Material Prático-Aulas práticas e laboratoriais
 3. Fichas de exercícios 
