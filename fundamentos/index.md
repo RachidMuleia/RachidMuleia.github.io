@@ -28,5 +28,6 @@ Os ](/download/Analise_geoestatistica.pdf)
  - [Ficha de exercícios número 3- Krigagem](/download/Krigagem_exercicios.pdf)
  - [Teste para preparação do I Teste](/download/Teste1_2018.pdf)
  - [Exercícios adicionais-Krigagem](/download/Krigagem_pratica.pdf)
+ - [Trabalho prático II em grupo](/download/TP_II.pdf)
  
 
