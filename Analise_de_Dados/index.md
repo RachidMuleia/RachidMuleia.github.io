@@ -29,9 +29,9 @@ show-subscribe: true
 
 Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/BasedeDados.txt)
 
-[Lista de grupos diurno](/download/Grupos_Diurno.pdf)
+- [Lista de grupos diurno](/download/Grupos_Diurno.pdf)
 
-[Lista de grupos pós-laboral](/download/Grupo_PL.pdf)
+- [Lista de grupos pós laboral](/download/Grupo_PL.pdf)
 
 
 
