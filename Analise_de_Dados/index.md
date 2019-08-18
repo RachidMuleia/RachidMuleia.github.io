@@ -11,7 +11,7 @@ show-subscribe: true
 
 1. [Introdução ao R e Manipulação de Dados](/download/AD_DMI.pdf)
 
-2. [Análise exploratória de dados & Gráfico](/download/AD_II.pf)
+2. [Análise exploratória de dados & Gráfico](/download/AD_II.pdf)
 
 ### Ficha de exercícios 
 
