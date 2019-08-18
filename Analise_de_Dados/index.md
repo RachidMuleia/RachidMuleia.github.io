@@ -27,7 +27,11 @@ show-subscribe: true
 
 1. [Análise exploratória](/download/Trabalho_pratico.pdf)
 
-Para este trabalho use  a seguinte base de dados: 
+Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/Base_de_dados.dat)
+
+[Lista de grupos diurno](/download/Grupos_Diurno.pdf)
+
+
 
 
 
