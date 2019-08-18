@@ -21,6 +21,13 @@ show-subscribe: true
 
 3. [Análise exploratória de dados e Manipulação de dados](/donwload/Ficha_MD.pdf)
 
+4. [Base de dados sobre pescadores](/download/Base_Dados.sav/)
+
+### Trabalhos práticos 
+
+1. [Análise exploratória](/download/Trabalho_pratico.pdf)
+
+Para este trabalho use  a seguinte base de dados: 
 
 
 
