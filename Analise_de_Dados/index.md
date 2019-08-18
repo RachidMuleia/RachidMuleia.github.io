@@ -19,7 +19,7 @@ show-subscribe: true
 
 2. [Gráficos e medidas sumárias ](/download/FICHA_II.pdf)
 
-3. [Análise exploratória de dados e Manipulação de dados](/donwload/Ficha_MD.pdf)
+3. [Análise exploratória de dados e Manipulação de dados](/download/Ficha_MD.pdf)
 
 4. [Base de dados sobre pescadores](/download/Base_Dados.sav/)
 
