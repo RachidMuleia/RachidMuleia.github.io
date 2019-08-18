@@ -25,11 +25,13 @@ show-subscribe: true
 
 ### Trabalhos práticos 
 
-1. [Análise exploratória](/download/Trabalho_pratico.pdf)
+1. [Trabalho prático I-Análise exploratória](/download/Trabalho_pratico.pdf)
 
-Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/Base_de_dados.dat)
+Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/BasedeDados.txt)
 
 [Lista de grupos diurno](/download/Grupos_Diurno.pdf)
+
+[Lista de grupos pós-laboral](/download/Grupo_PL.pdf)
 
 
 
