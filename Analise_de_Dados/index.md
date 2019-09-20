@@ -33,6 +33,8 @@ Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/Base
 
 - [Lista de grupos pós laboral](/download/Grupo_PL.pdf)
 
+2. [Trabalho prático II- Testes de Hipóteses](/download/Trabalho_pratico_II.pdf)
+
 
 
 
