@@ -35,6 +35,8 @@ Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/Base
 
 2. [Trabalho prático II- Testes de Hipóteses](/download/Trabalho_pratico_II.pdf)
 
+3. [Trabalho prático III- ANOVA e testes de hipóteses não paramétricos](/download/Trabalho_pratico_III.pdf)
+
 
 
 
