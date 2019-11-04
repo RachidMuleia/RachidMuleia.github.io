@@ -37,6 +37,10 @@ Para este trabalho use  a seguinte base de dados: [Perda de peso](/download/Base
 
 3. [Trabalho prático III- ANOVA e testes de hipóteses não paramétricos](/download/Trabalho_pratico_III.pdf)
 
+4. [Trabalhp prático IV- Análise de regressão e Análise de covariancia](/download/Trabalho_AD.pdf)
+ 
+   Este trabalho deverá ser entregue no dia 20 de Novembro de 2019. As apresentações terão início no mesmo dia.
+
 
 
 
