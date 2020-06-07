@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introdução à Análise de dados usando o R -- Aproveite a Quarentena:"
+title: "Introdução à análise de dados usando o R -- Aproveite a Quarentena:"
 tags: [rstats, r]
 date: 2020-07-06 17:16:50 -0700
 comments: true
