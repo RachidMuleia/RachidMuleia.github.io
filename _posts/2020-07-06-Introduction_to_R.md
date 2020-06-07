@@ -19,9 +19,9 @@ Para além de analisar dados, vais aprender a programar; R é também uma lingua
 - Análise exploratória e estatística de dados usando histograma, box-plot,  gráficos de barra, diagrama de dispersão, etc, e usado medidas descritivas como a média, desvio-padrão e muito mais; teste-t, ANOVA, teste de associação de Qui-quadrado e etc.
 - Métodos avançados de leitura de dados 
 
-**Publico alvo**: Todos interessados em analisar dados, gerar e visualizar gráficos, estimar modelos e etc.
+**Público alvo**: Todos interessados em analisar dados, gerar e visualizar gráficos, estimar modelos e etc.
 
-**Data**: O curso será ministrado nos dias 29 de Junho à 3 de Julho de 2020.
+**Data de início**: O curso será ministrado nos dias 29 de Junho à 3 de Julho de 2020.
 
 **Hora**: Dois horários estão disponíveis para este módulo, nomeadamente : 16:30 - 18:00 e 18:30 - 20:00.
 
