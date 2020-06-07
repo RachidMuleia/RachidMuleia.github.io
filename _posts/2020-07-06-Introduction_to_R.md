@@ -8,7 +8,7 @@ show-share: true
 show-subscribe: true
 ---
 
-# Introdução à Análise de dados usando o R -- Aproveite a Quarentena
+# Aprenda a analisar dados usando R sem sair de casa
 
 Durante este período de distanciamento social, aproveite para aprender novas habilidades. Num mundo movido por quantidades massivas de informação, não existe nada melhor do que saber como lidar com um conjunto extenso de informação. Durante esta quarentena, quero lhe convidar a aprender o R; uma das melhores ferramentas estatísticas para análise de dados. Diferentemente de outras plataformas, está plataforma é grátis. Por isso, fazer parte dos utentes deste programa de ensino ONLINE é um colossal caminho para o sucesso.
 Para além de analisar dados, vais aprender a programar; R é também uma linguagem de programação. Este módulo será ministrado em cinco sessões:
