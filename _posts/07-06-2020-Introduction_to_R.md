@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Introdução à Análise de dados usando o R -- Aproveite a Quarentena:"
+tags: [rstats, r]
+date: 2020-07-06 01:13:20 -0700
+comments: true
+show-share: true
+show-subscribe: true
+---
+
 # Introdução à Análise de dados usando o R -- Aproveite a Quarentena
 
 Durante este período de distanciamento social, aproveite para aprender novas habilidades. Num mundo movido por quantidades massivas de informação, não existe nada melhor do que saber como lidar com um conjunto extenso de informação. Durante esta quarentena, quero lhe convidar a aprender o R; uma das melhores ferramentas estatísticas para análise de dados. Diferentemente de outras plataformas, está plataforma é grátis. Por isso, fazer parte dos utentes deste programa de ensino ONLINE é um colossal caminho para o sucesso.
