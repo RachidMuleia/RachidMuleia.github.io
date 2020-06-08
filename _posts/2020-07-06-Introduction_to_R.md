@@ -32,7 +32,10 @@ A participação em cada uma das sessões está condicionada ao pagamento de 500
 
 ## Métodos de pagamento
 
-Os pagamentos podem ser feitos via transferência bancária NIB- BCI: 008 0000 2850 4324 101 80; MPESA/ Conta Móvel: 84 55 77 827.
+Os pagamentos podem ser feitos por via de um dos seguintes meios: 
+- NIB- BCI: 0008 0000 2850 4324 101 80; 
+- MPESA: +258 84 55 77 827
+- Conta Móvel : +258 84 55 77 827 / +258 82 55 77 827
 
 As 10 (dez) primeiras pessoas que se registarem têm um desconto de 15%.
 
