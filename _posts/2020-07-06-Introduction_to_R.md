@@ -34,6 +34,7 @@ A participação em cada uma das sessões está condicionada ao pagamento de 500
 
 Os pagamentos podem ser feitos por via de um dos seguintes meios: 
 - NIB- BCI: 0008 0000 2850 4324 101 80; 
+- NIB - BIM: 0001 000000 48 49 52 762 57
 - MPESA: +258 84 55 77 827
 - Conta Móvel : +258 84 55 77 827 / +258 82 55 77 827
 
