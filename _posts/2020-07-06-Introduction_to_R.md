@@ -44,8 +44,8 @@ As 10 (dez) primeiras pessoas que se registarem têm um desconto de 15%.
 
 A www.edumundopangara.com tem disponível cinco (5) bolsas de estudo  para as primeiras duas sessões. Todos interessados podem aceder ao site e enviar um email com dados demográficos e as razões que os levam a querer aprender o R.
 
-## Registo dos participantes
+## Inscrição dos participantes
 
-O registo pode ser feito via o seguinte link: https://forms.gle/iV4UWzGFUvKyLNxZA
+A inscrição pode ser feita via o seguinte link: https://forms.gle/iV4UWzGFUvKyLNxZA
 
 
