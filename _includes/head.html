@@ -70,8 +70,20 @@
   {% else %}
   <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
-  {% if page.header-img %}
-  <meta property="og:image" content="{{ page.header-img }}" />
+  <!-- Facebook OpenGraph tags -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  {% if page.id %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
+  {% else %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
+  {% endif %}
+  {% if page.share-img %}
+  <meta property="og:image" content="{{ page.share-img }}" />
+  {% elsif site.avatar %}
+  <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
+  {% else %}
+  <meta property="og:image" content="" />
   {% endif %}
   
 
