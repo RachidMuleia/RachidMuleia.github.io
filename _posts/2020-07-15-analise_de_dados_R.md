@@ -3,8 +3,8 @@ layout: post
 title: "Introdução à análise de dados usando o R- Segunda edição"
 tags: [rstats, r]
 date: 2020-07-15 22:19:38 -0700
-share-img: "/img/logodplyr.png"
-image: "/img/logodplyr.png"
+share-img: "/img/CartazCurso.jpeg"
+image: "/img/CartazCurso.jpeg"
 readtime: true
 comments: true
 show-share: true
