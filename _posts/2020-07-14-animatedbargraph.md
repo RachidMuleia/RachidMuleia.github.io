@@ -33,7 +33,7 @@ sales_data <- read.csv('sales_cars.csv',header=TRUE, stringsAsFactors =FALSE)
 View(sales_data)
 ```
 Aqui esta um extrato dos dados que serão usado para fazer o nosso pequeno exercício.
-![](data_sales.png)
+![](/img/data_sales.png)
 
 Como pode ver, este dados não estão num formato  ideal, por outra, não estão devidamente arrumados para podermos usar no exercício de visualização. Antes de prosseguir, precisamos
  de arrumar, torna-los em *tidy data* — conceito introduzido por [Haddley Wichman](http://hadley.nz/). Para tal vou precisar da livraria `reshape2` e vamos usar a função `melt()` da livraria `reshape2`
@@ -46,7 +46,7 @@ View(sales_tidy)
 ```
 Depois de usar a função `melt()`, que nos safa de termos que trabalhar com planilhas excel antes de importar os dados ao R, tem-se o seguinte resultado:
 
-![](data_tidy)
+![](/img/data_tidy.png)
 
 Olhando para os dados, nota-se que temos ainda temos um pequeno problema: temos a coluna *variable* que armazena os dados referente ao ano. Contudo, estes valores são antecedidos por *X*.
 Precisamos remover o *X* e deixar apenas a parte númerica, de forma que o R possa reconhecer como númerico. Isto pode ser feito usando a livraria `stringr`, que é uma livraria concenbida para
@@ -137,5 +137,5 @@ animate(anim, 200, fps = 20,  width = 1200, height = 1000,
 ```
 
 
-![](gganim.gif)
+![](/img/gganim.gif)
 
