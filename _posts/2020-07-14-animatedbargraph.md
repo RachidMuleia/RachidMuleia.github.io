@@ -80,8 +80,7 @@ sales_format <- sales_shaped %>%
 ```
 
 ## Construíndo o gráfico estático
-Depois de ter os dados devidamente arrumado ja podemos fazer o nosso gráfico. O gráfico será feito usando a livraria `ggplot2`. A ideia é para cada ano fazer um gráfico de barras com os 10
-os 10 países com maior número de vendas. Estes gráficos estarão sobre postos. Não irei entrar em detallhes de como fazer gráficos usando `ggplot2`, mas não se preocupe que vem ai 
+Depois de ter os dados devidamente arrumado, já podemos fazer o nosso gráfico. O gráfico será feito usando a livraria `ggplot2`. A ideia é: para cada ano fazer um gráfico de barras com os 10 países com maior número de vendas. Estes gráficos estarão sobre postos. Não irei entrar em detallhes de como fazer gráficos usando `ggplot2`, mas não se preocupe que vem ai 
 um curso sobre visaulização de dados, fique atento. 
 
 ```{r}
@@ -129,7 +128,7 @@ anim = staticplot + transition_states(year, transition_length = 4, state_length 
 
 ## Visualizando o gráfico de barras animado
 
-Depois de todo este exercício chegamos ao fim. Vamos la ver como fica o nosso gráfico. Aqui vamos usar a função `animane` da livraria `gganimate`. O resultado final será visualizado em forma de GIF
+Depois de todo este exercício chegamos ao fim. Vamos lá ver como fica o nosso gráfico. Aqui vamos usar a função `animane` da livraria `gganimate`. O resultado final será visualizado em forma de GIF. 
 
 ```{r}
 animate(anim, 200, fps = 20,  width = 1200, height = 1000, 
