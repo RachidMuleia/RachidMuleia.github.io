@@ -13,13 +13,13 @@ show-subscribe: true
 ---
 
 
-Hoje devia estar a trabalhar no meu manuscrito, mas infelizmente acordei com um pouco de preguiça, e quando é assim fico a vaguear por livros de  *data science*, *visualização de dados*, *data storytelling* 
-e demais coisas que agregem a minha paixão por estatística, programação  e análise , claro que de forma descontraída. Após ter visto um vídeo no YOUTUBE-- que mostrava um gráfico exibindo as 
-estatísticas das músicas mais vendidas nos EUA, no período compreendido de 1969 - 2019 -- fiquei fascinado, e como sou apaixonado por DataViz (visualização de dados), pensei como 
-fazer um gráfico da mesma natureza usando a minha ferramenta favorita de análise de dados -- o R. Devo confessar que a príncipio fiquei intimidado, fiquei a pensar que fosse  me levar muito tempo, e como acordei 
-com muita preguiça sem vondade de fazer coisa alguma quase que desisti. Mas sempre que pensava em desistir a  imagem do gráfico não saía da cabeça. Aí pensei, que dados usar?
+Hoje devia estar a trabalhar no meu artigo científico, mas infelizmente acordei com um pouco de preguiça, e quando é assim, fico a vaguear por livros de  *data science*, *visualização de dados*, *data storytelling* 
+e demais coisas que agregem valor a minha paixão por estatística, programação  e análise de dados , claro que de forma descontraída. Após ter visto um vídeo no YOUTUBE — que mostrava um gráfico exibindo as 
+estatísticas das músicas mais vendidas nos EUA, no período compreendido de 1969 - 2019 — fiquei fascinado, e como sou apaixonado por DataViz (visualização de dados), pensei como 
+fazer um gráfico da mesma natureza usando a minha ferramenta favorita de análise de dados — o R. Devo confessar que a príncipio fiquei intimidado, fiquei a pensar que fosse  me levar muito tempo, e como acordei 
+com muita preguiça, sem vondade de fazer coisa alguma, quase que desisti. Mas sempre que pensava em desistir, a  imagem do gráfico não saía da cabeça. Aí pensei, que dados usar?
 A primeira ideia foi de verificar a tendência dos pacotes R mais usados nos últimos 10 anos, mas muito rapidamente desisti da ideia, pois estava díficil baixar esta informação e não queria me meter em muitas linhas de código.
-Depois de um tempo pensei em vendas de automoveis e, por sorte, na primeira pesquisa no GOOGLE encontrei os dados que desejava, embora não estivessem no formato desejável. Em relação ao formato,
+Depois de um tempo, pensei em vendas de automoveis e, por sorte, na primeira pesquisa no GOOGLE, encontrei os dados que desejava, embora não estivessem no formato desejável. Em relação ao formato,
 não me assustei bastante pois, na verdade, gosto de trabalhar com dados, manipulação de dados é uma das minhas paixões. Acho que já estou a falar demais. Vamos dobrar as mangas e mostrar como funciona esta coisa de gráfico
 de barras animado. De uma coisa tenho certeza, vais-te fascinar. 
 
@@ -48,11 +48,12 @@ Depois de usar a função `melt()`, que nos safa de termos que trabalhar com pla
 
 ![](/img/data_tidy.png)
 
-Olhando para os dados, nota-se que temos ainda temos um pequeno problema: temos a coluna *variable* que armazena os dados referente ao ano. Contudo, estes valores são antecedidos por *X*.
+Olhando para os dados, nota-se que temos ainda um pequeno problema: temos a coluna *variable*,  que armazena os dados referente ao ano, com os seus valores precedidos pela letra *X*. 
 Precisamos remover o *X* e deixar apenas a parte númerica, de forma que o R possa reconhecer como númerico. Isto pode ser feito usando a livraria `stringr`, que é uma livraria concenbida para
 trabalhar com valores textuais. Dentro desta livraria, iremos usar a função `str_remove()`
 
 ```{r}
+library(stringr)
 sales_shaped <- sales_tidy %>% mutate(variable = str_remove(variable, 'X'))%>%
   rename(year = variable)
   head(sales_shaped)
@@ -64,7 +65,7 @@ sales_shaped <- sales_tidy %>% mutate(variable = str_remove(variable, 'X'))%>%
 5  BURUNDI 2005   500
 6 CAMEROON 2005  2200
 ```
-Agora parece que está tudo arrumado para podermos avançar. Para o nosso exercício vamos trabalhar com os 10 países com maior número. Para tal, precisamos de em cada ano extraír os
+Agora parece que está tudo arrumado para podermos avançar. Para o nosso exercício, vamos trabalhar com os 10 países com maior número. Para tal, precisamos de em cada ano extraír os
 10 países com mais vendas. Isto involve um pouco de exercício, vamos ter que agrupar os dados por ano e em cada ano extrair os 10 países com maior número de vendas.
 
 ```{r}
@@ -126,7 +127,7 @@ anim = staticplot + transition_states(year, transition_length = 4, state_length 
        caption  = "World Motor Vehicle Sales | Data Source: nternational Organization of Motor Vehicle Manufacturers")
 ```
 
-## Visualizando o gráfico de barras animado.
+## Visualizando o gráfico de barras animado
 
 Depois de todo este exercício chegamos ao fim. Vamos la ver como fica o nosso gráfico. Aqui vamos usar a função `animane` da livraria `gganimate`. O resultado final será visualizado em forma de GIF
 
@@ -139,3 +140,8 @@ animate(anim, 200, fps = 20,  width = 1200, height = 1000,
 
 ![](/img/gganim.gif)
 
+Espero que tenhas gostado de post. Deixe o seu comentário. Dê sugestão de coisas que gostava de ver nesta minha página. Parte do código para elaboração deste gráfico foi graças a [AbdulMajedRaja RS
+](https://towardsdatascience.com/create-animated-bar-charts-using-r-31d09e5841da).
+
+## TRABALHAR COM DADOS É MARAVILHOSO. 
+Até a próxima. 
