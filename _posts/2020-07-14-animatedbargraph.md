@@ -137,5 +137,5 @@ animate(anim, 200, fps = 20,  width = 1200, height = 1000,
 ```
 
 
-![](/img/gganim.gif)
+![](/img/https://www.dropbox.com/s/2xhy8yvm85z0hak/gganim.gif?dl=0)
 
