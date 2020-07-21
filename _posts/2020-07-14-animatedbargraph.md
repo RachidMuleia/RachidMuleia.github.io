@@ -3,7 +3,7 @@ layout: post
 title: "Gráfico de barras animado"
 subtitle: "Mais uma maravilha do R"
 tags: [rstats, r]
-date: 2020-07-15 22:19:38 -0700
+date: 2020-07-14 21:02:38 -0700
 share-img: "/img/gganimate.png"
 image: "/img/gganimate.png"
 readtime: true
