@@ -4,8 +4,8 @@ title: "Gráfico de barras animado"
 subtitle: "Mais uma maravilha do R"
 tags: [rstats, r]
 date: 2020-07-15 22:19:38 -0700
-share-img: "/img/CartazCurso.jpeg"
-image: "/img/CartazCurso.jpeg"
+share-img: "/img/gganimate.png"
+image: "/img/gganimate.png"
 readtime: true
 comments: true
 show-share: true
