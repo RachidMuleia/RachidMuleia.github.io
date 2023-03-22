@@ -1,0 +1,104 @@
+---
+title: Limpeza de dados em R
+author: Rachid Muleia
+date: '2023-03-22'
+slug: como-eliminar-colunas-e-linhas-vazias-numa-data-frame
+categories: []
+tags:
+  - Limpeza de dados
+  - R
+  - janitor
+subtile: Remoção de coluna e linhas vazias numa data frame 
+summary: 'Este post ilustra como pode-se remover colunas vazias de uma base de dados usando o R, recorrendo a funções predifinas e funções da livraria `janitor`'
+authors: []
+lastmod: '2023-03-22T13:28:46+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<div id="como-eliminar-colunas-e-linhas-vazias-numa-data-frame" class="section level2">
+<h2>Como eliminar colunas e linhas vazias numa data frame</h2>
+<p>Na vida, somos eternos aprendizes. Numa das minhas aulas aos estudantes do módulo programação estatística, eu mostrava como fazer inspenccionar e limpar uma base de dados. No entanto, a base de dados continha não mais que 15 variáveis, e algumas colunas da base de dados não tinham nenhuma informação e, logicamente, ninguém quer ter colunas sem informação na sua base de dados. Para remover as colunas vazias, apenas seleccionei as colunas com informação na minha base de dados. Um dos estudante pergunta-me. Professor, e se tivéssemos uma base de dados grande como faríamos para localizar as colunas vazias?.No momento, até gaguejei, mas depois veio a solução. Bom, acho melhor chamar aqui a <code>data frame</code> para entendermos melhor.</p>
+<pre class="r"><code>path&lt;-&#39;C:/Users/Rachid/Dropbox/Analise de Dados DMI/Slides Aulas/MATERIAL DE AULAS MESTRADO/SLIDES&#39;
+snail_df&lt;-read.csv(paste(path,&#39;Snail_feeding.csv&#39;,sep=&#39;/&#39;),header=TRUE)
+
+head(snail_df)</code></pre>
+<pre><code>##   Snail.ID   Sex  Size Feeding Distance Depth Temp  X X.1 X.2
+## 1        1 males small   FALSE     0.22  1.43   18 NA  NA  NA
+## 2        1  male small   FALSE     0.90  1.73   18 NA  NA  NA
+## 3        1  male small   FALSE     0.87  1.95   18 NA  NA  NA
+## 4        1  male small   FALSE     0.87  1.95   18 NA  NA  NA
+## 5        1  male small   FALSE     0.32  1.72   18 NA  NA  NA
+## 6        1  male small    TRUE     0.38  1.63   18 NA  NA  NA</code></pre>
+<p>Como podem ver, a <code>data frame</code> tem três colunas vazias. A minha primeira solução para remover as linhas foi reter na minha <code>data frame</code> apenas colunas que contem alguma informação:</p>
+<pre class="r"><code>snail_df1&lt;-snail_df[, 1:7]
+
+head(snail_df1)</code></pre>
+<pre><code>##   Snail.ID   Sex  Size Feeding Distance Depth Temp
+## 1        1 males small   FALSE     0.22  1.43   18
+## 2        1  male small   FALSE     0.90  1.73   18
+## 3        1  male small   FALSE     0.87  1.95   18
+## 4        1  male small   FALSE     0.87  1.95   18
+## 5        1  male small   FALSE     0.32  1.72   18
+## 6        1  male small    TRUE     0.38  1.63   18</code></pre>
+<p>Para responder a pergunta do estundante, pensei mais em soluções oferecidas no <code>base</code> <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i>, que foi usar uma combinação de funções pre-definidas no <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i>. Eis aqui a minha proposta de solução.</p>
+<pre class="r"><code># primeiro identificar as colunas vazias usando a função is.na()
+na_df&lt;-is.na(snail_df) # a função is.na indica se um valor é NA ou não
+                       # devolvendo TRUE se sim e FALSE se não
+
+head(na_df) # certamente se uma coluna tem NAs, o somatoria dos valores dessa coluna será deferente de zero, então recorri a função colSums</code></pre>
+<pre><code>##      Snail.ID   Sex  Size Feeding Distance Depth  Temp    X  X.1  X.2
+## [1,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+## [2,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+## [3,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+## [4,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+## [5,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+## [6,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE</code></pre>
+<pre class="r"><code>col_zero&lt;-which(colSums(na_df)!=0)
+col_zero</code></pre>
+<pre><code>## Temp    X  X.1  X.2 
+##    7    8    9   10</code></pre>
+<pre class="r"><code>snail_df2&lt;-snail_df[, -col_zero]
+head(snail_df2)</code></pre>
+<pre><code>##   Snail.ID   Sex  Size Feeding Distance Depth
+## 1        1 males small   FALSE     0.22  1.43
+## 2        1  male small   FALSE     0.90  1.73
+## 3        1  male small   FALSE     0.87  1.95
+## 4        1  male small   FALSE     0.87  1.95
+## 5        1  male small   FALSE     0.32  1.72
+## 6        1  male small    TRUE     0.38  1.63</code></pre>
+</div>
+<div id="remover-linhas-ou-colunas-vazias-usando-janitor" class="section level2">
+<h2>Remover linhas ou colunas vazias usando <code>janitor</code></h2>
+<p>Contudo, dias depois deparo me com uma postagem no linkedin <i class="fa-brands fa-linkedin"></i> que falava de como linhas vazias numa <code>data frame</code> usando funções da livraria <code>janitor</code>. Rapidamente, fui a documentação da livraria <code>janitor</code> e vi que a mesma função que fora usada no post, para remover linhas vazias, podia muito be remover colunas vazias, de uma forma bem simples e sem muitas linhas de código.</p>
+<pre class="r"><code>library(janitor)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;janitor&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     chisq.test, fisher.test</code></pre>
+<pre class="r"><code>snail_df3&lt;-remove_empty(snail_df, which =&#39;cols&#39;, cutoff = 1, quiet = TRUE)
+
+head(snail_df3)</code></pre>
+<pre><code>##   Snail.ID   Sex  Size Feeding Distance Depth Temp
+## 1        1 males small   FALSE     0.22  1.43   18
+## 2        1  male small   FALSE     0.90  1.73   18
+## 3        1  male small   FALSE     0.87  1.95   18
+## 4        1  male small   FALSE     0.87  1.95   18
+## 5        1  male small   FALSE     0.32  1.72   18
+## 6        1  male small    TRUE     0.38  1.63   18</code></pre>
+<p>Espero que este poste tenha sido útil. Deixe aqui o seu comentário!!</p>
+<script src="https://utteranc.es/client.js"
+        repo="RachidMuleia / RachidMuleia.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
