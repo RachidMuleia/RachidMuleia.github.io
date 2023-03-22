@@ -74,13 +74,3 @@ head(snail_df3)
  
 Espero que este post tenha sido útil. Deixe aqui o seu comentário!!
  
-
-<script src="https://utteranc.es/client.js"
-        repo="RachidMuleia / RachidMuleia.github.io"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-
