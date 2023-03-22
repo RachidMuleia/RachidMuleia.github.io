@@ -40,24 +40,6 @@ main_menu:
   show_search: true
   highlight_active_link: true
 
-comments:
-  provider: 'utterances'
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: 'rachidmuleia'
-    show_count: true
-  commento:
-    url: ''
-  utterances:
-    repo: 'RachidMuleia/rachidmuleia.github.io'
-    issue_term: 'title'
-    label: 'Comment'
-    theme: 'github-light'
 
 # Site footer
 
@@ -129,6 +111,24 @@ projects:
 breadcrumb:
   page_types:
     book: true
+comments:
+  provider: 'utterances'
+  commentable:
+    post: true
+    book: true
+    project: true
+    publication: true
+    event: true
+  disqus:
+    shortname: 'rachidmuleia'
+    show_count: true
+  commento:
+    url: ''
+  utterances:
+    repo: 'RachidMuleia/rachidmuleia.github.io'
+    issue_term: 'title'
+    label: 'Comment'
+    theme: 'github-light'
 search:
   provider: wowchemy
   algolia:
