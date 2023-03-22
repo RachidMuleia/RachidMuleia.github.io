@@ -129,19 +129,6 @@ projects:
 breadcrumb:
   page_types:
     book: true
-comments:
-  provider: ''
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
 search:
   provider: wowchemy
   algolia:
