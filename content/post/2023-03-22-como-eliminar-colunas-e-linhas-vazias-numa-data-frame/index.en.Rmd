@@ -72,12 +72,13 @@ snail_df3<-remove_empty(snail_df, which ='cols', cutoff = 1, quiet = TRUE)
 head(snail_df3)
 ```
  
-Espero que este poste tenha sido útil. Deixe aqui o seu comentário!!
+Espero que este post tenha sido útil. Deixe aqui o seu comentário!!
  
 
 <script src="https://utteranc.es/client.js"
         repo="RachidMuleia / RachidMuleia.github.io"
         issue-term="pathname"
+        label="Comment"
         theme="github-light"
         crossorigin="anonymous"
         async>
