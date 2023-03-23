@@ -38,9 +38,9 @@ Actualmente, a análise de dados usando a metodologia estatística é geralmente
 
 - Saber importar, manipular e resumir dados em R;
 
-- Conceptualizar e criar estruturas de control para resolução de vários problemas;
+- Conceptualizar e criar estruturas de controlo para resolução de vários problemas;
 
--Saber criar próprias funções “persoalizadas”;
+-Saber criar próprias funções “personalizadas”;
 
 ### Plano temático
 
@@ -51,6 +51,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Estruturas de dados](Aula_Estruturas_Dados.pdf)
  - [Importação e exportação de dados](Importacao_Dados.pdf) 
  - [Manipulação de dados](Manipulacao_Dados.pdf)
+ - [Tratamento de dados](Tratamento_de_dados.pdf)
 
 
 ### Fichas de exercícios- Aulas práticas

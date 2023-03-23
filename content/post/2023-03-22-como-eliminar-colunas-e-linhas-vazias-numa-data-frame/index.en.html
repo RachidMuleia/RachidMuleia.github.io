@@ -9,7 +9,7 @@ tags:
   - R
   - janitor
 subtile: Remoção de coluna e linhas vazias numa data frame 
-summary: 'Este post ilustra como pode-se remover colunas vazias de uma base de dados usando o R, recorrendo a funções predifinas e funções da livraria `janitor`'
+summary: 'Este post ilustra como pode-se remover colunas vazias de uma base de dados usando o R, recorrendo a funções predefinidas e funções da livraria `janitor`'
 authors: []
 lastmod: '2023-03-22T13:28:46+02:00'
 featured: no
@@ -24,7 +24,7 @@ projects: []
 
 <div id="como-eliminar-colunas-e-linhas-vazias-numa-data-frame" class="section level2">
 <h2>Como eliminar colunas e linhas vazias numa data frame</h2>
-<p>Na vida, somos eternos aprendizes. Numa das minhas aulas aos estudantes do módulo programação estatística, eu mostrava como fazer inspenccionar e limpar uma base de dados. No entanto, a base de dados continha não mais que 15 variáveis, e algumas colunas da base de dados não tinham nenhuma informação e, logicamente, ninguém quer ter colunas sem informação na sua base de dados. Para remover as colunas vazias, apenas seleccionei as colunas com informação na minha base de dados. Um dos estudante pergunta-me. Professor, e se tivéssemos uma base de dados grande como faríamos para localizar as colunas vazias?.No momento, até gaguejei, mas depois veio a solução. Bom, acho melhor chamar aqui a <code>data frame</code> para entendermos melhor.</p>
+<p>Na vida, somos eternos aprendizes. Numa das minhas aulas aos estudantes do módulo programação estatística, eu mostrava como fazer inspenccionar e limpar uma base de dados. No entanto, a base de dados continha não mais que 15 variáveis, e algumas colunas da base de dados não tinham nenhuma informação e, logicamente, ninguém quer ter colunas sem informação na sua base de dados. Para remover as colunas vazias, apenas seleccionei as colunas com informação na minha base de dados. Um dos estudante pergunta-me. Professor, e se tivéssemos uma base de dados grande como faríamos para localizar as colunas vazias? No momento, até gaguejei, mas depois veio a solução. Bom, acho melhor chamar aqui a <code>data frame</code> para entendermos melhor.</p>
 <pre class="r"><code>path&lt;-&#39;C:/Users/Rachid/Dropbox/Analise de Dados DMI/Slides Aulas/MATERIAL DE AULAS MESTRADO/SLIDES&#39;
 snail_df&lt;-read.csv(paste(path,&#39;Snail_feeding.csv&#39;,sep=&#39;/&#39;),header=TRUE)
 
@@ -76,7 +76,7 @@ head(snail_df2)</code></pre>
 </div>
 <div id="remover-linhas-ou-colunas-vazias-usando-janitor" class="section level2">
 <h2>Remover linhas ou colunas vazias usando <code>janitor</code></h2>
-<p>Contudo, dias depois deparo me com uma postagem no linkedin <i class="fa-brands fa-linkedin"></i> que falava de como linhas vazias numa <code>data frame</code> usando funções da livraria <code>janitor</code>. Rapidamente, fui a documentação da livraria <code>janitor</code> e vi que a mesma função que fora usada no post, para remover linhas vazias, podia muito be remover colunas vazias, de uma forma bem simples e sem muitas linhas de código.</p>
+<p>Contudo, dias depois deparo me com uma postagem no linkedin <i class="fa-brands fa-linkedin"></i> que falava de como remover linhas vazias numa <code>data frame</code> usando funções da livraria <code>janitor</code>. Rapidamente, fui a documentação da livraria <code>janitor</code> e vi que a mesma função que fora usada no post, para remover linhas vazias, podia muito be remover colunas vazias, de uma forma bem simples e sem muitas linhas de código.</p>
 <pre class="r"><code>library(janitor)</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;janitor&#39;</code></pre>
