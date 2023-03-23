@@ -51,7 +51,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Estruturas de dados](Aula_Estruturas_Dados.pdf)
  - [Importação e exportação de dados](Importacao_Dados.pdf) 
  - [Manipulação de dados](Manipulacao_Dados.pdf)
- - [Tratamento de dados](Tratamento_de_dados.pdf). Bases de dados para a aula pode ser encontrada [aqui](iris_missing.zip) 
+ - [Tratamento de dados](Tratamento_de_dados.pdf). Bases de dados para a aula pode ser encontrada [aqui](iris_missing1.zip) 
 
 
 ### Fichas de exercícios- Aulas práticas

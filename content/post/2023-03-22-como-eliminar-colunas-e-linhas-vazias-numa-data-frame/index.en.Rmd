@@ -48,7 +48,7 @@ Para responder a pergunta do estundante, pensei mais em soluções oferecidas no
 
 ```{r}
 # primeiro identificar as colunas vazias usando a função is.na()
-na_df<-is.na(snail_df) # a função is.na indica se um valor é NA ou não
+na_df<-is.na(snail_df) # a função is.na() indica se um valor é NA ou não
                        # devolvendo TRUE se sim e FALSE se não
 
 head(na_df) # certamente se uma coluna tem NAs, o somatoria dos valores dessa coluna será deferente de zero, então recorri a função colSums
