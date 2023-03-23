@@ -40,7 +40,7 @@ Actualmente, a análise de dados usando a metodologia estatística é geralmente
 
 - Conceptualizar e criar estruturas de controlo para resolução de vários problemas;
 
--Saber criar próprias funções “personalizadas”;
+- Saber criar próprias funções “personalizadas”;
 
 ### Plano temático
 
