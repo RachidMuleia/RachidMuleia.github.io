@@ -66,3 +66,4 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Estruturas de dados](Aula_Estrutura_de_Dados.R)
  - [Importação e Exportação de dados](Importacao_de_Dados.R)
  - [Manipulação de Dados](Manipulacao_de_Dados.R)
+ - [Tratamento de dados](Tratamento_de_dados.R)
