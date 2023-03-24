@@ -47,11 +47,23 @@ Actualmente, a análise de dados usando a metodologia estatística é geralmente
 Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_ANALITICO_MEA_PE.pdf)
 
 ### Notas para as aula teóricas
- - [Introdução ao R](AULAS_PE.pdf)
- - [Estruturas de dados](Aula_Estruturas_Dados.pdf)
- - [Importação e exportação de dados](Importacao_Dados.pdf) 
- - [Manipulação de dados](Manipulacao_Dados.pdf)
- - [Tratamento de dados](Tratamento_de_dados.pdf). Bases de dados para a aula pode ser encontrada [aqui](iris_missing1.zip) 
+ - [Introdução ao R - Slides](AULAS_PE.pdf)
+ - [Estruturas de dados- Slides](Aula_Estruturas_Dados.pdf)
+ - [Importação e exportação de dados - Slides](Importacao_Dados.pdf) 
+ 
+    - Vídeo aula 
+    
+    
+  <iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/cuuz6zz16yjyxuc/Importacao_dados.mp4?dl=0" frameborder="0" allowfullscreen></iframe> 
+ 
+ - [Manipulação de dados- Slides](Manipulacao_Dados.pdf)
+ 
+ - [Tratamento de dados- Slides](Tratamento_de_dados.pdf). Bases de dados para a aula pode ser encontrada [aqui](iris_missing1.zip) 
+ 
+ 
+   -  Vídeo aula
+   
+   <iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/t5rkcex5e8t5req/video1960531510.mp4?dl=0" frameborder="0" allowfullscreen></iframe>
 
 
 ### Fichas de exercícios- Aulas práticas
