@@ -54,7 +54,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
     - Vídeo aula 
     
     
-  <iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/cuuz6zz16yjyxuc/Importacao_dados.mp4?dl=0" frameborder="0" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/cuuz6zz16yjyxuc/Importacao_dados.mp4?dl=0" frameborder="0" allowfullscreen></iframe> 
  
  - [Manipulação de dados- Slides](Manipulacao_Dados.pdf)
  
@@ -63,7 +63,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  
    -  Vídeo aula
    
-   <iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/t5rkcex5e8t5req/video1960531510.mp4?dl=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/t5rkcex5e8t5req/video1960531510.mp4?dl=0" frameborder="0" allowfullscreen></iframe>
 
 
 ### Fichas de exercícios- Aulas práticas
