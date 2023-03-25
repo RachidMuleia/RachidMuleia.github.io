@@ -64,6 +64,10 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
    -  Vídeo aula
    
 <iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/t5rkcex5e8t5req/video1960531510.mp4?dl=0" frameborder="0" allowfullscreen></iframe>
+ 
+  - Continuacao da aula passada- funções em R
+     
+<iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/n6vxq52c8w9lx28/Funcoes.mp4?dl=0" frameborder="0" allowfullscreen></iframe>     
 
 
 ### Fichas de exercícios- Aulas práticas
@@ -79,3 +83,5 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Importação e Exportação de dados](Importacao_de_Dados.R)
  - [Manipulação de Dados](Manipulacao_de_Dados.R)
  - [Tratamento de dados](Tratamento_de_dados.R)
+ - [Funções](Funcoes.R)
+
