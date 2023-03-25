@@ -14,6 +14,7 @@ weight: 10
 Actualmente, a análise de dados usando a metodologia estatística é geralmente conduzida usando uma linguagem de programação para executar tarefas denominada por programação estatística. Esta disciplina apresenta uma introdução ao uso da linguagem de programação estatística em R amplamente utilizada no processo de análises estatísticas de dados. A seguir encontre o plano temático e analítico do módulo e demais recursos para o presente módulo. 
 
 
+
 ### Requisitos importantes:
 - Recomenda-se que cada estudante tenha um computador, preferencialmente um laptop.
 
