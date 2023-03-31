@@ -85,4 +85,13 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Manipulação de Dados](Manipulacao_de_Dados.R)
  - [Tratamento de dados](Tratamento_de_dados.R)
  - [Funções](Funcoes.R)
+ 
+ 
+ 
+### TESTE I
+
+ - Encontre aqui o enunciado do Teste [[enunciado]](Teste_I.pdf). Este teste é acompanho de algumas bases de dados:
+
+  - Base de dados [Employee_Payroll_Tab](Employee_Payroll_Tab.txt) e a base de dados [Employee_Payroll_Pipe](Employee_Payroll_Pipe.txt)
+ 
 
