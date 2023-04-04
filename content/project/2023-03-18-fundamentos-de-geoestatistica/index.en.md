@@ -42,7 +42,7 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Ficha de exercício número II](Exercícios_FG.pdf)
 
-- [Ficha de exercício número III](Krigagem_Exercícios.pdf)
+- [Ficha de exercício número III](Krigagem_exercicios.pdf)
 
 - [Ficha de exercício número IV](Krigagem_pratica.pdf)
 
