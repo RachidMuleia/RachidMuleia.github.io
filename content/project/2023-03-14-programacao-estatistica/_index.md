@@ -68,7 +68,10 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  
   - Continuacao da aula passada- funções em R
      
-<iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/n6vxq52c8w9lx28/Funcoes.mp4?dl=0" frameborder="0" allowfullscreen></iframe>     
+<iframe width="560" height="315" src="https://dl.dropboxusercontent.com/s/n6vxq52c8w9lx28/Funcoes.mp4?dl=0" frameborder="0" allowfullscreen></iframe> 
+
+
+- [Estrutura de controlo](Estruturas_Controlo_Aula.pdf)
 
 
 ### Fichas de exercícios- Aulas práticas
@@ -85,7 +88,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Manipulação de Dados](Manipulacao_de_Dados.R)
  - [Tratamento de dados](Tratamento_de_dados.R)
  - [Funções](Funcoes.R)
- - [Estrutura de controlo](Estruturas_Controlo_Aula.pdf)
+ 
  
  
  
