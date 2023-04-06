@@ -85,6 +85,8 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Manipulação de Dados](Manipulacao_de_Dados.R)
  - [Tratamento de dados](Tratamento_de_dados.R)
  - [Funções](Funcoes.R)
+ - [Estrutura de controlo](Estruturas_Controlo_Aula.pdf)
+ 
  
  
  
