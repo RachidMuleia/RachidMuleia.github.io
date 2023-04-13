@@ -73,6 +73,8 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
 
 - [Estrutura de controlo](Estruturas_Controlo_Aula.pdf)
 
+- [Visualização de dados](Visualizacao_Dados.pdf)
+
 
 ### Fichas de exercícios- Aulas práticas
 
