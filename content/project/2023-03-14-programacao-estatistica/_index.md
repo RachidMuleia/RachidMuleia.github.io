@@ -90,6 +90,8 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Manipulação de Dados](Manipulacao_de_Dados.R)
  - [Tratamento de dados](Tratamento_de_dados.R)
  - [Funções](Funcoes.R)
+ - [Estruturas de controlo](Estruturas_Controlo.R)
+ - [Visualização de dados](Visualizacao_Dados.R). Baixe igualmente esta base dados: [malaria](malaria_df.csv) . Esta base de dados é para replicar as últimas linhas do código, onde usamos a base de dados `malaria_df`. 
  
  
  
