@@ -81,6 +81,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
 - [Ficha de exercício número 1](Ficha1.pdf)
 - [Ficha de exercicio número 2](Ficha_Exercicios_Mestrado.pdf)
 - [Ficha de exercício número 3](Exercicios_Manipulacao_Dados.pdf). Baixe, igualmente a base de dados [esaligna](esaligna.csv)
+- [Ficha de exercício número 4](Exercicios_Estruturas_Controlo.pdf)
 
 
 ### Scripts das aulas
