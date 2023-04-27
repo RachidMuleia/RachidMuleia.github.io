@@ -99,10 +99,13 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  
  
  
-### TESTE I
+### TESTE II
 
- - Encontre aqui o enunciado do Teste [[enunciado]](Teste_I.pdf). Este teste é acompanho de algumas bases de dados:
+Encontre aqui o enunciado do Teste [[enunciado]](Teste_II.pdf). Considere, para a resolução do teste, os seguintes ficheiros:
 
-  - Base de dados [Employee_Payroll_Tab](Employee_Payroll_Tab.txt) e a base de dados [Employee_Payroll_Pipe](Employee_Payroll_Pipe.txt)
- 
+
+- [CORDEX DATA](CORDEX_DATA.zip)
+- [AULAS](AULAS.zip)
+- [ZAMBEZIA PROJECCOES](Zambezia_Projeccoes.xls)
+
 
