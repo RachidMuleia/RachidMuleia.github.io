@@ -75,6 +75,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
 
 - [Visualização de dados](Visualizacao_Dados.pdf)
 
+- [Simulação de dados](Aula_Simulacao_Dados.pdf)
 
 ### Fichas de exercícios- Aulas práticas
 
