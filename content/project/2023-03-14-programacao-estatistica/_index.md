@@ -114,7 +114,7 @@ Encontre aqui o enunciado do Teste [[enunciado]](Teste_II.pdf). Considere, para 
 
 Para o presente trabalho em grupo, os estudantes irão considerar as bases de dados do IOF [2008/09](https://www.dropbox.com/s/yqv9be7kzk9hz98/IOF%20HH%20Pop.rar?dl=0) e [2014/15](https://www.dropbox.com/s/f2gm7y3290vxkqh/Bases%20para%20Usu%C3%A1rios_IOF2014-15.rar?dl=0). O objectivo deste trabalho é calcular uma lista de indicadores que se encontram descritos [AQUI](LISTA_DE_INDICADORES_POR_CALCULAR.xlsx). Todos indicadores que estão listados neste ficheiro, deverão ser calculados por LIVELIHOOD ZONE. A classificação destas zonas esta descrita [AQUI](Districts_LZ.xls). Importa referir que deverão fazer o merge do ficheiro onde tem a descrição das zonas com as bases de dados do IOF.  Para mais detalhes sobre as bases podem consultar os relatórios do IOF disponível na página web do Instituto Nacional de Estatística. 
 
-Este trabalho deve ser submetido 13/05/2023. Para submter clique [AQUI](https://www.dropbox.com/request/Ne1NyfGGWfS9F7f0GwD9). Submeta apenas o SCRIPT. 
+Este trabalho deve ser submetido 13/05/2023. Para submeter clique [AQUI](https://www.dropbox.com/request/Ne1NyfGGWfS9F7f0GwD9). Submeta apenas o SCRIPT. 
 
 O TRABALHO DE SER FEITO EM GRUPOS DE TRÊS ESTUDANTES.
 
