@@ -33,7 +33,16 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 ### Notas das aulas teóricas
 
-[Notas de Fundamentos de Geoestatistica](FG2019.pdf)
+- [Notas de Fundamentos de Geoestatistica](FG2019.pdf)
+
+- [Krigagem universal e krigagem em bloco](Krigagem_Universal.pdf)
+
+- [Krigagem Indicatriz](Krigagem_Indicatriz.pdf)
+
+- [Krigagem universal-Exemplo](Exemplo_Krigagem_Universal.pdf)
+
+- [Krigagem em bloco- Exemplo](Exemplo_Krigagem_Bloco.pdf)
+
 
 
 ### Ficha de exericios- Aulas práticas
@@ -45,6 +54,17 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 - [Ficha de exercício número III](Krigagem_exercicios.pdf)
 
 - [Ficha de exercício número IV](Krigagem_pratica.pdf)
+
+
+## Trabalho prático
+
+- [Análise variográfica](Trabalho_praticoI.pdf)
+  
+  - Este trabalho deverá ser submetido no dia 11/05/2023. Para submeter clique:
+     - [LABORAL](https://www.dropbox.com/request/fLrNLc426bJ2rN540wzq)
+     - [POS-LABORAL](https://www.dropbox.com/request/M7zcySeEpW1jEMBxxRjJ)
+  
+
 
 
 
