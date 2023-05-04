@@ -39,7 +39,7 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Krigagem Indicatriz](Krigagem_Indicatriz.pdf)
 
-- [Krigagem universal-Exemplo](Exemplo_Krigagem_Universal.pdf)
+- [Krigagem universal-Exemplo](Krigagem_Universal_Exemplo.pdf)
 
 - [Krigagem em bloco- Exemplo](Exemplo_Krigagem_Bloco.pdf)
 
