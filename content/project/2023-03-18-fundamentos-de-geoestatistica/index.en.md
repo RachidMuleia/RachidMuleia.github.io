@@ -55,6 +55,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Ficha de exercício número IV](Krigagem_pratica.pdf)
 
+- [Aula laboratorial- Ajustamento do semivariograma](AULA_PRATICA_LAB_FG.R)
+
 
 ## Trabalho prático
 
