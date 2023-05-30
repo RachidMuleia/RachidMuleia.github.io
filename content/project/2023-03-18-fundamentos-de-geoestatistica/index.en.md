@@ -57,6 +57,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Aula laboratorial- Ajustamento do semivariograma](AULA_PRATICA_LAB_FG.R)
 
+- [Teste passado-preparação](Teste2.pdf)
+
 
 ## Trabalho prático
 
