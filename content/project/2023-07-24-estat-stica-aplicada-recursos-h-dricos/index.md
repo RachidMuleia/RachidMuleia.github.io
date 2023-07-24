@@ -1,5 +1,5 @@
 ---
-title: Estatística Aplicada  Recursos Hídricos
+title: Estatística Aplicada a Recursos Hídricos
 author: ''
 date: '2023-07-24'
 slug: estat-stica-aplicada-recursos-h-dricos
