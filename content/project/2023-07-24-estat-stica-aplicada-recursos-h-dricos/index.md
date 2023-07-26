@@ -42,7 +42,11 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Variáveis aleatórias contínuas](Probabilidade_Variaveis_Aleatorias_Continuas.pdf)
 
+- [Distribuições Teóricas de Probabilidade de variáveis aleatórias discretas](Distribuicoes_Teoricas_discretas_2023.pdf)
+
+- [Distribuições Teóricas de Probabilidade de variáveis aleatórias contínuas](Distribuicoes_Teoricas Contínuas_2023)
 
 
 
-Parte das notas foram extraídas do material didático produzido pelo professor Cachimo Assane. 
+
+Parte das notas foram extraídas do material didático produzido pelo professor Cachimo Assane. Um especial agradecimento !!! 
