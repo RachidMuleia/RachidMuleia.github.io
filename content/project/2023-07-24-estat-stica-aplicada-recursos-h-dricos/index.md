@@ -44,7 +44,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Distribuições Teóricas de Probabilidade de variáveis aleatórias discretas](Distribuicoes_Teoricas_discretas_2023.pdf)
 
-- [Distribuições Teóricas de Probabilidade de variáveis aleatórias contínuas](Distribuicoes_Teoricas Contínuas_2023)
+- [Distribuições Teóricas de Probabilidade de variáveis aleatórias contínuas](Distribuicoes_Teoricas Contínuas_2023.pdf)
 
 
 
