@@ -46,7 +46,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Distribuições Teóricas de Probabilidade de variáveis aleatórias contínuas](Distribuicoes_Teoricas_Continuas_2023.pdf)
 
-#### Estatística infereencial 
+#### Estatística inferencial 
 
 - [Estimação pontual](Inferencia_Estatistica_Estimacao_2023.pdf)
 
@@ -55,6 +55,12 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 - [Testes de hipóteses: Introdução](Inferencia_Estatistica_Teste_de_hipotese_2023.pdf)
 
 - [Testes de hipóteses: comparação entre médias](Inferencia_Estatistica_Comp_entre_medias_2023.pdf)
+
+- [Análise de Variância](ANOVA.pdf)
+
+## Análise Bivariada
+
+- [Covariância e Correlaçao](Correlacao_E_Covariancia_AULA_MESTRADO.pdf)
 
 
 
