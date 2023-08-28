@@ -58,6 +58,8 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Análise de Variância](ANOVA.pdf)
 
+- [Aula prática- Analise Univariada](Pratica_Estatistica_Basica.R)
+
 #### Análise Bivariada
 
 - [Covariância e Correlaçao](Correlacao_E_Covariancia_AULA_MESTRADO.pdf)
