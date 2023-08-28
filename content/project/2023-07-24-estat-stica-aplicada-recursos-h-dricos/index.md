@@ -58,7 +58,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Análise de Variância](ANOVA.pdf)
 
-## Análise Bivariada
+#### Análise Bivariada
 
 - [Covariância e Correlaçao](Correlacao_E_Covariancia_AULA_MESTRADO.pdf)
 - [Regressão Linear](Regressao_Linear_Aula.pdf)
