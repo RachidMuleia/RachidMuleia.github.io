@@ -65,6 +65,12 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 - [Covariância e Correlaçao](Correlacao_E_Covariancia_AULA_MESTRADO.pdf)
 - [Regressão Linear](Regressao_Linear_Aula.pdf)
 - [Script em R para análise da correlação e Regressão](Pratica_correlacao.R)
+- [Inferencia sobre os parametros do modelo de Regressão linear](regressao_inferencia.pdf)
+
+#### Análise espacial
+
+-[Introdução a Geoestaística](Geoestatistica_Intro.pdf)
+
 
 
 
