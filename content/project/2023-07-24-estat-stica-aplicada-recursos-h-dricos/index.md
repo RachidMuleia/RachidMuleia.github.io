@@ -6,7 +6,7 @@ slug: estat-stica-aplicada-recursos-h-dricos
 categories: []
 tags: []
 subtitle: ''
-summary: 'Este é um modulo de estatística concebido para os estudantes do Mestrado em Gestão de Recursos Hídricos'
+summary: 'Este é um módulo de estatística concebido para os estudantes do Mestrado em Gestão de Recursos Hídricos'
 authors: []
 lastmod: '2023-07-24T22:29:19+02:00'
 featured: no
@@ -69,7 +69,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 #### Análise espacial
 
--[Introdução a Geoestaística](Geoestatistica_Intro.pdf)
+- [Introdução a Geoestaística](Geoestatistica_Intro.pdf)
 
 
 
