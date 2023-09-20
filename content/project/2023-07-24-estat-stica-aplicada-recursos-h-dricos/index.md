@@ -70,6 +70,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 #### Análise espacial
 
 - [Introdução a Geoestaística](Geoestatistica_Intro.pdf)
+- [Aula prática - Análise variográfica](AULA_PRATICA_ANALISE_VARIOGRAFICA.R)
 
 
 
