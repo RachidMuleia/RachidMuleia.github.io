@@ -71,6 +71,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Introdução a Geoestaística](Geoestatistica_Intro.pdf)
 - [Aula prática - Análise variográfica](AULA_PRATICA_ANALISE_VARIOGRAFICA.R)
+- [Interpolação espacial](Interpolacao_Krig.pdf)
 
 
 
