@@ -78,9 +78,6 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Validação cruzada](Validacao_Cruzada.pdf)
 
-- 
-
-
 
 
 
