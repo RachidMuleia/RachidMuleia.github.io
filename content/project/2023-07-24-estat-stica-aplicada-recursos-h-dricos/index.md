@@ -71,8 +71,14 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Introdução a Geoestaística](Geoestatistica_Intro.pdf)
 - [Aula prática - Análise variográfica](AULA_PRATICA_ANALISE_VARIOGRAFICA.R)
-- [Interpolação espacial](Interpolacao_Krig.pdf). Para esta aula considere os seguintes ficheiros: [shapefile de HIV](Shapefile_MZ_HIV.zip), [shapefile do país](Shapefile_MOZ.zip) e os [dados de HIV](hiv_prev.csv)
+- [Interpolação espacial](Interpolacao_Krig.pdf). Para esta aula considere os seguintes ficheiros: [shapefile de HIV](Shapefile_MZ_HIV.zip), [shapefile do país](Shapefile_MOZ.zip) e os [dados de HIV](hiv_prev.csv) e [dados sobre o ph no riacho Smooky Mountain](ph_data.txt)
+-[Krigagem Universal](Krigagem_Universal.pdf)
 
+-[Interpolação por krigagem- prática](INTERPOLACAO_VIZUALICAO_IDW.R)
+
+- [Validação cruzada](Validacao_Cruzada.pdf)
+
+- 
 
 
 
