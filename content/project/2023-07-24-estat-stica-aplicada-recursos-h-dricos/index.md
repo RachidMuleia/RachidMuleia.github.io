@@ -78,7 +78,7 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 
 - [Validação cruzada](Validacao_Cruzada.pdf)
 
-- [Trabalho prático](Trabalho_prático.pdf). Considerem o seguinte link para aceder ao livro que contém as bases de dados : [Geostatlstics for Engineers & Earth Scientists](https://www.dropbox.com/scl/fi/9sxqz4oehfd6x2yqzt211/Ricardo-A.-Olea-auth.-Geostatistics-for-Engineers-and-Earth-Scientists-Springer-US-1999.pdf?rlkey=fzn9ietq0z4m21v54ggvbw6sz&dl=0). A lista dos grupos pode ser encontrada [aqui](Lista_grupo.xlsx)
+- [Trabalho prático](Trabalho_pratico.pdf). Considerem o seguinte link para aceder ao livro que contém as bases de dados : [Geostatlstics for Engineers & Earth Scientists](https://www.dropbox.com/scl/fi/9sxqz4oehfd6x2yqzt211/Ricardo-A.-Olea-auth.-Geostatistics-for-Engineers-and-Earth-Scientists-Springer-US-1999.pdf?rlkey=fzn9ietq0z4m21v54ggvbw6sz&dl=0). A lista dos grupos pode ser encontrada [aqui](Lista_grupo.xlsx)
 
 
 Parte das notas foram extraídas do material didáctico produzido pelo professor Cachimo Assane. Um especial agradecimento !!! 
