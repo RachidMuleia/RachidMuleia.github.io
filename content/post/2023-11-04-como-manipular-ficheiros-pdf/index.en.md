@@ -31,7 +31,8 @@ O <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunc
 Vamos, primeiro, mostrar como extrair/seleccionar uma determinada página num ficheiro pdf
 
 
-```{r,eval=FALSE}
+
+```r
 library(pdftools)
 
 # extraír algumas páginas de um ficheiro pdf
@@ -40,13 +41,12 @@ pdf_subset(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-esta
            output = 'aulas_primeiras_paginas.pdf', # nome do ficheiro com as paginas extraídas
            pages = c(1,10,12) # páginas a extrair
     )
-
-
 ```
 
 Para combinar vários ficheiros `pdf` num único ficheiro, usamos a função `pdf_combine`. Esta função pode-se usar para combinar, por exemplo, a sua carta de candidatura, CV e os seus certificados para submição em uma vaga de emprego. Então, não precisa mais sofrer em pagar alguns softwares comerciais para tal.
 
-```{r, eval=FALSE}
+
+```r
 library(pdftools)
 
 # combinar varios ficheiros pdf  
@@ -59,13 +59,13 @@ pdf_combine(input = c('https://rachidmuleia.com/project/2023-03-14-programacao-e
 Por último, temos a função `pdf_split` que permite separar um ficheiro pdf em vários, onde temos um ficheiro para cada página. 
 
 
-```{r, eval = FALSE}
+
+```r
 library(pdftools)
 
 # separar ficheiro pdf em vários ficheiros pdf
 
 pdf_split(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf')
-
 ```
 
 
