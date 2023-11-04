@@ -59,7 +59,7 @@ pdf_combine(input = c(url_doc1,url_doc2 ), #vector com as urls dos ficheiros a c
             )
 ```
 
-Repare que neste exemplo considero documentos em uma `url`, mas também podemos ler considerar documentos armazenados localmente (no directório de trabalho ou indicando o directório que contém os ficheiros ). 
+Repare que neste exemplo considero documentos em uma `url`, mas também podemos considerar documentos armazenados localmente (no directório de trabalho ou indicando o directório que contém os ficheiros ). 
 
 
 ```{r, eval=FALSE}
