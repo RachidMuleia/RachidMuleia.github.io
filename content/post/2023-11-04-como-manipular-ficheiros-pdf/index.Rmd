@@ -4,7 +4,10 @@ author: ''
 date: '2023-11-04'
 slug: como-manipular-ficheiros-pdf
 categories: []
-tags: []
+tags:
+  - pdftools
+  - ficheiros pdf
+  - R
 subtitle: Manipulação de ficheiros em pdf
 summary: 'Este post mostra como manipular ficheiros pdf usano a livraria pdftools'
 authors: []
