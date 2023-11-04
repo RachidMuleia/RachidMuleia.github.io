@@ -34,7 +34,7 @@ Vamos, primeiro, mostrar como extrair/seleccionar uma determida página num fich
 ```{r}
 library(pdftools)
 
-# extraír algumas páginas 
+# extraír algumas páginas de um ficheiro pdf
 
 pdf_subset(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf', # nome o ficheiro onde faremos a extração
            output = 'aulas_primeiras_paginas.pdf', # nome do ficheiro com as paginas extraídas
@@ -69,7 +69,7 @@ pdf_split(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estat
 ```
 
 
-Espero que tenha gostado do post. Partilhe e deixe aqui o seu comentário!!
+Espero que tenha gostado do post. Partilhe e deixe aqui o seu comentário!!!
  
 
 
