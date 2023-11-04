@@ -1,0 +1,69 @@
+---
+title: Como manipular ficheiros pdf em <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunca pára de me supreender, e sempre tenho tido, com o  <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> 
+author: ''
+date: '2023-11-04'
+slug: como-manipular-ficheiros-pdf
+categories: []
+tags: []
+subtitle: ''
+summary: 'Manipulação de ficheiros em pdf'
+authors: []
+lastmod: '2023-11-04T20:40:14+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+## Como manipular ficheiros em pdf usando o R
+
+
+O <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunca pára de me supreender, e sempre tenho tido, com o  <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> pode-se fazer tudo. E hoje, gostava de mostrar como podemos manipular ficheiros `pdf` usando a livraria  `pdftools`. Esta livraria tem varias funcionalidades para manipular ficheiros `pdf`. Contudo, para este post irei mostrar como podemos juntar vários ficheiros `pdf` num único ficheiros, como separar ficheiros e como seleccionar algumas páginas de um ficheiro `pdf`. 
+
+
+Vamos, primeiro, mostrar como extrair/seleccionar uma determida página num ficheiro pdf
+```{r, eval= FALSE}
+library(pdftools)
+
+# extraír algumas páginas 
+
+pdf_subset(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf', # nome o ficheiro onde faremos a extração
+           output = 'aulas_primeiras_paginas.pdf', # nome do ficheiro com as paginas extraídas
+           pages = c(1,10,12) # páginas a extrair
+    )
+
+
+```
+
+Para combinar vários ficheiros `pdf` num único ficheiro, usamos a função `pdf_combine`
+
+```{r, eval= FALSE}
+library(pdftools)
+
+# combinar varios ficheiros pdf  
+
+pdf_combine(input = c('Aula_Estruturas_Dados.pdf', 'Importacao_Dados.pdf'), #vector com os nomes dos ficheiros a combinar
+            output = 'ficheiro_combinado. pdf' # nome do ficheiro com os pdfs combinados
+            )
+
+
+```
+
+Por último, temos a função `pdf_split` que permite separar um ficheiro pdf em vários, onde temos um ficheiro para cada página. 
+
+
+```{r, eval=FALSE}
+library(pdftools)
+
+# separar ficheiro pdf em vários ficheiros pdf
+
+pdf_split(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf')
+
+
+
+```
+
