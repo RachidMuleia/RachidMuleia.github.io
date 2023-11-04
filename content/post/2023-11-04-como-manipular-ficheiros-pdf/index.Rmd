@@ -6,7 +6,7 @@ slug: como-manipular-ficheiros-pdf
 categories: []
 tags: []
 subtitle: Manipulação de ficheiros em pdf
-summary: 'Este post mostra como manipular ficheiros pdf usano a livraria pdftools '
+summary: 'Este post mostra como manipular ficheiros pdf usano a livraria pdftools'
 authors: []
 lastmod: '2023-11-04T20:40:14+02:00'
 featured: no
@@ -26,6 +26,8 @@ O <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunc
 
 
 Vamos, primeiro, mostrar como extrair/seleccionar uma determida página num ficheiro pdf
+
+
 ```{r, eval= FALSE}
 library(pdftools)
 
@@ -49,8 +51,6 @@ library(pdftools)
 pdf_combine(input = c('https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf', 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Importacao_Dados.pdf'), #vector com os nomes dos ficheiros a combinar
             output = 'ficheiro_combinado. pdf' # nome do ficheiro com os pdfs combinados
             )
-
-
 ```
 
 Por último, temos a função `pdf_split` que permite separar um ficheiro pdf em vários, onde temos um ficheiro para cada página. 
@@ -62,8 +62,6 @@ library(pdftools)
 # separar ficheiro pdf em vários ficheiros pdf
 
 pdf_split(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf')
-
-
 
 ```
 
