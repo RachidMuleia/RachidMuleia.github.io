@@ -1,5 +1,5 @@
 ---
-title: Como manipular ficheiros pdf em <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunca pára de me supreender, e sempre tenho tido, com o  <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> 
+title: Como manipular ficheiros pdf em R
 author: ''
 date: '2023-11-04'
 slug: como-manipular-ficheiros-pdf
