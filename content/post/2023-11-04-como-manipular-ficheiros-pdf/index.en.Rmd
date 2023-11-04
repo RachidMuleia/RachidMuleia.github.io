@@ -25,7 +25,7 @@ projects: []
 ## Como manipular ficheiros em pdf usando o R
 
 
-O <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunca pára de me supreender, e sempre tenho tido, com o  <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> pode-se fazer tudo. E hoje, gostava de mostrar como podemos manipular ficheiros `pdf` usando a livraria  `pdftools`. Esta livraria tem varias funcionalidades para manipular ficheiros `pdf`. Contudo, para este post irei mostrar como podemos juntar vários ficheiros `pdf` num único ficheiros, como separar ficheiros e como seleccionar algumas páginas de um ficheiro `pdf`. 
+O <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> nunca pára de me supreender, e sempre tenho tido, com o  <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> pode-se fazer tudo. E hoje, gostava de mostrar como podemos manipular ficheiros `pdf` usando a livraria  `pdftools`. Esta livraria tem várias funcionalidades para manipular ficheiros `pdf`. Contudo, para este post irei mostrar como podemos juntar vários ficheiros `pdf` num único ficheiros, como separar ficheiros e como seleccionar algumas páginas de um ficheiro `pdf`. 
 
 
 Vamos, primeiro, mostrar como extrair/seleccionar uma determinada página num ficheiro pdf
