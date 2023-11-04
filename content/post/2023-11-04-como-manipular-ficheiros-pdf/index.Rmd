@@ -49,7 +49,7 @@ library(pdftools)
 # combinar varios ficheiros pdf  
 
 pdf_combine(input = c('https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf', 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Importacao_Dados.pdf'), #vector com os nomes dos ficheiros a combinar
-            output = 'ficheiro_combinado. pdf' # nome do ficheiro com os pdfs combinados
+            output = 'ficheiro_combinado.pdf' # nome do ficheiro com os pdfs combinados
             )
 ```
 
