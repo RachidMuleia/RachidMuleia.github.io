@@ -67,3 +67,16 @@ pdf_split(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estat
 
 ```
 
+
+Espero que tenha gostado do post. Partilhe e deixe aqui o seu comentário!!
+ 
+
+
+<script src="https://utteranc.es/client.js"
+        repo="RachidMuleia/RachidMuleia.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
