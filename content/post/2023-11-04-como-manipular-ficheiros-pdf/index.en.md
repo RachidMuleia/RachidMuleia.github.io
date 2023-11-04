@@ -36,14 +36,14 @@ Vamos, primeiro, mostrar como extrair/seleccionar uma determinada página num fi
 library(pdftools)
 
 # extraír algumas páginas de um ficheiro pdf
-
-pdf_subset(input = 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf', # nome o ficheiro onde faremos a extração
+url_doc1 <-  'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf'
+pdf_subset(input = url_doc1, # nome o ficheiro onde faremos a extração
            output = 'aulas_primeiras_paginas.pdf', # nome do ficheiro com as paginas extraídas
            pages = c(1,10,12) # páginas a extrair
     )
 ```
 
-Para combinar vários ficheiros `pdf` num único ficheiro, usamos a função `pdf_combine`. Esta função pode-se usar para combinar, por exemplo, a sua carta de candidatura, CV e os seus certificados para submição em uma vaga de emprego. Então, não precisa mais sofrer em pagar alguns softwares comerciais para tal.
+Para combinar vários ficheiros `pdf` num único ficheiro, usamos a função `pdf_combine`. Esta função pode-se usar para combinar, por exemplo, a sua carta de candidatura, CV e os seus certificados para submissão em uma vaga de emprego. Então, não precisa mais sofrer em pagar alguns softwares comerciais para tal.
 
 
 ```r
@@ -51,14 +51,30 @@ library(pdftools)
 
 # combinar varios ficheiros pdf  
 
-pdf_combine(input = c('https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf', 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Importacao_Dados.pdf'), #vector com os nomes dos ficheiros a combinar
+ url_doc1 <- 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Aula_Estruturas_Dados.pdf'
+ 
+ url_doc2 <- 'https://rachidmuleia.com/project/2023-03-14-programacao-estatistica/Importacao_Dados.pdf'
+pdf_combine(input = c(url_doc1,url_doc2 ), #vector com as urls dos ficheiros a combinar
             output = 'ficheiro_combinado.pdf' # nome do ficheiro com os pdfs combinados
             )
 ```
 
+Repare que neste exemplo considero documentos em uma `url`, mas também podemos ler considerar documentos armazenados localmente (no directório de trabalho ou indicando o directório que contém os ficheiros ). 
+
+
+
+```r
+library(pdftools)
+
+# combinar varios ficheiros pdf  
+
+
+pdf_combine(input = c('Aulas_Estruturas_Dados.pdf','Importacao_Dados.pdf'), #vector com os nomes dos ficheiros a combinar
+            output = 'ficheiro_combinado.pdf' # nome do ficheiro com os pdfs combinados
+            )
+
 Por último, temos a função `pdf_split` que permite separar um ficheiro pdf em vários, onde temos um ficheiro para cada página. 
-
-
+```
 
 ```r
 library(pdftools)
