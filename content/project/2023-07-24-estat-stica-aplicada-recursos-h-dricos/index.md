@@ -72,13 +72,15 @@ Encontre aqui o [plano temático](Plano_Tematico_Estatistica_Aplicada.pdf)
 - [Introdução a Geoestaística](Geoestatistica_Intro.pdf)
 - [Aula prática - Análise variográfica](AULA_PRATICA_ANALISE_VARIOGRAFICA.R)
 - [Interpolação espacial](Interpolacao_Krig.pdf). Para esta aula considere os seguintes ficheiros: [shapefile de HIV](Shapefile_MZ_HIV.zip), [shapefile do país](Shapefile_MOZ.zip) e os [dados de HIV](hiv_prev.csv) e [dados sobre o ph no riacho Smooky Mountain](ph_data.txt)
--[Krigagem Universal](Krigagem_Universal.pdf)
+- [Krigagem Universal](Krigagem_Universal.pdf)
 
--[Interpolação por krigagem- prática](INTERPOLACAO_VIZUALICAO_IDW.R)
+- [Interpolação por krigagem- prática](INTERPOLACAO_VIZUALICAO_IDW.R)
 
 - [Validação cruzada](Validacao_Cruzada.pdf)
 
 - [Trabalho prático](Trabalho_pratico.pdf). Considerem o seguinte link para aceder ao livro que contém as bases de dados : [Geostatlstics for Engineers & Earth Scientists](https://www.dropbox.com/scl/fi/9sxqz4oehfd6x2yqzt211/Ricardo-A.-Olea-auth.-Geostatistics-for-Engineers-and-Earth-Scientists-Springer-US-1999.pdf?rlkey=fzn9ietq0z4m21v54ggvbw6sz&dl=0). A lista dos grupos pode ser encontrada [aqui](Lista_grupo.xlsx)
 
+### Submissão do trabalho prático
+O Trabalho prático deve ser submetido [AQUI](https://www.dropbox.com/request/Y7RIdxohRJySFKk7NjCz)
 
 Parte das notas foram extraídas do material didáctico produzido pelo professor Cachimo Assane. Um especial agradecimento !!! 
