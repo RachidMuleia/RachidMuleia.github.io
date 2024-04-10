@@ -84,6 +84,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
 - [Ficha de exercício número 3](Exercicios_Manipulacao_Dados.pdf). Baixe, igualmente a base de dados [esaligna](esaligna.csv)
 - [Ficha de exercício número 4](Exercicios_Estruturas_Controlo.pdf)
 - [Ficha de exercicios número 5](Exercicios_Visualizacao_Dados.pdf). Baixe este ficheiro de dados [Dados para a ficha número 5](Visualizacao_Dados.zip)
+- [Teste de preparação - Teste I](Teste_I.pdf)
 
 
 ### Scripts das aulas
