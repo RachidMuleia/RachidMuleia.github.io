@@ -7,7 +7,7 @@ date: 2024-03-21
 doi: https://doi.org/10.1186/s12889-024-18273-8
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-04-30T11:28:24+02:00
+publishDate: 2024-04-30T11:38:24+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,17 +19,17 @@ publication_types: ["2"]
 publication: "International Journal of Environmental Research and Public Health"
 publication_short: ""
 
-abstract: " *Background* Hazardous drinking and drug consumption are associated with an increased risk of HIV due to the
+abstract: "**Background** Hazardous drinking and drug consumption are associated with an increased risk of HIV due to the
 complex interplay of factors influencing decision-making capability, stigma and social marginalization. In this study,
 we explore the patterns of hazardous alcohol and drug use and correlates of risk factors among female sex workers
 (FSW) and men who as sex with men (MSM) in Mozambique.
-*Methods* We conducted a secondary data analysis of bio-behavioral surveys (BBS) among FSW and MSM using a
+**Methods** We conducted a secondary data analysis of bio-behavioral surveys (BBS) among FSW and MSM using a
 respondent-driven sampling methodology conducted in five main urban areas of Mozambique from 2019 to 20.
 The survey included a standardized questionnaire, where hazardous drinking was assessed (using AUDIT-C scores ≥ 4
 for men, ≥ 3 for women) and drug use in the last year (FSW). Chi-squared test was used to analyze the association
 between socio-demographic and behavioral variables, and multivariate logistic regression measured the impact of
 the associated factors.
-*Results* The prevalence of hazardous alcohol drinking was 47.1% (95% CI:44.8–49.5) for FSW and 46.5 (95% CI: 44.0–
+**Results** The prevalence of hazardous alcohol drinking was 47.1% (95% CI:44.8–49.5) for FSW and 46.5 (95% CI: 44.0–
 49.0) for MSM. Current drug use was reported in 13.3% of FSW. FSW engaging in hazardous alcohol drinking reported
 more sexual partners in the last month than those no reporting hazardous alcohol use (55.3% vs. 47,1%, p < 0.001),
 higher rates of self-reported STIs in the last year (62,5% vs. 48,2%, p < 0.001), physical (53.5% vs. 46.7%, p < 0.0001) and
@@ -40,7 +40,7 @@ illicit drug use were more likely to self-reported HIV own risk (14.2% vs. 9.7%)
 self-reported STIs (17.9% vs. 10.2%), and experiences of both physical (17.4% vs. 7.0%) and sexual violence (18.6% vs.
 8.9%)"
 
-*Conclusion* There is an immediate need for the introduction and integration of comprehensive substance use harm
+**Conclusion** There is an immediate need for the introduction and integration of comprehensive substance use harm
 mitigation and mental health interventions into HIV prevention programs, particularly those targeting key populations
 in Mozambique.
 
