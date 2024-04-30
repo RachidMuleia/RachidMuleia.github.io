@@ -7,7 +7,7 @@ date: 2024-03-21
 doi: https://doi.org/10.1186/s12889-024-18273-8
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-04-30T11:38:24+02:00
+publishDate: 2024-04-30T11:39:24+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -38,11 +38,11 @@ alcohol drinking, there was a higher prevalence of self-reported STIs (52.8% vs.
 violence (18.0% vs. 8.3%, p < 0.001), and HIV prevalence (53.0% vs. 46.3%, p < 0.001). In addition, FSW who reported
 illicit drug use were more likely to self-reported HIV own risk (14.2% vs. 9.7%), early start sexual activity (15.4% vs. 5.3%),
 self-reported STIs (17.9% vs. 10.2%), and experiences of both physical (17.4% vs. 7.0%) and sexual violence (18.6% vs.
-8.9%)"
+8.9%)
 
 **Conclusion** There is an immediate need for the introduction and integration of comprehensive substance use harm
 mitigation and mental health interventions into HIV prevention programs, particularly those targeting key populations
-in Mozambique.
+in Mozambique."
 
 # Summary. An optional shortened abstract.
 summary: ""
