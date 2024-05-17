@@ -98,13 +98,13 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
  - [Visualização de dados](Visualizacao_Dados.R). Baixe igualmente esta base dados: [malaria](malaria_df.csv) . Esta base de dados é para replicar as últimas linhas do código, onde usamos a base de dados `malaria_df`. 
  
  
-### TESTE I 
+### TESTE II
 
 Encontre a seguir o enunciado para o teste  
 
-- Para aceder ao teste clique [AQUI](https://www.dropbox.com/scl/fi/h9d75ocuwjnupuofrl9c4/Teste_2024_PEI.pdf?rlkey=vn1myimysv2l7i4fpo3tjmj0t&st=dpso0lsk&dl=0)
+- Para aceder ao teste clique [AQUI](https://www.dropbox.com/scl/fi/4i2au3g33gnzlsai8fwxf/Teste_II.pdf?rlkey=2crosvvctgvb1q3tbz22yci7w&st=sknduyz1&dl=0)
 
-- Após terminar, clique [AQUI](https://www.dropbox.com/request/VNse2Ipfk28wfOzU4F3p) para submeter o seu teste. 
+- Após terminar, clique [AQUI](https://www.dropbox.com/request/FOmIB7EGhBsxZBZcKFCy) para submeter o seu teste. 
  
  
  
