@@ -105,6 +105,10 @@ Encontre a seguir o enunciado para o teste
 - Para aceder ao teste clique [AQUI](https://www.dropbox.com/scl/fi/4i2au3g33gnzlsai8fwxf/Teste_II.pdf?rlkey=2crosvvctgvb1q3tbz22yci7w&st=sknduyz1&dl=0)
 
 - Após terminar, clique [AQUI](https://www.dropbox.com/request/FOmIB7EGhBsxZBZcKFCy) para submeter o seu teste. 
+
+- [DADOS DO CORDEX](https://www.dropbox.com/scl/fi/zju3otoo8u88qalr3i7cs/CORDEX_DATA.zip?rlkey=qqy7od63qc14cri8fcnwrif77&st=ld2wzvbi&dl=0)
+
+- [DADOS DE PROJECCOES ZAMBEZIA](https://www.dropbox.com/scl/fi/y5xd0fsmjel5q60j0u5xx/Zambezia_Projeccoes.xls?rlkey=t57rxp87m7b4teqmf171tyvih&st=ylpsvd0y&dl=0)
  
  
  
