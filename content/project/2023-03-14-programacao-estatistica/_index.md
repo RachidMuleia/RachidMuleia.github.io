@@ -102,7 +102,7 @@ Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_A
 
 Encontre a seguir o enunciado para o teste  
 
-- Para aceder ao teste clique [AQUI](https://www.dropbox.com/scl/fi/4i2au3g33gnzlsai8fwxf/Teste_II.pdf?rlkey=2crosvvctgvb1q3tbz22yci7w&st=sknduyz1&dl=0)
+- Para aceder ao teste clique [AQUI](https://www.dropbox.com/scl/fi/4i2au3g33gnzlsai8fwxf/Teste_II.pdf?rlkey=2crosvvctgvb1q3tbz22yci7w&st=l2tmzom4&dl=0)
 
 - Após terminar, clique [AQUI](https://www.dropbox.com/request/FOmIB7EGhBsxZBZcKFCy) para submeter o seu teste. 
 
