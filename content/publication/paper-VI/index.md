@@ -30,7 +30,7 @@ abstract: "**Background**: Female sex workers (FSWs) in Mozambique face signific
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["HIV", "Prevelance", "MSM", "Trends", Mozambique"]
+tags: ["Female sex workers", "Inconsistent condom use", "Mozambique", "Risky sexual behaviors"]
 categories: []
 featured: false
 
