@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Patterns of inconsistent condom use and risky sexual behaviors among female sex workers in Mozambique"
-authors: ["Rachid Muleia", "Áuria Ribeiro Banze", "Shelsea Luís Damião", "Cynthia Cemá Baltazar"]
+authors: ["**Rachid Muleia**", "Áuria Ribeiro Banze", "Shelsea Luís Damião", "Cynthia Cemá Baltazar"]
 date: 2024-10-04
 doi: 10.1186/s12889-024-20236-y
 
