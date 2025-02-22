@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Unveiling triple vulnerability among Mozambican female sex workers—Stigma, physical violence and sexual violence
-authors: ["Naira Luiz"  , "Rachid Muleia" , "Ana Abecasis" , "Auria Banze" , "Denise Langa" , "Cynthia Semá Baltazar"]
+authors: ["Naira Luiz", "Rachid Muleia", "Ana Abecasis", "Auria Banze", "Denise Langa", "Cynthia Semá Baltazar"]
 date: 2025-02-22
 doi: https://doi.org/10.1371/journal.pone.0312550
 
