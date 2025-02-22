@@ -3,7 +3,7 @@
 
 title: "Unveiling triple vulnerability among Mozambican female sex workers—Stigma, physical violence and sexual violence
 authors: ["Naira Luiz"  , "Rachid Muleia" , "Ana Abecasis" , "Auria Banze" , "Denise Langa" , "Cynthia Semá Baltazar"]
-date: 2024-10-01
+date: 2024-02-22
 doi: https://doi.org/10.1371/journal.pone.0312550
 
 # Schedule page publish date (NOT publication's date).
