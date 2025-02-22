@@ -31,12 +31,9 @@ A secondary analysis was performed using data from a cross-sectional Bio-Behavio
 
 Among 2,567 FSWs surveyed, 24.7% reported experiencing stigma, while 52.3% and 37.9% reported physical and sexual violence, respectively, in the six months preceding the survey. The likelihood of experiencing stigma was over six times higher for FSWs who engaged with more than 7 clients (AOR = 6.1; p <0.001). Drug use was associated with a twofold increase in the odds of physical violence (AOR = 2.3; p <0.001) and a nearly threefold increase in the odds of sexual violence (AOR = 2.7; p <0.001). HIV-positive FSWs were at increased risk for both physical violence (AOR = 1.2; p = 0.006) and sexual violence (AOR = 1.2; p = 0.031). <br/>
 
-** Conclusion** <br/>
+**Conclusion** <br/>
 
 This study highlights the substantial burden of stigma and violence among FSWs in Mozambique’s urban areas. The findings underscore the urgent need for targeted interventions to reduce stigma, prevent violence, and protect the rights of FSWs. Addressing these issues is essential for achieving the goals of HIV prevention and treatment in this vulnerable population.
-
-
-
 "
 
 # Summary. An optional shortened abstract.
