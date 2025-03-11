@@ -51,6 +51,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Ficha de exercício número II](Exercicios_FG.pdf)
 
+- [Aula prática - Estimação do semivariograma e ajustamento do modelo teóric](Variograma.R). Clique [aqui](ph_data.txt) para aceder aos dados
+
 - [Ficha de exercício número III](Krigagem_exercicios.pdf)
 
 - [Ficha de exercício número IV](Krigagem_pratica.pdf)
