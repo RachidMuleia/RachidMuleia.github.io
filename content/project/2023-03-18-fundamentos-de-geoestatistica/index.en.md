@@ -64,11 +64,9 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 ## Trabalho prático
 
-- [Análise variográfica](Trabalho_praticoI.pdf)
+- [Análise variográfica](Trabalho_pratico_2025.pdf). Os dados para este trabalho estão disponíveis [AQUI](Dados_Variogram.pdf). As apresentações devem estar prontas até Terça-feira, prósima semana. 
   
-  - Este trabalho deverá ser submetido no dia 11/05/2023. Para submeter clique:
-     - [LABORAL](https://www.dropbox.com/request/fLrNLc426bJ2rN540wzq)
-     - [POS-LABORAL](https://www.dropbox.com/request/M7zcySeEpW1jEMBxxRjJ)
+
   
 
 
