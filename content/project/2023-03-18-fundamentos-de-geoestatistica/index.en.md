@@ -53,6 +53,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - Aula prática - Estimação do semivariograma e ajustamento do modelo teórico. Clique [aqui](Variograma.R) para aceder ao ficheiro R que contem os códigos. Clique [aqui](ph_data.txt) para aceder aos dados
 
+- [Exercícios para demonstrar](Ficha_de_Exercicio_Demostracao.pdf). Resolver estes exercicios e entregar na próxima aula, Quinta-feira
+
 - [Ficha de exercício número III](Krigagem_exercicios.pdf)
 
 - [Ficha de exercício número IV](Krigagem_pratica.pdf)
