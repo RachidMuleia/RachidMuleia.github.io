@@ -1,8 +1,11 @@
 
 #install.packages("geoR")
 library(geoR)
+library(rio)
 path <- "/Users/rachidmuleia/Dropbox/File requests/EXAME_ISCISA_2021/Fotos/ISCISA/Geostatistics Class Material/Lecture notes"
-ph_df <- read.table(paste(path, 'ph_data.txt',sep='/'), sep="",header=TRUE)
+setwd(path)
+#ph_df <- import("ph_data.txt")
+ph_df <- read.table("ph_data.", sep="",header=TRUE)
 
 head(ph_df)
 
