@@ -61,7 +61,7 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Aula laboratorial- Ajustamento do semivariograma](AULA_PRATICA_LAB_FG.R)
 
-- [Teste passado-preparação](Teste2.pdf)
+- [Teste passado para preparação](Teste1_2018.pdf).  O primeiro teste será feito no dia 08 de Abril de 2025. 
 
 
 ## Trabalho prático
