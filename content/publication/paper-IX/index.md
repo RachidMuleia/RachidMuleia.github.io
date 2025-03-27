@@ -2,12 +2,12 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Patterns of self-reported alcohol and drug use among children and youth: Mozambique violence against children survey (VACS) 2019"
-authors: ["Cynthia Semá Baltazar", ""Auria Ribeiro Banze", "Rachid Muleia"]
+authors: ["Cynthia Semá Baltazar", "Auria Ribeiro Banze", "Rachid Muleia"]
 date: 2025-03-27
 doi: https://doi.org/10.1186/s12889-025-22360-9
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-03-27T14:02:10+02:00
+publishDate: 2025-03-27T14:04:10+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
