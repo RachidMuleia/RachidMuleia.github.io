@@ -7,7 +7,7 @@ date: 2025-03-27
 doi: https://doi.org/10.1186/s12889-025-22360-9
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-03-27T13:57:07+02:00
+publishDate: 2025-03-27T14:02:10+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,7 +19,7 @@ publication_types: ["2"]
 publication: "BMC Public Health"
 publication_short: ""
 
-abstract: "**Background**: Substance use among youth has significant implications for health, development, and society. In Mozambique, where youth form a large segment of the population, understanding the prevalence and factors associated with alcohol and drug use is essential for effective public health strategies. This study aimed to assess the prevalence and factors associated with alcohol and drug use among adolescents and young adults in Mozambique. <br />
+abstract: "**Background**: Substance use among youth has significant implications for health, development, and society. In Mozambique, where youth form a large segment of the population, understanding the prevalence and factors associated with alcohol and drug use is essential for effective public health strategies. This study aimed to assess the prevalence and factors associated with alcohol and drug use among adolescents and young adults in Mozambique. <br/>
 
 **Methodology**: This study is a secondary data analysis of the 2019 Violence Against Children Survey (VACS), a nationally representative cross-sectional survey targeting individuals aged 13–24 years. Data collection were collected using face-to-face interviews with a structured questionnaire. The analysis focused on the prevalence and patterns of self-reported alcohol and drug use and identified potential socio demographic and behavioral factors associated with substance use among the youth. <br/>
 
