@@ -10,6 +10,7 @@ library(rio)
 library(sp)
 library(gstat)
 library(geoR)
+library(ggplot2)
 
 shape_path <- "/Users/rachidmuleia/Dropbox/MESTRADO EM GEOHIDROLOGIA/ProbEstatistica/ProbEstatistica/Shapefile_MZ_HIV"
 
@@ -36,7 +37,7 @@ data_sf_hiv <- st_as_sf(hiv_df, coords = c("long", "lat"), crs = st_crs(map_moz)
 
 
 ggplot() +
-  geom_sf(data = map_moz) +
+  geom_sf(data = map_moz)+
   geom_sf(data = data_sf_hiv, aes(size = prev, color = prev), alpha = 0.7) +
   scale_size_continuous(range = c(1, 10)) +
   scale_color_gradient(low = "lightblue", high = "darkblue") +
@@ -50,7 +51,7 @@ ggplot() +
 
 
 
-grd.moz <- st_make_grid(map_moz, n = 200)
+grd.moz <- st_make_grid(map_moz, n =200)
 
 plot(grd.moz)
 
@@ -125,13 +126,13 @@ fit.hiv <- variofit(hiv_variog,
                       cov.model="spherical",
                       ini.cov.pars=c(60,14), # aqui especificamos a contribuicao/soleira parical e a amplitude
                       fix.nugget=FALSE,
-                      nugget=0,
+                      nugget=40,
                       weights='npairs', # Minimos quadrados ordinarios ponderados
                       messages=FALSE)
 
 
 
-pred.loc <- data.frame(cbind(x.pred,y.pred)) # AREA POR INTERPOLAR
+
 kg_hiv <- krige.conv(hiv.geo,locations = pred_loc.df[, c("X", "Y")],
                     krige = krige.control(cov.model = 'spherical',nugget =41.8,
                                           cov.pars = c(65,12.88)))
@@ -149,11 +150,17 @@ ggplot(pred_loc.df)+geom_tile(aes(X,Y,fill = hiv_krig))+
 
 # vamos apresentar a variabilidade das estimativas por krigagem 
 
-pred_loc.df$hiv_krig.var <- kg_hiv$krige.var # erro padrao
-
+pred_loc.df$hiv_krig.pred <- kg_hiv$predict # interpolacao
 
 ggplot(pred_loc.df)+geom_tile(aes(X,Y,fill = hiv_krig.var))+
   geom_sf(data =st_cast(map_moz, "MULTILINESTRING"))+
   coord_sf(lims_method = "geometry_bbox")+
   scale_fill_gradientn("hiv_krig.var",colours = terrain.colors(10), limits = range(pred_loc.df$hiv_krig.var), name = NULL)
 
+
+
+pred_loc.df$hiv_krig.var <- kg_hiv$krige.var # erro padrao
+ggplot(pred_loc.df)+geom_tile(aes(X,Y,fill = hiv_krig.var))+
+  geom_sf(data =st_cast(map_moz, "MULTILINESTRING"))+
+  coord_sf(lims_method = "geometry_bbox")+
+  scale_fill_gradientn("hiv_krig.var",colours = terrain.colors(10), limits = range(pred_loc.df$hiv_krig.var), name = NULL)
