@@ -35,6 +35,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Notas de Fundamentos de Geoestatistica](FG2019.pdf)
 
+- Para Interpolação espacial usaremos este [SCRIPT](Interpolacao_Espacial.R). Para este script iremos usar os seguintes dados: [dados de prevalência de HIV](hiv_prev.csv) e iremos também usar o [shape file de Moçambique](Shape_Moz.zip) 
+
 - [Krigagem universal e krigagem em bloco](Krigagem_Universal.pdf)
 
 - [Krigagem Indicatriz](Krigagem_Indicatriz.pdf)
@@ -42,6 +44,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 - [Krigagem universal-Exemplo](Krigagem_Universal_Exemplo.pdf)
 
 - [Krigagem em bloco- Exemplo](Exemplo_Krigagem_Bloco.pdf)
+
+
 
 
 
@@ -67,6 +71,7 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 ## Trabalho prático
 
 - [Análise variográfica](Trabalho_pratico_2025.pdf). Os dados para este trabalho estão disponíveis [AQUI](Dados_Variogram.pdf). As apresentações devem estar prontas até Terça-feira, próxima semana. 
+
   
 
   
