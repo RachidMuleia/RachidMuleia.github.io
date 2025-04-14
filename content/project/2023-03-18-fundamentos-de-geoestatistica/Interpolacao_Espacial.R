@@ -12,11 +12,11 @@ library(gstat)
 library(geoR)
 library(ggplot2)
 
-shape_path <- "/Users/rachidmuleia/Dropbox/MESTRADO EM GEOHIDROLOGIA/ProbEstatistica/ProbEstatistica/Shapefile_MZ_HIV"
+#shape_path <- "/Users/rachidmuleia/Dropbox/MESTRADO EM GEOHIDROLOGIA/ProbEstatistica/ProbEstatistica/Shapefile_MZ_HIV"
 
-list.files(shape_path)
-map <- st_read(paste(shape_path, "MZGE52FL.shp", sep = '/'))
-plot(map)
+#list.files(shape_path)
+#map <- st_read(paste(shape_path, "MZGE52FL.shp", sep = '/'))
+#plot(map)
 
 
 map.shp.path <- "/Users/rachidmuleia/Dropbox/INS/HSH/BBS I (from Makini)/Moz IBBS Final Survey Materials/IBBS MTS 2012/7_RELATORIO/Figuras/MAPA"
@@ -38,7 +38,7 @@ data_sf_hiv <- st_as_sf(hiv_df, coords = c("long", "lat"), crs = st_crs(map_moz)
 
 ggplot() +
   geom_sf(data = map_moz)+
-  geom_sf(data = data_sf_hiv, aes(size = prev, color = prev), alpha = 0.7) +
+  geom_sf(data = data_sf_hiv, aes(size = prev, color = prev), alpha = 0.7)+
   scale_size_continuous(range = c(1, 10)) +
   scale_color_gradient(low = "lightblue", high = "darkblue") +
   theme_minimal() +
@@ -68,7 +68,6 @@ moz_grid <- grd.moz[index]
 
 plot(moz_grid)
 
-moz_grid1 <- 
 
 
 
