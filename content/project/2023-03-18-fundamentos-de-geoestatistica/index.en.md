@@ -61,7 +61,7 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Ficha de exercício número III](Krigagem_exercicios.pdf)
 
--[Interpolação espacial - IWD e Krigagem ordinaria](Ficha_de_Exercicio_Krigagem.pdf). Esta ficha deve ser resolvida e entregue na Quinta-feira, dia 17 de Abril
+- [Interpolação espacial - IWD e Krigagem ordinaria](Ficha_de_Exercicio_Krigagem.pdf). Esta ficha deve ser resolvida e entregue na Quinta-feira, dia 17 de Abril
 
 - [Ficha de exercício número IV](Krigagem_pratica.pdf)
 
