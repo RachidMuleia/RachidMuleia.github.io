@@ -45,6 +45,8 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Krigagem em bloco- Exemplo](Exemplo_Krigagem_Bloco.pdf)
 
+- [Material complentar- Conceitos de Geoestatística](https://www.dropbox.com/scl/fi/39ieckk8yhv05gp42f8ej/Yamamoto-Landim-2013-Geoestat-stica-Conceitos-e-Aplica-es-copy.pdf?rlkey=o8qmy1814bogycr9znyrl8j2k&st=gtymwknp&dl=0). Temos aqui o livro de Yamamoto e Landim. Este livro abordas sobre conceitos introdutórios de geoestatística numa abordagam um pouco mais prática. Podem usar para melhorar o vosso entendimento sobre interpolação espacial. 
+
 
 
 
