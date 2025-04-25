@@ -76,7 +76,7 @@ Espera-se que no fim deste módulo o estudante seja capaz de :
 
 - [Análise variográfica](Trabalho_pratico_2025.pdf). Os dados para este trabalho estão disponíveis [AQUI](Dados_Variogram.pdf). As apresentações devem estar prontas até Terça-feira, próxima semana. 
 
-- [Interpolação espacial)(Trabalho_praticoII_2025.pdf). Este trabalho é continuação do trabalho anterior. As apresentações para este trabalho serão feitas na próxima semana, Quinta-feira. 
+- [Interpolação espacial](Trabalho_praticoII_2025.pdf). Este trabalho é continuação do trabalho anterior. As apresentações para este trabalho serão feitas na próxima semana, Quinta-feira. 
 
   
 
