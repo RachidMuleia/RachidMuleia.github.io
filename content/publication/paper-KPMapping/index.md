@@ -2,14 +2,14 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Counting the vulnerable: estimating the population size and assessing the HIV care continuum among women who inject drugs in Southern Mozambique"
-authors: ["Cynthia Semá Baltazar", "Auria Ribeiro Banze"", "Rachid Muleia", "Diogo Chavana", 
+authors: ["Cynthia Semá Baltazar", "Auria Ribeiro Banze", "Rachid Muleia", "Diogo Chavana", 
 "Stélio Craveirinha", "Manuel Condula", "Jessica Seleme", "Isabel Sathane", "Joshua Fortmann", 
 "Pedro Manuel", "Jordan McOwen", "Anne F. Mclntyre" ,"Makini Boothe" ]
 date: 2025-11-25
 do: https://doi.org/10.1186/s12954-025-01342-5
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-12-26T10:02:00+02:00
+publishDate: 2025-12-26T14:30:00+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
