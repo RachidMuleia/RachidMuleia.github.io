@@ -6,10 +6,10 @@ authors: ["Cynthia Semá Baltazar", "Auria Ribeiro Banze"", "Rachid Muleia", "Di
 "Stélio Craveirinha", "Manuel Condula", "Jessica Seleme", "Isabel Sathane", "Joshua Fortmann", 
 "Pedro Manuel", "Jordan McOwen", "Anne F. Mclntyre" ," Makini Boothe" ]
 date: 2025-11-25
-doi:https://doi.org/10.1186/s12954-025-01342-5
+do: https://doi.org/10.1186/s12954-025-01342-5
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-12-26T09:50:46+02:00
+publishDate: 2025-12-26T09:51:46+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
