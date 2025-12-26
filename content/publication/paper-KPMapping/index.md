@@ -9,7 +9,7 @@ date: 2025-11-25
 do: https://doi.org/10.1186/s12954-025-01342-5
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-12-26T14:30:00+02:00
+publishDate: 2025-12-26T14:33:00+02:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,7 +25,7 @@ abstract: ""
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["Women who inject drugs", "HIV", "Mozambique", "Population size estimation", "Capture-recapture", "HIV care"
+tags: ["Women who inject drugs", "HIV", "Mozambique", "Population size estimation", "Capture-recapture", "HIV care
 continuum"]
 categories: []
 featured: false
