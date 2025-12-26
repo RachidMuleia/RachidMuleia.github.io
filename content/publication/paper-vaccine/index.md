@@ -6,7 +6,7 @@ authors: ["Aquino Albino Nhantumbo" , "Goitom Weldegebriel" , "Linda de Gouveia"
 "Charlotte Elizabeth Comé", "Alcides Moniz Munguambe", "Vlademir Cantarelli", "Cícero Dias" , "Rachid Muleia",
 "Ezequias Fenias Sitoe","Eunice Veronica Zeca" , "Amir Seni", "Ana Nicolau Tambo",
 "Ana Cristina de Faria Neves Mussagi", "Plácida Iliany Maholela" , "Ivano de Filippis", "Eduardo Samo Gudo"]
-date: 2025-06-30
+date: 2025-12-15
 doi: https://doi.org/10.3390/vaccines13121246
 
 # Schedule page publish date (NOT publication's date).
