@@ -23,9 +23,9 @@ interests:
 - Climate change and vulnerability assessment
 last_name: Muleia
 organizations:
-- name: Eduardo Mondlane University
+- name:
   url: 
-role: Lecturer, Biostatistician (PhD)
+role: Biostatistician (PhD)
 social:
 - icon: envelope
   icon_pack: fas
