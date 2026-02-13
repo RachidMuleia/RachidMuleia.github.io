@@ -49,7 +49,7 @@ superuser: true
 ---
 <div style="text-align: left"> 
 
-I have a PhD in statistics from Hasselt University, a journey that was shaped by prof. dr. Christel Faes and Emeritus Professor Marc Aerts, and who have also been responsible for what for my professional path. In my daily work, I apply my statistical skills to to address public health challenges across a variety of domains, ranging from analyzing survey data to routine health data and clinical trial data. My research interest revolves around spatial statistics, Bayesian inferences, generalized additive models, public health and epidemiology and climate change. Outside of work, I’m a husband, a father, an avid reader and a guy who enjoys new adventures. I also like to do sport, gym workouts and swimming, which I believe is what keeps me awaken every day. </div>
+I have a PhD in statistics from Hasselt University, a journey that was shaped by prof. dr. Christel Faes and Emeritus Professor Marc Aerts, and who have also been responsible for what for my professional path. In my daily work, I apply my statistical skills to to address public health challenges across a variety of domains, ranging from analyzing survey data to routine health data and clinical trial data. My research interest revolves around spatial statistics, Bayesian inferences, generalized additive models, public health and epidemiology, and climate change. Outside of work, I’m a husband, a father, an avid reader and a guy who enjoys new adventures. I also like to do sport, gym workouts and swimming, which I believe is what keeps me awaken every day. </div>
 
 
 
