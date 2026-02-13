@@ -49,14 +49,7 @@ superuser: true
 ---
 <div style="text-align: left"> 
 
-I hold a PhD in Statistics from Hasselt University in Belgium. Currently, I am a lecture at [**Eduardo Mondalne University**](https://www.uem.mz) UEM in the department of mathematics and computer science, where I teach under-graduate and graduate students. My research interest revolve around generalized additive models (GAM), spatial modelling, Bayesian inference, statistical programming and infectious disease modelling. I also have a strong interest in climate change and vulnerability assessment and adaptation of the health sector. 
-
-I have been collaborating with a team of researchers at [**National Institute of Health**](https://ins.gov.mz/), who work with key populations, helping them with survey design and statistical analysis to estimate several HIV-related indicators. 
-
-
-What's more, I'm  an <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> enthusiast. Literally, I am an <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> evangelist. 
-
-</div>
+I have a PhD in statistics from Hasselt University, a journey that was shaped by prof. dr. Christel Faes and Emeritus Professor Marc Aerts, and who have also been responsible for what for my professional path. In my daily work, I apply my statistical skills to to address public health challenges across a variety of domains, ranging from analyzing survey data to routine health data and clinical trial data. My research interest revolves around spatial statistics, Bayesian inferences, generalized additive models, public health and epidemiology and climate change. Outside of work, I’m a husband, a father, an avid reader and a guy who enjoys new adventures. I also like to do sport, gym workouts and swimming, which I believe is what keeps me awaken every day. </div>
 
 
 
