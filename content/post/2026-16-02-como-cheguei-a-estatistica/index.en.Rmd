@@ -11,7 +11,7 @@ tags:
 subtile: Remoção de coluna e linhas vazias numa data frame 
 summary: 'Neste post falo um pouco do meu percuso academico que me levou a fazer a formação em Estatística'
 authors: []
-lastmod: '2026-02-16T01:40:46+02:00'
+lastmod: '2026-02-16T01:55:46+02:00'
 featured: no
 image:
   caption: ''
