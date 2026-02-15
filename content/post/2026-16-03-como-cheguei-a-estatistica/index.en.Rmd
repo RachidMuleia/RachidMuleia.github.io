@@ -1,7 +1,7 @@
 ---
 title: Como cheguei à  Estatistica. Se dependesse do meu pai, eu seria contablista
 author: Rachid Muleia
-date: '2023-03-22'
+date: '2026-02-16'
 slug: como-cheguei-a-estatistica
 categories: []
 tags:
@@ -11,7 +11,7 @@ tags:
 subtile: Remoção de coluna e linhas vazias numa data frame 
 summary: 'Neste post falo um pouco do meu percuso academico que me levou a fazer a formação em Estatística'
 authors: []
-lastmod: '2026-02-16T01:30:46+02:00'
+lastmod: '2026-02-16T01:40:46+02:00'
 featured: no
 image:
   caption: ''
