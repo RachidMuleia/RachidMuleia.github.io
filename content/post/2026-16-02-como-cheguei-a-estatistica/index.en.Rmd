@@ -11,7 +11,7 @@ tags:
 subtile: Remoção de coluna e linhas vazias numa data frame 
 summary: 'Neste post falo um pouco do meu percuso academico que me levou a fazer a formação em Estatística'
 authors: []
-lastmod: '2026-02-16T01:55:46+02:00'
+lastmod: '2026-02-16T01:57:46+02:00'
 featured: no
 image:
   caption: ''
@@ -23,7 +23,7 @@ projects: []
 
 
 
-Quando concluí a sétima classe, em 2001, éramos obrigados a escolher se continuaríamos no Ensino Geral ou se passaríamos para o Ensino Técnico, fosse a escola comercial ou industrial. Naquele período, a minha aspiração era fazer electricidade, electrónica ou outra área ligada às STEM. Lembro-me de ter preenchido um formulário onde indiquei que queria seguir o Ensino Industrial e tinha escolhido um curso relacionado com eletricidade. No entanto, o documento precisava da assinatura do meu encarregado de educação, o meu pai. Quando lhe apresentei, ele logo insurgiu-se e escusou-se de assinar aquele documento e que só assinava se a opção fosse ir à escola comercial para fazer Contabilidade. Imediatamente, fui obrigado a procurar outro formulário para satisfazer a vontade dele. Para minha sorte, o meu nome não apareceu na lista dos que iam para a escola comercial, e muito menos para a escola industrial.
+Quando concluí a sétima classe, em 2001, éramos obrigados a escolher se continuaríamos no Ensino Geral ou se passaríamos para o Ensino Técnico, fosse a escola comercial ou industrial. Naquele período, a minha aspiração era fazer electricidade, electrónica ou outra área ligada às STEAM. Lembro-me de ter preenchido um formulário onde indiquei que queria seguir o Ensino Industrial e tinha escolhido um curso relacionado com eletricidade. No entanto, o documento precisava da assinatura do meu encarregado de educação, o meu pai. Quando lhe apresentei, ele logo insurgiu-se e escusou-se de assinar aquele documento e que só assinava se a opção fosse ir à escola comercial para fazer Contabilidade. Imediatamente, fui obrigado a procurar outro formulário para satisfazer a vontade dele. Para minha sorte, o meu nome não apareceu na lista dos que iam para a escola comercial, e muito menos para a escola industrial.
 
 No ano seguinte, tive de continuar na mesma escola, a Escola Secundária da Machava-Sede (ESMS), onde fiz da 8 ª até à 10.ª classe. Devo confessar que, na oitava classe, tinha sérias dificuldades em quase todas as disciplinas, mas, após um incidente de indisciplina, em que me envolvi numa luta com um colega, o meu pai decidiu lavar as mãos e deixar-me a própria sorte. Acho que foi graças a essa postura que mudei de atitude, comecei a empenhar-me um pouco mais e descobri que tinha uma certa inclinação para as Matemáticas, algo que se consolidou na 9.ª e 10.ª classes.
 
