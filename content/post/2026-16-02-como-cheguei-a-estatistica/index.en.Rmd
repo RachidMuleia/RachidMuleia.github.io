@@ -5,9 +5,10 @@ date: '2026-02-16'
 slug: como-cheguei-a-estatistica
 categories: []
 tags:
-  - Estatistica
+  - Estatística
   - Bio
   - Formação
+  - Crescimento pessoal
 subtile: Remoção de coluna e linhas vazias numa data frame 
 summary: 'Neste post falo um pouco do meu percuso académico que me levou a fazer a formação em Estatística'
 authors: []
