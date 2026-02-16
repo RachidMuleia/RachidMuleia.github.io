@@ -1,5 +1,5 @@
 ---
-title: Como cheguei à  Estatistica. Se dependesse do meu pai, eu seria contablista
+title: Como cheguei à  Estatística. Se dependesse do meu pai, eu seria contablista
 author: Rachid Muleia
 date: '2026-02-16'
 slug: como-cheguei-a-estatistica
@@ -9,7 +9,7 @@ tags:
   - Bio
   - Formação
   - Crescimento pessoal
-subtile: Remoção de coluna e linhas vazias numa data frame 
+subtile: Um pouco da minha jornada académica 
 summary: 'Neste post falo um pouco do meu percuso académico que me levou a fazer a formação em Estatística'
 authors: []
 lastmod: '2026-02-16T02:03:46+02:00'
