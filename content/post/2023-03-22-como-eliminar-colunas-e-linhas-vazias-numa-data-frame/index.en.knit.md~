@@ -1,0 +1,36 @@
+---
+title: Limpeza de dados em R {janitor}
+author: Rachid Muleia
+date: '2023-03-22'
+slug: como-eliminar-colunas-e-linhas-vazias-numa-data-frame
+categories: []
+tags:
+  - Limpeza de dados
+  - R
+  - janitor
+subtile: Remoção de coluna e linhas vazias numa data frame 
+summary: 'Este post ilustra como pode-se remover colunas vazias de uma base de dados usando o R, recorrendo a funções predefinidas e funções da livraria `janitor`'
+authors: []
+lastmod: '2023-03-22T13:28:46+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+## Como eliminar colunas e linhas vazias numa data frame
+
+\vspace{0.2in}
+Na vida, somos eternos aprendizes. Numa das minhas aulas aos estudantes do módulo programação estatística, eu mostrava como inspeccionar e limpar uma base de dados. No entanto, a base de dados continha não mais que 15 variáveis, e algumas colunas da base de dados não tinham nenhuma informação e, logicamente, ninguém quer ter colunas sem informação na sua base de dados. Para remover as colunas vazias, apenas seleccionei as colunas com informação na minha base de dados. Um dos estudante pergunta-me. Professor,  e se tivéssemos uma base de dados grande como faríamos para localizar as colunas vazias? No momento, até gaguejei, mas depois veio a solução.  Bom, acho melhor chamar aqui a `data frame` para entendermos melhor.
+
+
+
+
+
+
+
+
+
