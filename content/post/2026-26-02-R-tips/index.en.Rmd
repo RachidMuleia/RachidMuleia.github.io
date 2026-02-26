@@ -1,6 +1,6 @@
 ---
-title: R tips - dica do dia
-author: ''
+title: R tips - função `pick()`
+author: 'Rachid Muleia'
 date: '2026-26-02'
 slug: manipulacao-dados-pick
 categories: []
@@ -11,7 +11,7 @@ tags:
 subtitle: A função `pick()` da livraria `dplyr` 
 summary: 'Neste post mostro como usar a função `pick()` para facilitar o processo de manipulação de dados'
 authors: []
-lastmod: '2026-26-02T14:54:14+02:00'
+lastmod: '2026-26-02T14:59:14+02:00'
 featured: no
 image:
   caption: ''
