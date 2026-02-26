@@ -49,7 +49,7 @@ Observe que, no código anterior, tivemos de criar a variável media, à qual at
 
 
 
-```{r,warning = FALSE}
+```{r,warning = FALSE, message=FALSE}
 library(dplyr)
 
 notas_df <- notas_df |>
