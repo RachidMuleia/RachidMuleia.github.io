@@ -1,7 +1,7 @@
 ---
 title: R tips-função pick()
 author: ''
-date: '2026-26-02'
+date: '2026-02-26'
 slug: manipulacao-dados-pick
 categories: []
 tags:
