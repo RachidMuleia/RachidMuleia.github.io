@@ -26,7 +26,7 @@ O processo de tratamento e manipulação de dados é uma das etapas que mais tem
 
 Hoje, eu trago a função `pick()`, que parece ser irrelevante, pois ela faz algo similar ao que a função `select()` da livraria `dplyr` faz. No entanto, durante o processo de tratamento de dados, uma das coisas que pretente-se evitar é perder muito tempo, e ter um codigo mais compacto. 
 
-Para percepermos melhor como podemos usar a função `pick()` vamos gerar uma base de dados que com notas de teste para um certo grupo de estudantes. 
+Para percebermos melhor como podemos usar a função `pick()` vamos gerar uma base de dados  com notas de teste para um certo grupo de estudantes. 
 
 ```{r}
 notas_df <- data.frame(nomes = c("Joa0", "Antonia", "Jorge", "Maria","Joana"),
@@ -37,7 +37,7 @@ notas_df <- data.frame(nomes = c("Joa0", "Antonia", "Jorge", "Maria","Joana"),
 head(notas_df)
 ```
 
-Suponha que pretenda calular a média dos testes de cada estudante e adicionar a dataset `notas_df`. Este exercício pode ser feito de várias formas. Primeiro, vamos tentar resolver este problema usando o `base R`.
+Suponha que pretenda calcular a média dos testes de cada estudante e adicioná‑la ao dataset `notas_df`. Este exercício pode ser realizado de várias formas. Primeiro, vamos tentar resolver o problema usando apenas o `base R`.
 
 ```{r}
 notas_df$media <- rowMeans(notas_df[, c("teste1","teste2","teste3")])
@@ -49,7 +49,7 @@ Observe que, no código anterior, tivemos de criar a variável media, à qual at
 
 
 
-```{r}
+```{r,warning = FALSE}
 library(dplyr)
 
 notas_df <- notas_df |>
@@ -62,7 +62,7 @@ head(notas_df)
 
 Repare que, na verdade, a função `pick()` cria um subconjunto que contém as variáveis `teste1`, `teste2` e `teste3`, e tudo isso é feito dentro da função `mutate()` sem precisar referenciar o data frame, isto é, sem escrever `notas_df$teste1`.
 
-Uma das coisas que aprecio nas funções da livraria dplyr é a possibilidade de usar o `data masking`, que permite aceder às variáveis diretamente, sem referenciar a base de dados ou usar aspas.
+Uma das coisas que aprecio nas funções da livraria `dplyr` é a possibilidade de usar o `data masking`, que permite aceder às variáveis diretamente, sem referenciar a base de dados ou usar aspas.
 
 
 

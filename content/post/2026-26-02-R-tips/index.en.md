@@ -26,7 +26,7 @@ O processo de tratamento e manipulação de dados é uma das etapas que mais tem
 
 Hoje, eu trago a função `pick()`, que parece ser irrelevante, pois ela faz algo similar ao que a função `select()` da livraria `dplyr` faz. No entanto, durante o processo de tratamento de dados, uma das coisas que pretente-se evitar é perder muito tempo, e ter um codigo mais compacto. 
 
-Para percepermos melhor como podemos usar a função `pick()` vamos gerar uma base de dados que com notas de teste para um certo grupo de estudantes. 
+Para percebermos melhor como podemos usar a função `pick()` vamos gerar uma base de dados  com notas de teste para um certo grupo de estudantes. 
 
 
 ``` r
@@ -40,14 +40,14 @@ head(notas_df)
 
 ```
 ##     nomes    teste1    teste2     teste3
-## 1    Joa0 10.716837  6.694574 13.9474654
-## 2 Antonia  1.386273 15.184644  0.1936269
-## 3   Jorge 15.919536  3.932602  9.2888322
-## 4   Maria 18.197392 14.669102 19.1965182
-## 5   Joana 17.607728  4.035959 15.4882126
+## 1    Joa0  9.240334 14.122216  0.1909421
+## 2 Antonia  3.085758 10.337808 19.6430885
+## 3   Jorge 18.746530  2.414286  5.9993293
+## 4   Maria  4.822971  8.247380  4.8682839
+## 5   Joana 16.282714 16.600544 13.9484695
 ```
 
-Suponha que pretenda calular a média dos testes de cada estudante e adicionar a dataset `notas_df`. Este exercício pode ser feito de várias formas. Primeiro, vamos tentar resolver este problema usando o `base R`.
+Suponha que pretenda calcular a média dos testes de cada estudante e adicioná‑la ao dataset `notas_df`. Este exercício pode ser realizado de várias formas. Primeiro, vamos tentar resolver o problema usando apenas o `base R`.
 
 
 ``` r
@@ -57,11 +57,11 @@ head(notas_df)
 
 ```
 ##     nomes    teste1    teste2     teste3     media
-## 1    Joa0 10.716837  6.694574 13.9474654 10.452959
-## 2 Antonia  1.386273 15.184644  0.1936269  5.588181
-## 3   Jorge 15.919536  3.932602  9.2888322  9.713657
-## 4   Maria 18.197392 14.669102 19.1965182 17.354338
-## 5   Joana 17.607728  4.035959 15.4882126 12.377300
+## 1    Joa0  9.240334 14.122216  0.1909421  7.851164
+## 2 Antonia  3.085758 10.337808 19.6430885 11.022218
+## 3   Jorge 18.746530  2.414286  5.9993293  9.053382
+## 4   Maria  4.822971  8.247380  4.8682839  5.979545
+## 5   Joana 16.282714 16.600544 13.9484695 15.610576
 ```
 
 
@@ -102,16 +102,16 @@ head(notas_df)
 
 ```
 ##     nomes    teste1    teste2     teste3     media media_alter
-## 1    Joa0 10.716837  6.694574 13.9474654 10.452959   10.452959
-## 2 Antonia  1.386273 15.184644  0.1936269  5.588181    5.588181
-## 3   Jorge 15.919536  3.932602  9.2888322  9.713657    9.713657
-## 4   Maria 18.197392 14.669102 19.1965182 17.354338   17.354338
-## 5   Joana 17.607728  4.035959 15.4882126 12.377300   12.377300
+## 1    Joa0  9.240334 14.122216  0.1909421  7.851164    7.851164
+## 2 Antonia  3.085758 10.337808 19.6430885 11.022218   11.022218
+## 3   Jorge 18.746530  2.414286  5.9993293  9.053382    9.053382
+## 4   Maria  4.822971  8.247380  4.8682839  5.979545    5.979545
+## 5   Joana 16.282714 16.600544 13.9484695 15.610576   15.610576
 ```
 
 Repare que, na verdade, a função `pick()` cria um subconjunto que contém as variáveis `teste1`, `teste2` e `teste3`, e tudo isso é feito dentro da função `mutate()` sem precisar referenciar o data frame, isto é, sem escrever `notas_df$teste1`.
 
-Uma das coisas que aprecio nas funções da livraria dplyr é a possibilidade de usar o `data masking`, que permite aceder às variáveis diretamente, sem referenciar a base de dados ou usar aspas.
+Uma das coisas que aprecio nas funções da livraria `dplyr` é a possibilidade de usar o `data masking`, que permite aceder às variáveis diretamente, sem referenciar a base de dados ou usar aspas.
 
 
 
