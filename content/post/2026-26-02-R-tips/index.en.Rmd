@@ -1,6 +1,6 @@
 ---
-title: R tips - função pick()
-author: 'Rachid Muleia'
+title: R tips-função pick()
+author: ''
 date: '2026-26-02'
 slug: manipulacao-dados-pick
 categories: []
