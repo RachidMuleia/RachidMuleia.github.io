@@ -1,7 +1,7 @@
 ---
 title: R tips - dica do dia
 author: ''
-date: '2023-11-04'
+date: '2026-26-02'
 slug: manipulacao-dados-pick
 categories: []
 tags:
@@ -39,12 +39,12 @@ head(notas_df)
 ```
 
 ```
-##     nomes    teste1     teste2    teste3
-## 1    Joa0 16.504102  4.1277304  3.029324
-## 2 Antonia 16.097598  0.2072937 10.511365
-## 3   Jorge 14.040882  0.5810587 19.131374
-## 4   Maria  5.984509 13.1166047 10.681101
-## 5   Joana 15.011208  0.1891290  1.185965
+##     nomes    teste1    teste2    teste3
+## 1    Joa0  3.340814 14.066754 0.1753548
+## 2 Antonia  3.316792 12.469598 1.2527028
+## 3   Jorge 14.109137  2.934699 1.4156696
+## 4   Maria 14.608854 15.892899 8.3606090
+## 5   Joana  3.846269  2.989269 9.0083718
 ```
 
 Suponha que pretenda calular a média dos testes de cada estudante e adicionar a dataset `notas_df`. Este exercício pode ser feito de várias formas. Primeiro, vamos tentar resolver este problema usando o `base R`.
@@ -56,12 +56,12 @@ head(notas_df)
 ```
 
 ```
-##     nomes    teste1     teste2    teste3     media
-## 1    Joa0 16.504102  4.1277304  3.029324  7.887052
-## 2 Antonia 16.097598  0.2072937 10.511365  8.938752
-## 3   Jorge 14.040882  0.5810587 19.131374 11.251105
-## 4   Maria  5.984509 13.1166047 10.681101  9.927405
-## 5   Joana 15.011208  0.1891290  1.185965  5.462101
+##     nomes    teste1    teste2    teste3     media
+## 1    Joa0  3.340814 14.066754 0.1753548  5.860974
+## 2 Antonia  3.316792 12.469598 1.2527028  5.679698
+## 3   Jorge 14.109137  2.934699 1.4156696  6.153168
+## 4   Maria 14.608854 15.892899 8.3606090 12.954121
+## 5   Joana  3.846269  2.989269 9.0083718  5.281303
 ```
 
 
@@ -101,12 +101,12 @@ head(notas_df)
 ```
 
 ```
-##     nomes    teste1     teste2    teste3     media media_alter
-## 1    Joa0 16.504102  4.1277304  3.029324  7.887052    7.887052
-## 2 Antonia 16.097598  0.2072937 10.511365  8.938752    8.938752
-## 3   Jorge 14.040882  0.5810587 19.131374 11.251105   11.251105
-## 4   Maria  5.984509 13.1166047 10.681101  9.927405    9.927405
-## 5   Joana 15.011208  0.1891290  1.185965  5.462101    5.462101
+##     nomes    teste1    teste2    teste3     media media_alter
+## 1    Joa0  3.340814 14.066754 0.1753548  5.860974    5.860974
+## 2 Antonia  3.316792 12.469598 1.2527028  5.679698    5.679698
+## 3   Jorge 14.109137  2.934699 1.4156696  6.153168    6.153168
+## 4   Maria 14.608854 15.892899 8.3606090 12.954121   12.954121
+## 5   Joana  3.846269  2.989269 9.0083718  5.281303    5.281303
 ```
 
 Repare que, na verdade, a função `pick()` cria um subconjunto que contém as variáveis `teste1`, `teste2` e `teste3`, e tudo isso é feito dentro da função `mutate()` sem precisar referenciar o data frame, isto é, sem escrever `notas_df$teste1`.
