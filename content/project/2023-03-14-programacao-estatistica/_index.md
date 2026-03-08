@@ -48,7 +48,7 @@ Actualmente, a análise de dados usando a metodologia estatística é geralmente
 Veja aqui o [plano temático](Plano_tematico.pdf) e o [plano analítico](PLANO_ANALITICO_MEA_PE_2026.pdf)
 
 ### Notas para as aula teóricas
- - [Introdução ao R  e Estruturas de dados- Slides](AULA1.html)
+ - [Introdução ao R  e Estruturas de dados- Slides](AULA_PE1.pdf)
 
  - [Importação e exportação de dados - Slides](Importacao_Dados.pdf) 
  
