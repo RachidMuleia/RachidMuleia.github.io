@@ -29,7 +29,7 @@ Certa vez, uma colega profissional de estatística conta-me que foi abordada por
 
 Este episódio ilustra perfeitamente a provocação de Stephen Senn:
 
->[!IMPORTANT] 
+
 >*Estatística é uma área que a maioria dos estatísticos considera difícil, mas na qual quase todos os médicos são especialistas.*
 
 Depois de tantos episódios similares, devo confessar que nunca concordei tanto com Stphen Seen. Alias, é preciso também notar que muitos estudos publicados, até em revistas científicas de renome, as análises estatísticas não são feitas por profissionais de estatística, não que não existam profissionais de saúde na pesquisa bem treinados para fazer analises estatísticas com razoabilidade científica. 
