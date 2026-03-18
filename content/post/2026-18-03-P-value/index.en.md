@@ -62,6 +62,15 @@ Em virtude da má interpretação e do uso abusivo do `p-value`, a Associação 
 
 Ao reportar resultados, é imperativo olhar para além do `p-value`. Olhe igualmente para medidas como Intervalos de Confiança (IC), que nos oferecem uma visão um pouco mais clara sobre a incerteza em torno do efeito estimado. Ademais, vale notar que resultados estatisticamente significativos com ICs excessivamente largos indicam uma precisão precária, deixando dúvidas sobre o verdadeiro impacto da intervenção. Em suma, a estatística deve ser sempre acompanhada pelo conhecimento profundo da área ou relevância clínica, sob pena de ter conclusões vazias. 
 
+<script src="https://utteranc.es/client.js"
+        repo="RachidMuleia/RachidMuleia.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 
 
 
