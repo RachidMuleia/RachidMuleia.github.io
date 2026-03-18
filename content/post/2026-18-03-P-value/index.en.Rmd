@@ -8,7 +8,7 @@ tags:
   - Estatística
   - p-value
   - P-hacking
-  - Investigação clínic
+  - Investigação clínica
 subtile: 
 summary: 'Neste artigo abordo a mística em torno do p-value, o "amuleto" de muitos investigadore, e trago uma reflexão a volta do seu racional que é vital para integridade científica.'
 authors: []
@@ -41,7 +41,7 @@ Porque esta obsessão pelo `p-value`, que não só se regista nos profissionais 
 
 Antes de questionar o uso do `p-value`, talvez devamos dar um passo atrás: o que  de facto é o `p-value`? Para muitos, ele é a cereja no topo do bolo, mas será que sabemos o que estamos celebrando?" O `p-value` é, puramente, uma probabilidade. Porém, a pergunta de um milhão de dólares é: probabilidade de quê?  
 
-Imagine que deseja testar se um novo fármaco é capaz de reduzir a pressão arterial. O ponto de partida é definir a Hipótese Nula ($H_0$), que assume o cenário céptico: o de que o fármaco não faz diferença nenhuma e a redução média é zero. Do outro lado, temos a Hipótese Alternativa ($H_1$), que é a nossa aposta de que o fármaco realmente reduz a pressão, gerando uma diferença menor que zero. O papel do `p-value` é justamente medir o quão compatíveis os dados que tem em mãos são com o cenário de 'nenhum efeito'. Tecnicamente, o `p-value` representa a probabilidade de obter um resultado igual ou mais extremo do que o observado, assumindo que o fármaco seja, na verdade, inútil. Quanto menor for essa probabilidade, menor é a compatibilidade dos dados com a hipótese nula, o que fortalece as evidências a favor do fármaco.
+Imagine que deseja testar se um novo fármaco é capaz de reduzir a pressão arterial. O ponto de partida é definir a Hipótese Nula (H0), que assume o cenário céptico: o de que o fármaco não faz diferença nenhuma e a redução média é zero. Do outro lado, temos a Hipótese Alternativa (H1), que é a nossa aposta de que o fármaco realmente reduz a pressão, gerando uma diferença menor que zero. O papel do `p-value` é justamente medir o quão compatíveis os dados que tem em mãos são com o cenário de 'nenhum efeito'. Tecnicamente, o `p-value` representa a probabilidade de obter um resultado igual ou mais extremo do que o observado, assumindo que o fármaco seja, na verdade, inútil. Quanto menor for essa probabilidade, menor é a compatibilidade dos dados com a hipótese nula, o que fortalece as evidências a favor do fármaco.
 
 Para ilustrar de outra forma, suponha que mediu a Pressão Arterial Sistólica (PAS) de um grupo de pacientes e, após o tratamento, observou uma redução média de 10 mmHg. A questão central é saber se esta redução foi causada pelo fármaco ou se resultou meramente do acaso. Se o seu `p-value` for calculado em 0,03, este valor indica que a probabilidade de encontrar uma redução de 10 mmHg ou mais, apenas por sorte, seria de apenas 3 em cada 100 tentativas. Sendo esta probabilidade tão baixa, conclui-se que os dados favorecem a hipótese alternativa. Por outro lado, se o `p-value` fosse de 0,25 (25%), isso significaria que, mesmo que o novo fármaco não tivesse efeito nenhum, haveria uma probabilidade de 25% de observar essa redução por variação natural dos dados (um risco demasiado alto para descartar a influência do acaso). 
 
