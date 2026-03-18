@@ -10,7 +10,7 @@ tags:
   - P-hacking
   - Investigação clínic
 subtile: 
-summary: 'Neste artigo falo um pouco sobre o p-value, que é meuito "amado" por investigadores, e tento advertir para um uso um pouco mais racional sobre esta medida.'
+summary: 'Abordo a mística em torno do p-value, o "amuleto" de muitos investigadore, e trago uma reflexão a volta do seu racional que é vital para integridade científica.'
 authors: []
 lastmod: '2026-03-18T11:09:46+02:00'
 featured: no
@@ -29,7 +29,8 @@ Certa vez, uma colega profissional de estatística conta-me que foi abordada por
 
 Este episódio ilustra perfeitamente a provocação de Stephen Senn:
 
-*Estatística é uma área que a maioria dos estatísticos considera difícil, mas na qual quase todos os médicos são especialistas.*
+>[!IMPORTANT] 
+>*Estatística é uma área que a maioria dos estatísticos considera difícil, mas na qual quase todos os médicos são especialistas.*
 
 Depois de tantos episódios similares, devo confessar que nunca concordei tanto com Stphen Seen. Alias, é preciso também notar que muitos estudos publicados, até em revistas científicas de renome, as análises estatísticas não são feitas por profissionais de estatística, não que não existam profissionais de saúde na pesquisa bem treinados para fazer analises estatísticas com razoabilidade científica. 
 
@@ -50,12 +51,12 @@ Para ilustrar de outra forma, suponha que mediu a Pressão Arterial Sistólica (
 
 Em virtude da má interpretação e do uso abusivo do p-value, a Associação Americana de Estatística (ASA) publicou, em 2016, uma declaração oficial com o intuito de esclarecer o que o p-value realmente representa, e pode muito bem ser encontrada em https://doi.org/10.1080/00031305.2016.1154108. Este artigo  destaca seis princípios fundamentais que todo investigador deve ter em conta:
 
-- Incompatibilidade com o modelo: O p-value indica o quão incompatíveis os dados observados são com um modelo estatístico específico (geralmente o modelo de "nenhum efeito").
--	Não mede a verdade da hipótese: Ele não mede a probabilidade de a hipótese em estudo ser verdadeira, nem garante que os dados tenham sido gerados de forma puramente aleatória.
--	Decisões não devem ser binárias: Conclusões científicas e decisões empresariais ou políticas não devem basear-se apenas no facto de um p-value ultrapassar um determinado limiar (como o clássico 0,05).
--	Transparência e Reprodutibilidade: Uma inferência apropriada exige total transparência científica. O processo de análise deve ser claro para permitir a reprodutibilidade dos resultados.
--	Magnitude vs. Significância: O p-value, ou a significância estatística, não mede a magnitude de um efeito nem a importância prática de um resultado.
--	Evidência Isolada: Por si só, o p-value não constitui uma medida robusta de evidência relativamente a um modelo ou a uma hipótese.
+- __Incompatibilidade com o modelo__: O p-value indica o quão incompatíveis os dados observados são com um modelo estatístico específico (geralmente o modelo de "nenhum efeito").
+-	__Não mede a verdade da hipótese__: Ele não mede a probabilidade de a hipótese em estudo ser verdadeira, nem garante que os dados tenham sido gerados de forma puramente aleatória.
+-	__Decisões não devem ser binárias__: Conclusões científicas e decisões empresariais ou políticas não devem basear-se apenas no facto de um p-value ultrapassar um determinado limiar (como o clássico 0,05).
+-	__Transparência e Reprodutibilidade__: Uma inferência apropriada exige total transparência científica. O processo de análise deve ser claro para permitir a reprodutibilidade dos resultados.
+-	__Magnitude vs. Significância__: O p-value, ou a significância estatística, não mede a magnitude de um efeito nem a importância prática de um resultado.
+-	__Evidência Isolada__: Por si só, o p-value não constitui uma medida robusta de evidência relativamente a um modelo ou a uma hipótese.
 
 É comum encontrar investigadores que, ao depararem-se com um p-value=0,000001, ficam maravilhados e até dize que os resultados são "altamente significativos". No entanto, é preciso ter cautela: um valor extremamente baixo pode ser apenas um indicativo de má especificação do modelo ou do uso de uma amostra tão grande que os testes estatísticos se tornam tão potente ao ponto de detectar ruídos sem qualquer utilidade clínica.
 
