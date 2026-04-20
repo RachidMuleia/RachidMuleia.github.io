@@ -38,6 +38,23 @@ barplot(H, names.arg = label , col=rainbow(5), xlab='Nome', ylab='Idade')
 
 barplot(H, names.arg = label , col=rainbow(5), xlab='Nome', ylab='Idade', horiz = TRUE)
 
+
+
+data("mtcars")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # grafico de barras sobrpostas
 data("mtcars")
 freq <- table(mtcars$am,mtcars$gear)
