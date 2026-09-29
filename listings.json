@@ -1,0 +1,63 @@
+[
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/p-value-obsessao-medicos/index.html",
+      "/posts/manipulacao-dados-pick/index.html",
+      "/posts/como-cheguei-a-estatistica/index.html",
+      "/posts/como-manipular-ficheiros-pdf/index.html",
+      "/posts/como-eliminar-colunas-e-linhas-vazias-numa-data-frame/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/publications/articles/paper-vaccine.html",
+      "/publications/articles/paper-KPMapping.html",
+      "/publications/articles/epidemic-model-social-vulnerability.html",
+      "/publications/articles/sexual-debut-paper.html",
+      "/publications/articles/paper-IX.html",
+      "/publications/articles/paper-VIII.html",
+      "/publications/articles/paper-VI.html",
+      "/publications/articles/paper-VII.html",
+      "/publications/articles/paper-V.html",
+      "/publications/articles/vulnerability.html",
+      "/publications/articles/paper-IV.html",
+      "/publications/articles/my-publication.html",
+      "/publications/articles/paper-II.html",
+      "/publications/articles/paper-I.html",
+      "/posts/p-value-obsessao-medicos/index.html",
+      "/posts/manipulacao-dados-pick/index.html",
+      "/posts/como-cheguei-a-estatistica/index.html",
+      "/posts/como-manipular-ficheiros-pdf/index.html",
+      "/posts/como-eliminar-colunas-e-linhas-vazias-numa-data-frame/index.html"
+    ]
+  },
+  {
+    "listing": "/lectures/index.html",
+    "items": [
+      "/lectures/estatistica-recursos-hidricos/index.html",
+      "/lectures/fundamentos-de-geoestatistica/index.html",
+      "/lectures/programacao-estatistica/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/index.html",
+    "items": [
+      "/publications/articles/paper-vaccine.html",
+      "/publications/articles/paper-KPMapping.html",
+      "/publications/articles/epidemic-model-social-vulnerability.html",
+      "/publications/articles/sexual-debut-paper.html",
+      "/publications/articles/paper-IX.html",
+      "/publications/articles/paper-VIII.html",
+      "/publications/articles/paper-VI.html",
+      "/publications/articles/paper-VII.html",
+      "/publications/articles/paper-V.html",
+      "/publications/articles/vulnerability.html",
+      "/publications/articles/paper-IV.html",
+      "/publications/articles/my-publication.html",
+      "/publications/articles/paper-II.html",
+      "/publications/articles/paper-I.html"
+    ]
+  }
+]
