@@ -1,0 +1,21 @@
+---
+title: "Trends in HIV prevalence and risk factors among men who have sex with men in Mozambique: implications for targeted interventions and public health strategies"
+author: "Auria Ribeiro Banze, Rachid Muleia, Makini Boothe, Cynthia Cemá Baltazar"
+date: 2024-04-27
+description: "International Journal of Environmental Research and Public Health"
+categories:
+  - Journal article
+doi: "https://doi.org/10.1186/s12889-024-18661-0"
+aliases:
+  - /publication/paper-V/index.html
+---
+
+Auria Ribeiro Banze, **Rachid Muleia**, Makini Boothe, Cynthia Cemá Baltazar.
+
+*International Journal of Environmental Research and Public Health*, 2024.
+
+Men who have sex with Men (MSM) are known to contribute to increased HIV prevalence as an integral part of key populations with high vulnerability to HIV/AIDS due to their sexual behaviours. Mozambique conducted two rounds of bio-behavioral surveys (BBS) in this population with the main objective of estimating HIV prevalence and associated risk behaviors among MSM in Mozambique. The present study aims to estimate the trend of HIV prevalence and determine the correlations of HIV infection among MSM. A repeated cross-sectional analytical study was conducted from secondary data from the first and second rounds of BBS in Mozambique conducted in 2011 and 2020–2021 respectively. Each round used a similar methodology which allowed for comparison between the two surveys. Chi-square test and logistic regression was used to compare the HIV prevalence between the BBS rounds, identify factors associated with HIV, and assess changes in HIV prevalence across selected risk factors. There was a significant increase in HIV prevalence among MSM (7.1–14.9%), living in Maputo (9.3–14.7%), uncircumcised (11.7–25.1%), and those who reported two sexual partners in the last year (5.2–14.4%). In contrast, there was a decrease in prevalence among adult MSM aged between 25 and 29 years (24.7–13.9%), aged 30 years or older (45.7–27.7%), married (29.1–16.8%), with higher education (16.7–5.9%) and moderate perception of HIV risk (10.9–3.4%). Multivariable analysis showed that factors such as age, marital status, religion, sexual identity, circumcision, and the use of lubrication during anal sex are significantly associated with the risk of HIV infection. This study underscores the continuing need for HIV prevention and education efforts. The rise in prevalence among specific population segments and the sustained presence of risk factors emphasize the requirement for holistic strategies tailored to the unique requirements of each subgroup. Understanding trends and risk factors is crucial to guiding public health policies and designing efficacious prevention programs that aim to curtail HIV transmission while enhancing the well-being of those impacted by the condition.
+
+Keywords: HIV, Prevelance, MSM, Trends, Mozambique".
+
+[DOI](https://doi.org/10.1186/s12889-024-18661-0) [PDF](paper-V/paper-V.pdf) [BibTeX](paper-V/cite.bib)

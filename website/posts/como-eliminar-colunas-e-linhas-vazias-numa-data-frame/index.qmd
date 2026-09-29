@@ -1,0 +1,122 @@
+---
+title: "Limpeza de dados em R {janitor}"
+author: "Rachid Muleia"
+date: 2023-03-22
+description: "Este post ilustra como pode-se remover colunas vazias de uma base de dados usando o R, recorrendo a funções predefinidas e funções da livraria `janitor`"
+subtitle: "Remoção de coluna e linhas vazias numa data frame"
+categories:
+  - "Limpeza de dados"
+  - "R"
+  - "janitor"
+aliases:
+  - /post/2023-03-22-como-eliminar-colunas-e-linhas-vazias-numa-data-frame/index.html
+  - /post/como-eliminar-colunas-e-linhas-vazias-numa-data-frame/index.html
+image: featured.jpg
+---
+
+## Como eliminar colunas e linhas vazias numa data frame
+
+Na vida, somos eternos aprendizes. Numa das minhas aulas aos estudantes do módulo programação estatística, eu mostrava como fazer inspenccionar e limpar uma base de dados. No entanto, a base de dados continha não mais que 15 variáveis, e algumas colunas da base de dados não tinham nenhuma informação e, logicamente, ninguém quer ter colunas sem informação na sua base de dados. Para remover as colunas vazias, apenas seleccionei as colunas com informação na minha base de dados. Um dos estudante pergunta-me. Professor, e se tivéssemos uma base de dados grande como faríamos para localizar as colunas vazias? No momento, até gaguejei, mas depois veio a solução. Bom, acho melhor chamar aqui a `data frame` para entendermos melhor.
+
+``` r
+path<-'C:/Users/Rachid/Dropbox/Analise de Dados DMI/Slides Aulas/MATERIAL DE AULAS MESTRADO/SLIDES'
+snail_df<-read.csv(paste(path,'Snail_feeding.csv',sep='/'),header=TRUE)
+
+head(snail_df)
+```
+
+    ##   Snail.ID   Sex  Size Feeding Distance Depth Temp  X X.1 X.2
+    ## 1        1 males small   FALSE     0.22  1.43   18 NA  NA  NA
+    ## 2        1  male small   FALSE     0.90  1.73   18 NA  NA  NA
+    ## 3        1  male small   FALSE     0.87  1.95   18 NA  NA  NA
+    ## 4        1  male small   FALSE     0.87  1.95   18 NA  NA  NA
+    ## 5        1  male small   FALSE     0.32  1.72   18 NA  NA  NA
+    ## 6        1  male small    TRUE     0.38  1.63   18 NA  NA  NA
+
+Como podem ver, a `data frame` tem três colunas vazias. A minha primeira solução para remover as linhas foi reter na minha `data frame` apenas colunas que contem alguma informação:
+
+``` r
+snail_df1<-snail_df[, 1:7]
+
+head(snail_df1)
+```
+
+    ##   Snail.ID   Sex  Size Feeding Distance Depth Temp
+    ## 1        1 males small   FALSE     0.22  1.43   18
+    ## 2        1  male small   FALSE     0.90  1.73   18
+    ## 3        1  male small   FALSE     0.87  1.95   18
+    ## 4        1  male small   FALSE     0.87  1.95   18
+    ## 5        1  male small   FALSE     0.32  1.72   18
+    ## 6        1  male small    TRUE     0.38  1.63   18
+
+Para responder a pergunta do estundante, pensei mais em soluções oferecidas no `base` , que foi usar uma combinação de funções pre-definidas no . Eis aqui a minha proposta de solução.
+
+``` r
+# primeiro identificar as colunas vazias usando a função is.na()
+na_df<-is.na(snail_df) # a função is.na indica se um valor é NA ou não
+                       # devolvendo TRUE se sim e FALSE se não
+
+head(na_df) # certamente se uma coluna tem NAs, o somatoria dos valores dessa coluna será deferente de zero, então recorri a função colSums
+```
+
+    ##      Snail.ID   Sex  Size Feeding Distance Depth  Temp    X  X.1  X.2
+    ## [1,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+    ## [2,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+    ## [3,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+    ## [4,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+    ## [5,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+    ## [6,]    FALSE FALSE FALSE   FALSE    FALSE FALSE FALSE TRUE TRUE TRUE
+
+``` r
+col_zero<-which(colSums(na_df)!=0)
+col_zero
+```
+
+    ## Temp    X  X.1  X.2 
+    ##    7    8    9   10
+
+``` r
+snail_df2<-snail_df[, -col_zero]
+head(snail_df2)
+```
+
+    ##   Snail.ID   Sex  Size Feeding Distance Depth
+    ## 1        1 males small   FALSE     0.22  1.43
+    ## 2        1  male small   FALSE     0.90  1.73
+    ## 3        1  male small   FALSE     0.87  1.95
+    ## 4        1  male small   FALSE     0.87  1.95
+    ## 5        1  male small   FALSE     0.32  1.72
+    ## 6        1  male small    TRUE     0.38  1.63
+
+## Remover linhas ou colunas vazias usando `janitor`
+
+Contudo, dias depois deparo me com uma postagem no linkedin que falava de como remover linhas vazias numa `data frame` usando funções da livraria `janitor`. Rapidamente, fui a documentação da livraria `janitor` e vi que a mesma função que fora usada no post, para remover linhas vazias, podia muito be remover colunas vazias, de uma forma bem simples e sem muitas linhas de código.
+
+``` r
+library(janitor)
+```
+
+    ## 
+    ## Attaching package: 'janitor'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     chisq.test, fisher.test
+
+``` r
+snail_df3<-remove_empty(snail_df, which ='cols', cutoff = 1, quiet = TRUE)
+
+head(snail_df3)
+```
+
+    ##   Snail.ID   Sex  Size Feeding Distance Depth Temp
+    ## 1        1 males small   FALSE     0.22  1.43   18
+    ## 2        1  male small   FALSE     0.90  1.73   18
+    ## 3        1  male small   FALSE     0.87  1.95   18
+    ## 4        1  male small   FALSE     0.87  1.95   18
+    ## 5        1  male small   FALSE     0.32  1.72   18
+    ## 6        1  male small    TRUE     0.38  1.63   18
+
+Para remover linhas vazias, basta atribuir o argumento `which` o valor `rows`. simultaneamente, pode se remover linhas e colunas vazias, colocando `which=c('rows', 'cols')`
+
+Espero que tenha gostado do post. Deixe aqui o seu comentário!!

@@ -1,0 +1,10 @@
+comments:
+  utterances:
+    repo: RachidMuleia/RachidMuleia.github.io
+    issue-term: pathname
+    label: Comment
+    theme: github-light
+
+format:
+  html:
+    toc: true

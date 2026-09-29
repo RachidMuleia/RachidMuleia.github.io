@@ -1,0 +1,132 @@
+---
+title: "Rachid Muleia"
+pagetitle: "Rachid Muleia"
+comments: false
+format:
+  html:
+    title-block-style: none
+    include-in-header:
+      - text: |
+          <style>#title-block-header { display: none; }</style>
+listing:
+  - id: publications
+    contents: publications/articles
+    type: table
+    sort: "date desc"
+    max-items: 6
+    fields: [date, title, description]
+    field-display-names:
+      description: Journal
+    categories: false
+    filter-ui: false
+    sort-ui: false
+    date-format: "YYYY"
+  - id: posts
+    contents: "posts/*/index.qmd"
+    type: default
+    sort: "date desc"
+    max-items: 4
+    fields: [date, title, description]
+    categories: false
+    filter-ui: false
+    sort-ui: false
+---
+
+<p class="hero-kicker">Biostatistician · PhD</p>
+
+# Rachid Muleia
+
+<p class="lede">I have a PhD in statistics from Hasselt University, a journey that was shaped by prof. dr. Christel Faes and Emeritus Professor Marc Aerts, and who have also been responsible for what for my professional path. In my daily work, I apply my statistical skills to to address public health challenges across a variety of domains, ranging from analyzing survey data to routine health data and clinical trial data. My research interest revolves around spatial statistics, Bayesian inferences, generalized additive models, public health and epidemiology, and climate change. Outside of work, I’m a husband, a father, an avid reader and a guy who enjoys new adventures. I also like to do sport, gym workouts and swimming, which I believe is what keeps me awaken every day.</p>
+
+<p class="social-row">
+<a href="mailto:rmuleia@gmail.com">Email</a>
+<a href="https://github.com/RachidMuleia">GitHub</a>
+<a href="https://twitter.com/RachidMuleia">Twitter</a>
+<a href="https://www.linkedin.com/in/rachid-muleia-8989595b/">LinkedIn</a>
+<a href="https://orcid.org/0000-0001-8721-085X">ORCID</a>
+</p>
+
+<div class="about-grid">
+
+<div>
+
+### Interests
+
+<ul class="interest-list">
+<li>Bayesian inference</li>
+<li>Spatial modelling</li>
+<li>Generalized additive models</li>
+<li>Statistical programming</li>
+<li>Infectious disease modelling</li>
+<li>Climate change and vulnerability assessment</li>
+</ul>
+
+</div>
+
+<div>
+
+### Education
+
+<div class="edu-item"><strong>2021</strong><div><strong>PhD in Statistics</strong><span>Hasselt University</span></div></div>
+<div class="edu-item"><strong>2015</strong><div><strong>MSc in Statistics, Biostatistics</strong><span>Hasselt University</span></div></div>
+<div class="edu-item"><strong>2011</strong><div><strong>BSc in Statistics</strong><span>Eduardo Mondlane University</span></div></div>
+
+</div>
+
+</div>
+
+<div class="section-head">
+
+## Journal articles
+
+[All publications](publications/index.qmd)
+
+</div>
+
+::: {#publications}
+:::
+
+<div class="section-head">
+
+## Recent posts
+
+[All posts](posts/index.qmd)
+
+</div>
+
+::: {#posts}
+:::
+
+<div class="section-head" id="contact">
+
+## Contact
+
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+### Email
+
+<p><a href="mailto:rmuleia@gmail.com">rmuleia@gmail.com</a></p>
+
+</div>
+
+<div class="contact-card">
+
+### Office
+
+<p>Av. Julius Nyerere, Campus 3453<br>Maputo, Mozambique</p>
+
+</div>
+
+<div class="contact-card">
+
+### Hours
+
+<p>Tuesday, 10:00–17:00<br>Thursday, 10:00–17:00</p>
+
+</div>
+
+</div>

@@ -1,0 +1,13 @@
+---
+title: "Posts"
+listing:
+  contents:
+    - "*/index.qmd"
+  type: default
+  sort: "date desc"
+  fields: [image, date, title, description, categories]
+  categories: true
+comments: false
+---
+
+Notes on statistics, R, and the path that led me here.

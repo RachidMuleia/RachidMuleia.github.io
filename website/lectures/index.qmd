@@ -1,0 +1,17 @@
+---
+title: "Lectures"
+listing:
+  contents:
+    - programacao-estatistica/index.qmd
+    - fundamentos-de-geoestatistica/index.qmd
+    - estatistica-recursos-hidricos/index.qmd
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  categories: false
+  filter-ui: false
+  sort-ui: false
+comments: false
+---
+
+Course notes, practicals, and data files for modules I teach.

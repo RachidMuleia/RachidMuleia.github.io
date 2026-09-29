@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Rachid Muleia"
+  description: "Personal website of Rachid Muleia, biostatistician."
+  site-url: https://rachidmuleia.github.io/
+  favicon: favicon.svg
+  google-analytics: "G-1W75VXS9M5"
+  navbar:
+    title: "Rachid Muleia"
+    left:
+      - text: Publications
+        href: publications/index.qmd
+      - text: Posts
+        href: posts/index.qmd
+      - text: Lectures
+        href: lectures/index.qmd
+      - text: Contact
+        href: index.qmd#contact
+    right:
+      - icon: envelope
+        href: mailto:rmuleia@gmail.com
+        aria-label: Email
+      - icon: github
+        href: https://github.com/RachidMuleia
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/RachidMuleia
+        aria-label: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rachid-muleia-8989595b/
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Rachid Muleia"
+    right:
+      - text: "CC BY-NC-ND 4.0"
+        href: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    highlight-style: github
+    toc: false
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&display=swap" rel="stylesheet">
+
+execute:
+  freeze: auto
