@@ -1,0 +1,384 @@
+#title-block-header {
+  display: none !important;
+}
+
+.math-app {
+  max-width: 40rem;
+  margin: 0 auto 3rem;
+  color: #1c1917;
+}
+
+.math-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.math-kicker {
+  margin: 0 0 0.2rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1f4e5f;
+  font-weight: 650;
+  font-size: 0.78rem;
+}
+
+.math-app h1 {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.math-intro {
+  margin: 0.35rem 0 0;
+  color: #44403c;
+}
+
+.lang-toggle {
+  display: flex;
+  border: 1px solid #e7e2da;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #fff;
+  flex: none;
+}
+
+.lang-toggle button {
+  border: 0;
+  background: transparent;
+  padding: 0.35rem 0.7rem;
+  font-weight: 650;
+  color: #57534e;
+}
+
+.lang-toggle button[aria-pressed="true"] {
+  background: #1f4e5f;
+  color: #f7f5f2;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.skill-card,
+.level-card,
+.choice-btn,
+.primary-btn,
+.ghost-btn,
+.key {
+  font: inherit;
+  cursor: pointer;
+}
+
+.skill-card,
+.level-card {
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e7e2da;
+  border-radius: 0.8rem;
+  padding: 0.95rem 1rem;
+}
+
+.skill-card:hover,
+.level-card:hover,
+.choice-btn:hover,
+.primary-btn:hover {
+  border-color: #1f4e5f;
+}
+
+.skill-card strong,
+.level-card strong {
+  display: block;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.skill-card span,
+.level-card span,
+.stat {
+  color: #57534e;
+  font-size: 0.92rem;
+}
+
+.skill-card.wide {
+  grid-column: 1 / -1;
+}
+
+.section-label {
+  margin: 1.4rem 0 0.55rem;
+  font-weight: 650;
+}
+
+.level-list {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.equation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.55rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1;
+  margin: 0.4rem 0 1rem;
+}
+
+.math-input,
+.place-inputs input {
+  font: inherit;
+  width: 4.2ch;
+  text-align: center;
+  border: 2px solid #1f4e5f;
+  border-radius: 0.55rem;
+  background: #fff;
+  color: #1c1917;
+  padding: 0.15rem 0.2rem;
+}
+
+.place-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.place-inputs label {
+  display: grid;
+  gap: 0.3rem;
+  font-weight: 650;
+}
+
+.place-inputs input {
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.35rem;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: flex-end;
+  margin: 0.4rem 0 1rem;
+}
+
+.ten-rod,
+.one-dot {
+  display: inline-block;
+}
+
+.ten-rod {
+  width: 1.15rem;
+  height: 6.2rem;
+  border-radius: 0.35rem;
+  background: repeating-linear-gradient(
+    to bottom,
+    #1f4e5f 0 0.48rem,
+    #f7f5f2 0.48rem 0.62rem
+  );
+  border: 1px solid #1f4e5f;
+}
+
+.ones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  max-width: 7rem;
+}
+
+.one-dot,
+.dot {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: #c2410c;
+}
+
+.dot-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.dot-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  max-width: 7.2rem;
+  background: #fff;
+  border: 1px dashed #e7e2da;
+  border-radius: 0.7rem;
+  padding: 0.45rem;
+}
+
+.dot.second {
+  background: #1f4e5f;
+}
+
+.dot.gone {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #c2410c;
+}
+
+.prompt-label {
+  margin: 0;
+  color: #57534e;
+  font-weight: 650;
+}
+
+.progress-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.8rem;
+}
+
+.pips {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.pips i {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: #e7e2da;
+  display: block;
+}
+
+.pips i.ok {
+  background: #1b7f4e;
+}
+
+.pips i.miss {
+  background: #b45309;
+}
+
+.pips i.now {
+  background: #1f4e5f;
+}
+
+.choices {
+  display: grid;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+}
+
+.choice-btn {
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e7e2da;
+  border-radius: 0.7rem;
+  padding: 0.75rem 0.9rem;
+  font-size: 1.25rem;
+  font-family: "Source Serif 4", Georgia, serif;
+}
+
+.choice-btn.picked {
+  border-color: #1f4e5f;
+  box-shadow: inset 0 0 0 1px #1f4e5f;
+}
+
+.choice-btn.good {
+  background: #e8f6ee;
+  border-color: #1b7f4e;
+}
+
+.choice-btn.bad {
+  background: #fbf1e7;
+  border-color: #b45309;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.45rem;
+  margin: 0.2rem 0 0.9rem;
+}
+
+.key,
+.primary-btn,
+.ghost-btn {
+  border-radius: 0.7rem;
+  border: 1px solid #e7e2da;
+  background: #fff;
+}
+
+.key {
+  font-size: 1.35rem;
+  padding: 0.7rem 0;
+  font-weight: 650;
+}
+
+.primary-btn,
+.ghost-btn {
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+}
+
+.primary-btn {
+  background: #1f4e5f;
+  color: #f7f5f2;
+  border-color: #1f4e5f;
+  width: 100%;
+}
+
+.primary-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+
+.feedback {
+  min-height: 1.5rem;
+  font-weight: 700;
+  margin: 0.35rem 0 0;
+}
+
+.feedback.ok {
+  color: #1b7f4e;
+}
+
+.feedback.try,
+.feedback.show {
+  color: #9a3412;
+}
+
+.hint-box {
+  background: #fff;
+  border: 1px solid #e7e2da;
+  border-radius: 0.7rem;
+  padding: 0.75rem;
+  margin-bottom: 0.8rem;
+}
+
+.result-score {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 3rem;
+  margin: 0.2rem 0;
+}
+
+@media (max-width: 640px) {
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .equation {
+    font-size: 2rem;
+  }
+}
