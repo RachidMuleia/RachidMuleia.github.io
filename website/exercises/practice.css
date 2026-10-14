@@ -367,6 +367,86 @@
   margin-bottom: 0.8rem;
 }
 
+.lesson {
+  background: #fff8ee;
+  border: 1px solid #f0d7b5;
+  border-radius: 0.8rem;
+  padding: 0.8rem 1rem 0.4rem;
+  margin: 0 0 0.9rem;
+}
+
+.lesson-title {
+  margin: 0 0 0.35rem;
+  font-weight: 750;
+  color: #9a3412;
+}
+
+.lesson ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.lesson li {
+  margin-bottom: 0.45rem;
+}
+
+.column-problem {
+  display: grid;
+  justify-content: end;
+  width: max-content;
+  margin: 0.4rem auto 0.9rem;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 2.4rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.column-problem span,
+.column-problem input {
+  border-bottom: 2px solid #1c1917;
+  min-width: 7rem;
+  padding: 0.1rem 0.2rem 0.15rem;
+}
+
+.column-problem span:first-child {
+  border-bottom: 0;
+}
+
+.column-problem i {
+  font-style: normal;
+  float: left;
+}
+
+.column-problem input {
+  width: 100%;
+  font: inherit;
+  text-align: right;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  background: transparent;
+}
+
+.known-fact {
+  font-size: 1.35rem;
+  margin: 0 0 0.4rem;
+}
+
+.sequence {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0.4rem 0 0.9rem;
+  font-size: 1.7rem;
+}
+
+.sequence span,
+.sequence input {
+  min-width: 2.6rem;
+  text-align: center;
+}
+
 .result-score {
   font-family: "Source Serif 4", Georgia, serif;
   font-size: 3rem;
