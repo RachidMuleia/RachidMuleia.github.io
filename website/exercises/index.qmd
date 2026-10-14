@@ -1,0 +1,13 @@
+---
+title: "Exercises"
+comments: false
+format:
+  html:
+    toc: false
+    css: practice.css
+---
+
+<div id="math-app" class="math-app"></div>
+
+<script type="module" src="math.js"></script>
+<script type="module" src="practice.js"></script>
