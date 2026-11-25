@@ -1,0 +1,141 @@
+---
+title: "Análise de Dados: Exame Normal 2026"
+date: 2026-11-25
+description: "Enunciado, dados e dicionário de variáveis do Exame Normal de Análise de Dados (Licenciatura em Estatística, DMI-UEM)."
+comments: false
+lang: pt
+---
+
+Universidade Eduardo Mondlane · Faculdade de Ciências · Departamento de Matemática e Informática
+
+Licenciatura em Estatística, 2026
+
+::: {.callout-important}
+## Prazo de submissão
+
+**4 de Dezembro de 2026, às 15h00.** O trabalho tem no máximo **20 páginas** e é feito pelos mesmos grupos dos trabalhos anteriores.
+
+Cada grupo submete o trabalho através do link do seu regime: [LABORAL](https://www.dropbox.com/request/zkj1jeqv57dladt9209b) ou [PÓS-LABORAL](https://www.dropbox.com/request/xx9yayi3tcbiu0dgwlpd).
+:::
+
+## Ficheiros
+
+| Ficheiro | Conteúdo |
+|:--|:--|
+| [Enunciado do exame (PDF)](enunciado_exame_normal_2026.pdf) | O enunciado completo, igual ao texto desta página |
+| [dados_criancas_menores_1ano.csv](dados_criancas_menores_1ano.csv) | Dados do IDS 2022-23: 1 948 crianças com menos de um ano de idade |
+| [dicionario_variaveis.csv](dicionario_variaveis.csv) | Descrição de cada variável da base de dados |
+
+## Enunciado
+
+A vacinação é uma das formas mais eficazes de reduzir a mortalidade infantil e é considerada uma das grandes conquistas da saúde pública na prevenção de doenças. Melhorar o acesso à vacinação é fundamental para o cumprimento dos Objectivos de Desenvolvimento Sustentável (ODS). Apesar dessa eficácia, as taxas de cobertura vacinal em Moçambique continuam longe das metas definidas pela Organização Mundial da Saúde (OMS). Para melhorar essas taxas, é importante conhecer os determinantes da vacinação. Este trabalho tem como objectivo analisar os factores associados ao estado vacinal das crianças com menos de um ano de idade.
+
+Os estudantes irão analisar os dados do Inquérito Demográfico e de Saúde (IDS) de Moçambique 2022-23. Este inquérito tem representatividade nacional e baseia-se numa amostragem complexa. A análise restringe-se às crianças com menos de um ano de idade. O ficheiro `dados_criancas_menores_1ano.csv` contém apenas essas crianças, com as variáveis necessárias para definir a cobertura vacinal e para ajustar o plano amostral. A descrição de cada variável encontra-se no ficheiro `dicionario_variaveis.csv` e na tabela no fim desta página.
+
+### Variável dependente
+
+A variável dependente é o estado vacinal da criança. É uma variável binária, que os estudantes deverão criar, com duas categorias: completamente vacinada e parcialmente vacinada.
+
+- A criança está completamente vacinada se tiver recebido todas as vacinas recomendadas pela OMS: a vacina contra a tuberculose (BCG), três doses de DPT, três doses da vacina contra a poliomielite e uma dose da vacina contra o sarampo.
+- A criança está parcialmente vacinada se lhe faltar pelo menos uma dessas doses.
+- Uma dose conta como recebida quando o código é 1 (data no cartão), 2 (declarada pela mãe) ou 3 (marcada no cartão). O código 0 corresponde a uma dose não recebida. O código 8 (não sabe) e os valores em falta não contam como dose recebida.
+- As doses encontram-se nas seguintes variáveis: BCG em `H2`; DPT 1, 2 e 3 em `H3`, `H5` e `H7`; poliomielite 1, 2 e 3 em `H4`, `H6` e `H8`; sarampo em `H9`. A dose de poliomielite à nascença (`H0`) não entra nas três doses. Nesta base, a pentavalente 1, 2 e 3 (`H51`, `H52` e `H53`) repete as doses registadas em `H3`, `H5` e `H7`. Deve contar-se apenas uma das duas séries.
+
+### Variáveis independentes
+
+A tabela seguinte apresenta algumas variáveis independentes que podem ser usadas. A base de dados original tem muitas outras variáveis, e os estudantes podem incluir outras que, segundo a literatura, influenciem o estado vacinal da criança. A lista serve apenas para orientar a análise.
+
+| Variável | Descrição |
+|:--|:--|
+| `M14` | Número de consultas pré-natais |
+| `M70` | Consulta pós-natal da criança (binária) |
+| `M15` | Local do parto (recategorizar em duas categorias: casa e unidade sanitária) |
+| `V130` | Religião (recategorizar em católica, protestante, islâmica e outra) |
+| `V025` | Área de residência |
+| `B4` | Sexo da criança |
+| `V137` | Número de crianças com 5 anos ou menos no agregado familiar |
+| `V106` | Nível de escolaridade da mãe |
+| `V013` | Idade da mãe, em grupos de 5 anos |
+| `V730` | Idade do marido ou parceiro da mãe (categorizar da mesma forma que `V013`) |
+| `V701` | Nível de escolaridade do marido ou parceiro da mãe |
+| `V501` | Estado civil da mãe |
+| `V190` | Índice de riqueza |
+| `V705` | Ocupação do marido ou parceiro da mãe (recategorizar em sem ocupação e com ocupação) |
+| `V717` | Ocupação da mãe (recategorizar em sem ocupação e com ocupação) |
+| Exposição aos media | Variável binária a criar a partir de `V157`, `V158` e `V159`. Assume o valor 1 se a mãe lê jornais, ouve rádio ou vê televisão, e 0 se não faz nenhuma destas coisas |
+
+### Estrutura do trabalho
+
+O trabalho segue a mesma estrutura dos trabalhos anteriores.
+
+- **Introdução.** Façam uma breve contextualização do tema, com uma visão geral da vacinação infantil e das coberturas vacinais no mundo, em África, na região e no país. Destaquem a importância da vacinação para o país e os factores que podem explicar as coberturas actuais e o incumprimento do calendário vacinal. Tenham em conta os aspectos levantados ao longo dos trabalhos anteriores. Indiquem claramente o objectivo geral e os objectivos específicos que permitem alcançá-lo.
+
+- **Metodologia.** Descrevam os dados usados e indiquem claramente a sua fonte. Descrevam também os métodos. Como a variável dependente é binária, devem usar uma técnica adequada a este tipo de variável, por exemplo a regressão logística. Antes de aplicar qualquer modelo, façam uma análise exploratória e apresentem testes de associação entre a variável dependente e as variáveis independentes.
+
+  Os dados têm um aspecto muito importante: o plano amostral. Para que os resultados tenham validade nacional, as análises devem incorporar os ponderadores, os conglomerados e a estratificação. Para isso, usem o pacote `survey` do R. O ponderador é `V005` dividido por 1 000 000, o conglomerado é `V021` e o estrato é `V022`. Para ver como incorporar o plano amostral na análise, consultem o tutorial em vídeo indicado no final desta página.
+
+  Na regressão logística, sugere-se que comecem por um modelo com todas as interacções entre as potenciais variáveis independentes. Na selecção das variáveis podem não incorporar o plano amostral, recorrendo a métodos de selecção automática como o *stepwise*; o R oferece várias funções para o efeito. Depois de seleccionadas as variáveis, o modelo final deve ser reajustado tendo em conta o plano amostral. Descrevam a metodologia de forma clara e justifiquem as escolhas feitas.
+
+- **Resultados.** Apresentem os principais resultados com a devida interpretação. Interpretem o modelo de regressão logística através das razões de chances (*odds ratios*). Na regressão logística os efeitos são multiplicativos, pelo que as interacções exigem particular cuidado na interpretação.
+
+- **Discussão.** Apresentem os principais achados e confrontem-nos com a literatura. Há muitos estudos sobre a vacinação infantil e sobre os factores associados à não adesão de alguns grupos à vacinação.
+
+- **Conclusão.** Apresentem as principais conclusões e recomendações coerentes com os resultados. Podem igualmente referir as limitações do estudo.
+
+- **Referências bibliográficas.** Trata-se de um trabalho académico, pelo que deve ter referências. Todas as citações devem constar da lista de referências, e todas as referências devem estar citadas no texto.
+
+### Submissão
+
+O trabalho é feito pelos mesmos grupos dos trabalhos anteriores e deve ser submetido até ao dia **4 de Dezembro de 2026, às 15h00**. O trabalho deve ter no máximo **20 páginas**. Cada grupo submete o trabalho através do link do seu regime: [LABORAL](https://www.dropbox.com/request/zkj1jeqv57dladt9209b) ou [PÓS-LABORAL](https://www.dropbox.com/request/xx9yayi3tcbiu0dgwlpd).
+
+Para ver como incorporar o plano amostral na análise, consultem o seguinte tutorial: [vídeo sobre como ajustar o plano amostral nos dados do IDS](https://youtu.be/5UDPYLwWHIA?si=S_C3Ht9g2FO159W2).
+
+## Dicionário de variáveis
+
+O mesmo conteúdo está no ficheiro [dicionario_variaveis.csv](dicionario_variaveis.csv).
+
+| Variável | Papel | Descrição |
+|:--|:--|:--|
+| `CASEID` | identificação | Identificação da mãe |
+| `BIDX` | identificação | Ordem do nascimento |
+| `B19` | idade | Idade da criança em meses. O ficheiro contém apenas crianças dos 0 aos 11 meses |
+| `B8` | idade | Idade da criança em anos completos |
+| `B4` | criança | Sexo da criança |
+| `H2` | dose | BCG. Códigos: 0 não; 1 data no cartão; 2 declarada pela mãe; 3 marcada no cartão; 8 não sabe |
+| `H3` | dose | DPT 1. Nesta base coincide com a pentavalente 1 (H51) |
+| `H5` | dose | DPT 2. Nesta base coincide com a pentavalente 2 (H52) |
+| `H7` | dose | DPT 3. Nesta base coincide com a pentavalente 3 (H53) |
+| `H51` | dose | Pentavalente 1. A mesma dose que H3 |
+| `H52` | dose | Pentavalente 2. A mesma dose que H5 |
+| `H53` | dose | Pentavalente 3. A mesma dose que H7 |
+| `H4` | dose | Poliomielite 1 |
+| `H6` | dose | Poliomielite 2 |
+| `H8` | dose | Poliomielite 3 |
+| `H0` | dose | Poliomielite 0, à nascença. Não entra nas três doses de poliomielite |
+| `H9` | dose | Sarampo 1 |
+| `H10` | vacinação | Alguma vez vacinada. Muitos valores em falta; não serve para definir a vacinação completa |
+| `H1A` | cartão | Tem cartão ou outro documento de vacinação |
+| `V005` | plano amostral | Ponderador da mulher, com 6 casas decimais. Usar V005/1000000 |
+| `V021` | plano amostral | Unidade primária de amostragem (conglomerado) |
+| `V022` | plano amostral | Estrato para o cálculo dos erros de amostragem |
+| `V001` | plano amostral | Número do conglomerado |
+| `V023` | plano amostral | Estratificação usada no desenho da amostra |
+| `V024` | plano amostral | Província |
+| `M14` | covariável | Número de consultas pré-natais |
+| `M70` | covariável | Consulta pós-natal da criança |
+| `M15` | covariável | Local do parto |
+| `V130` | covariável | Religião |
+| `V025` | covariável | Área de residência |
+| `V137` | covariável | Número de crianças com 5 anos ou menos no agregado familiar |
+| `V136` | covariável | Número de membros do agregado familiar. Não é o número de crianças |
+| `V106` | covariável | Nível de escolaridade da mãe |
+| `V013` | covariável | Idade da mãe, em grupos de 5 anos |
+| `V730` | covariável | Idade do marido ou parceiro |
+| `V701` | covariável | Nível de escolaridade do marido ou parceiro |
+| `V501` | covariável | Estado civil da mãe |
+| `V190` | covariável | Índice de riqueza |
+| `V705` | covariável | Ocupação do marido ou parceiro |
+| `V717` | covariável | Ocupação da mãe |
+| `V157` | exposição aos media | Frequência de leitura de jornais ou revistas |
+| `V158` | exposição aos media | Frequência com que ouve rádio |
+| `V159` | exposição aos media | Frequência com que vê televisão |
